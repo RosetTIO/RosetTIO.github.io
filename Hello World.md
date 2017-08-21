@@ -1529,11 +1529,11 @@ puts'Hello, World!'
 fn main(){print!("Hello, World!")}
 ```
 [Try it online!](https://tio.run/##KyotLvn/Py1PITcxM09Ds7qgKDOvRFFDySM1JydfRyE8vygnRVFJs/b/fwA)
-## Röda, 26 bytes
+## Röda, 23 bytes
 ```
-main{print"Hello, World!"}
+main{["Hello, World!"]}
 ```
-[Try it online!](https://tio.run/##K8pPSfz/PzcxM6@6oCgzr0TJIzUnJ19HITy/KCdFUan2/38A)
+[Try it online!](https://tio.run/##K8pPSfz/PzcxM686WskjNScnX0chPL8oJ0VRKbb2/38A)
 ## S.I.L.O.S, 19 bytes
 ```
 print Hello, World!
