@@ -1,5 +1,5 @@
 # Hello, World!
-## ,\,\,\, 14 bytes
+## ,,,, 14 bytes
 ```
 "Hello, World!
 ```
@@ -578,11 +578,11 @@ puts "Hello, World!"
 "Hello, World!" :<
 ```
 [Try it online!](https://tio.run/##S678/1/JIzUnJ19HITy/KCdFUUnByub/fwA)
-## D, 53 bytes
+## D, 52 bytes
 ```
-import std.stdio;void main(){write("Hello, World!");}
+import std.stdio;void main(){"Hello, World!".write;}
 ```
-[Try it online!](https://tio.run/##S/n/PzO3IL@oRKG4JEUPiDPzrcvyM1MUchMz8zQ0q8uLMktSNZQ8UnNy8nUUwvOLclIUlTSta///BwA)
+[Try it online!](https://tio.run/##S/n/PzO3IL@oRKG4JEUPiDPzrcvyM1MUchMz8zQ0q5U8UnNy8nUUwvOLclIUlfTKizJLUq1r//8HAA)
 ## Dash, 18 bytes
 ```
 echo Hello, World!
