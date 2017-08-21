@@ -1528,11 +1528,11 @@ R+++.>++.>--..+++.>.>-.>--.--------.+++.--U
 map putchar"Hello, World!"
 ```
 [Try it online!](https://tio.run/##y83My8zN@f8/N7FAoaC0JDkjsUjJIzUnJ19HITy/KCdFUen/fwA)
-## Minkolang, 20 bytes
+## Minkolang, 18 bytes
 ```
-"Hello, World!"(dO).
+"Hello, World!"$O.
 ```
-[Try it online!](https://tio.run/##y83My87PScxL//9fySM1JydfRyE8vygnRVFJI8VfU@//fwA)
+[Try it online!](https://tio.run/##y83My87PScxL//9fySM1JydfRyE8vygnRVFJxV/v/38A)
 ## MY, 60 bytes
 ```
 27á'←1Aá'←8Aá'2×←1Bá'←44á'←2Ġ'←78á'←1Bá'←4Bá'←8Aá'←AȦ'←33á'←
