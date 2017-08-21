@@ -1,1585 +1,1585 @@
 # RosetTIO golf template
-## ,,,
+## [,,,](https://github.com/totallyhuman/commata), bytes
 ```
 
 ```
 [Try it online!]()
-## ///
+## [///](https://esolangs.org/wiki////), bytes
 ```
 
 ```
 [Try it online!]()
-## 05AB1E
+## [05AB1E](https://github.com/Adriandmen/05AB1E), bytes
 ```
 
 ```
 [Try it online!]()
-## 2sable
+## [2sable](https://github.com/Adriandmen/2sable), bytes
 ```
 
 ```
 [Try it online!]()
-## 3var
+## [3var](https://esolangs.org/wiki/3var), bytes
 ```
 
 ```
 [Try it online!]()
-## 4
+## [4](https://github.com/urielieli/py-four), bytes
 ```
 
 ```
 [Try it online!]()
-## 7
+## [7](https://esolangs.org/wiki/7), bytes
 ```
 
 ```
 [Try it online!]()
-## 99
+## [99](https://github.com/TryItOnline/99), bytes
 ```
 
 ```
 [Try it online!]()
-## ;#+
+## [;#+](https://github.com/ConorOBrien-Foxx/shp), bytes
 ```
 
 ```
 [Try it online!]()
-## ><>
+## [><>](https://esolangs.org/wiki/Fish), bytes
 ```
 
 ```
 [Try it online!]()
-## \/
+## [\\/](https://github.com/TryItOnline/v-fmota), bytes
 ```
 
 ```
 [Try it online!]()
-## A Pear Tree
+## [A Pear Tree](https://esolangs.org/wiki/A_Pear_Tree), bytes
 ```
 
 ```
 [Try it online!]()
-## Actually
+## [Actually](https://github.com/Mego/Seriously), bytes
 ```
 
 ```
 [Try it online!]()
-## Add++
+## [Add++](https://github.com/SatansSon/AddPlusPlus), bytes
 ```
 
 ```
 [Try it online!]()
-## ADJUST
+## [ADJUST](https://github.com/TryItOnline/adjust), bytes
 ```
 
 ```
 [Try it online!]()
-## Agony
+## [Agony](https://github.com/royvanrijn/JAgony), bytes
 ```
 
 ```
 [Try it online!]()
-## ALGOL 68 (Genie)
+## [ALGOL 68 (Genie)](https://jmvdveer.home.xs4all.nl/algol.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Alice
+## [Alice](https://github.com/m-ender/alice), bytes
 ```
 
 ```
 [Try it online!]()
-## Alphuck
+## [Alphuck](https://github.com/TryItOnline/tio-transpilers), bytes
 ```
 
 ```
 [Try it online!]()
-## anyfix
+## [anyfix](https://github.com/alexander-liao/anyfix), bytes
 ```
 
 ```
 [Try it online!]()
-## APL (Dyalog Classic)
+## [APL (Dyalog Classic)](https://www.dyalog.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## APL (Dyalog Unicode)
+## [APL (Dyalog Unicode)](https://www.dyalog.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## APL (ngn-apl)
+## [APL (ngn-apl)](https://github.com/ngn/apl), bytes
 ```
 
 ```
 [Try it online!]()
-## Archway
+## [Archway](https://github.com/TryItOnline/archway), bytes
 ```
 
 ```
 [Try it online!]()
-## Archway2
+## [Archway2](https://github.com/TryItOnline/archway), bytes
 ```
 
 ```
 [Try it online!]()
-## Arcyóu
+## [Arcyóu](https://github.com/Nazek42/arcyou), bytes
 ```
 
 ```
 [Try it online!]()
-## ArnoldC
+## [ArnoldC](https://lhartikk.github.io/ArnoldC/), bytes
 ```
 
 ```
 [Try it online!]()
-## Assembly (as, x64, Linux)
+## [Assembly (as, x64, Linux)](https://sourceware.org/binutils/docs/as/index.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Assembly (fasm, x64, Linux)
+## [Assembly (fasm, x64, Linux)](https://flatassembler.net/), bytes
 ```
 
 ```
 [Try it online!]()
-## Assembly (gcc, x64, Linux)
+## [Assembly (gcc, x64, Linux)](https://gcc.gnu.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Assembly (MIPS, SPIM)
+## [Assembly (MIPS, SPIM)](https://github.com/TryItOnline/spim), bytes
 ```
 
 ```
 [Try it online!]()
-## Assembly (nasm, x64, Linux)
+## [Assembly (nasm, x64, Linux)](http://www.nasm.us/), bytes
 ```
 
 ```
 [Try it online!]()
-## Aubergine
+## [Aubergine](https://esolangs.org/wiki/Aubergine), bytes
 ```
 
 ```
 [Try it online!]()
-## AWK
+## [AWK](https://www.gnu.org/software/gawk/manual/gawk.html), bytes
 ```
 
 ```
 [Try it online!]()
-## axo
+## [axo](https://esolangs.org/wiki/Axo), bytes
 ```
 
 ```
 [Try it online!]()
-## Bash
+## [Bash](https://www.gnu.org/software/bash/), bytes
 ```
 
 ```
 [Try it online!]()
-## bc
+## [bc](https://www.gnu.org/software/bc/manual/html_mono/bc.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Beam
+## [Beam](https://github.com/ETHproductions/beam-js), bytes
 ```
 
 ```
 [Try it online!]()
-## Bean
+## [Bean](https://github.com/patrickroberts/bean), bytes
 ```
 
 ```
 [Try it online!]()
-## BeanShell
+## [BeanShell](http://www.beanshell.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Beatnik
+## [Beatnik](https://esolangs.org/wiki/Beatnik), bytes
 ```
 
 ```
 [Try it online!]()
-## Beeswax
+## [Beeswax](https://github.com/m-lohmann/BeeswaxEsolang.jl), bytes
 ```
 
 ```
 [Try it online!]()
-## Befunge
+## [Befunge](https://github.com/catseye/Befunge-93), bytes
 ```
 
 ```
 [Try it online!]()
-## Befunge-98 (FBBI)
+## [Befunge-98 (FBBI)](https://github.com/catseye/FBBI), bytes
 ```
 
 ```
 [Try it online!]()
-## Befunge-98 (PyFunge)
+## [Befunge-98 (PyFunge)](https://pythonhosted.org/PyFunge/), bytes
 ```
 
 ```
 [Try it online!]()
-## Binary Lambda Calculus
+## [Binary Lambda Calculus](https://tromp.github.io/cl/cl.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Boo
+## [Boo](http://boo-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Brachylog
+## [Brachylog](https://github.com/JCumin/Brachylog), bytes
 ```
 
 ```
 [Try it online!]()
-## Brachylog v1
+## [Brachylog v1](https://github.com/JCumin/Brachylog/releases), bytes
 ```
 
 ```
 [Try it online!]()
-## Brain-Flak
+## [Brain-Flak](https://github.com/DJMcMayhem/Brain-Flak), bytes
 ```
 
 ```
 [Try it online!]()
-## Brain-Flak (BrainHack)
+## [Brain-Flak (BrainHack)](https://github.com/Flakheads/BrainHack), bytes
 ```
 
 ```
 [Try it online!]()
-## brainbool
+## [brainbool](https://github.com/TryItOnline/tio-transpilers), bytes
 ```
 
 ```
 [Try it online!]()
-## brainfuck
+## [brainfuck](https://github.com/TryItOnline/tio-transpilers), bytes
 ```
 
 ```
 [Try it online!]()
-## Braingolf
+## [Braingolf](https://github.com/gunnerwolf/braingolf), bytes
 ```
 
 ```
 [Try it online!]()
-## Brian & Chuck
+## [Brian & Chuck](https://github.com/m-ender/brian-chuck), bytes
 ```
 
 ```
 [Try it online!]()
-## Bubblegum
+## [Bubblegum](https://esolangs.org/wiki/Bubblegum), bytes
 ```
 
 ```
 [Try it online!]()
-## C (clang)
+## [C (clang)](http://clang.llvm.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## C (gcc)
+## [C (gcc)](https://gcc.gnu.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## C (tcc)
+## [C (tcc)](http://savannah.nongnu.org/projects/tinycc), bytes
 ```
 
 ```
 [Try it online!]()
-## C# (.NET Core)
+## [C# (.NET Core)](https://www.microsoft.com/net/core/platform), bytes
 ```
 
 ```
 [Try it online!]()
-## C# (Mono)
+## [C# (Mono)](http://www.mono-project.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## C++ (gcc)
+## [C++ (gcc)](https://gcc.gnu.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Cardinal
+## [Cardinal](https://www.esolangs.org/wiki/Cardinal), bytes
 ```
 
 ```
 [Try it online!]()
-## Ceres
+## [Ceres](https://github.com/alexander-liao/ceres), bytes
 ```
 
 ```
 [Try it online!]()
-## Ceylon
+## [Ceylon](https://ceylon-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Chain
+## [Chain](https://github.com/ConorOBrien-Foxx/Chain), bytes
 ```
 
 ```
 [Try it online!]()
-## Changeling
+## [Changeling](https://github.com/DennisMitchell/shapescript), bytes
 ```
 
 ```
 [Try it online!]()
-## Chapel
+## [Chapel](http://chapel.cray.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## Charcoal
+## [Charcoal](https://github.com/somebody1234/Charcoal), bytes
 ```
 
 ```
 [Try it online!]()
-## Check
+## [Check](https://github.com/ScratchMan544/check-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## Cheddar
+## [Cheddar](http://cheddar.vihan.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Chez Scheme
+## [Chez Scheme](https://cisco.github.io/ChezScheme/), bytes
 ```
 
 ```
 [Try it online!]()
-## CHICKEN Scheme
+## [CHICKEN Scheme](https://www.call-cc.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Chip
+## [Chip](https://github.com/Phlarx/chip), bytes
 ```
 
 ```
 [Try it online!]()
-## Cinnamon Gum
+## [Cinnamon Gum](https://github.com/quartata/cinnamon-gum), bytes
 ```
 
 ```
 [Try it online!]()
-## CJam
+## [CJam](https://sourceforge.net/p/cjam), bytes
 ```
 
 ```
 [Try it online!]()
-## Clojure
+## [Clojure](https://clojure.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## COBOL (GNU)
+## [COBOL (GNU)](https://sourceforge.net/projects/open-cobol/), bytes
 ```
 
 ```
 [Try it online!]()
-## CoffeeScript
+## [CoffeeScript](http://coffeescript.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Commentator
+## [Commentator](https://github.com/SatansSon/Commentator), bytes
 ```
 
 ```
 [Try it online!]()
-## Commercial
+## [Commercial](https://github.com/tuxcrafting/commercial), bytes
 ```
 
 ```
 [Try it online!]()
-## Common Lisp
+## [Common Lisp](http://www.clisp.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Condit
+## [Condit](https://github.com/TryItOnline/condit), bytes
 ```
 
 ```
 [Try it online!]()
-## Convex
+## [Convex](https://github.com/GamrCorps/Convex), bytes
 ```
 
 ```
 [Try it online!]()
-## Cood
+## [Cood](https://github.com/jesobreira/cood/tree/php-interpreter), bytes
 ```
 
 ```
 [Try it online!]()
-## COW
+## [COW](https://bigzaphod.github.io/COW/), bytes
 ```
 
 ```
 [Try it online!]()
-## cQuents
+## [cQuents](https://github.com/stestoltz/cQuents), bytes
 ```
 
 ```
 [Try it online!]()
-## Crayon
+## [Crayon](https://github.com/ETHproductions/crayon), bytes
 ```
 
 ```
 [Try it online!]()
-## Crystal
+## [Crystal](https://crystal-lang.org), bytes
 ```
 
 ```
 [Try it online!]()
-## Cubically
+## [Cubically](https://github.com/aaronryank/cubically), bytes
 ```
 
 ```
 [Try it online!]()
-## Cubix
+## [Cubix](https://github.com/ETHproductions/cubix), bytes
 ```
 
 ```
 [Try it online!]()
-## Cy
+## [Cy](https://github.com/cyoce/Cy), bytes
 ```
 
 ```
 [Try it online!]()
-## D
+## [D](https://dlang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Dash
+## [Dash](https://wiki.debian.org/Shell), bytes
 ```
 
 ```
 [Try it online!]()
-## dc
+## [dc](https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Deadfish~
+## [Deadfish~](https://github.com/TryItOnline/deadfish-), bytes
 ```
 
 ```
 [Try it online!]()
-## Decimal
+## [Decimal](https://github.com/aaronryank/Decimal), bytes
 ```
 
 ```
 [Try it online!]()
-## Del|m|t
+## [Del|m|t](https://github.com/MistahFiggins/Delimit), bytes
 ```
 
 ```
 [Try it online!]()
-## Detour
+## [Detour](https://github.com/cyoce/detour), bytes
 ```
 
 ```
 [Try it online!]()
-## DStack
+## [DStack](https://github.com/alejandrocoria/DStack), bytes
 ```
 
 ```
 [Try it online!]()
-## eacal
+## [eacal](https://github.com/ConorOBrien-Foxx/eacal), bytes
 ```
 
 ```
 [Try it online!]()
-## Element
+## [Element](https://github.com/PhiNotPi/Element), bytes
 ```
 
 ```
 [Try it online!]()
-## ELF (x86/x64, Linux)
+## [ELF (x86/x64, Linux)](https://refspecs.linuxfoundation.org/elf/elf.pdf), bytes
 ```
 
 ```
 [Try it online!]()
-## Elixir
+## [Elixir](https://elixir-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Emacs Lisp
+## [Emacs Lisp](https://www.gnu.org/software/emacs/manual/eintr.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Emmental
+## [Emmental](https://github.com/catseye/Emmental), bytes
 ```
 
 ```
 [Try it online!]()
-## Emoji
+## [Emoji](https://esolangs.org/wiki/Emoji), bytes
 ```
 
 ```
 [Try it online!]()
-## Emojicode
+## [Emojicode](http://www.emojicode.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Erlang (escript)
+## [Erlang (escript)](http://erlang.org/doc/man/escript.html), bytes
 ```
 
 ```
 [Try it online!]()
-## ETA
+## [ETA](http://www.miketaylor.org.uk/tech/eta/doc/), bytes
 ```
 
 ```
 [Try it online!]()
-## evil
+## [evil](https://web.archive.org/web/20070103000858/www1.pacific.edu/~twrensch/evil/index.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Explode
+## [Explode](https://github.com/stestoltz/Explode), bytes
 ```
 
 ```
 [Try it online!]()
-## ExtraC
+## [ExtraC](https://github.com/ConorOBrien-Foxx/extrac), bytes
 ```
 
 ```
 [Try it online!]()
-## F# (Mono)
+## [F# (Mono)](http://www.mono-project.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## Factor
+## [Factor](https://factorcode.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## FerNANDo
+## [FerNANDo](https://esolangs.org/wiki/FerNANDo), bytes
 ```
 
 ```
 [Try it online!]()
-## FEU
+## [FEU](https://github.com/tuxcrafting/feu), bytes
 ```
 
 ```
 [Try it online!]()
-## Fireball
+## [Fireball](https://github.com/okx-code/Fireball), bytes
 ```
 
 ```
 [Try it online!]()
-## fish
+## [fish](https://fishshell.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## Fission
+## [Fission](https://github.com/C0deH4cker/Fission), bytes
 ```
 
 ```
 [Try it online!]()
-## Fission 2
+## [Fission 2](https://github.com/C0deH4cker/Fission), bytes
 ```
 
 ```
 [Try it online!]()
-## FOCAL-69
+## [FOCAL-69](http://www.cozx.com/dpitts/), bytes
 ```
 
 ```
 [Try it online!]()
-## Foo
+## [Foo](https://esolangs.org/wiki/Foo), bytes
 ```
 
 ```
 [Try it online!]()
-## Forte
+## [Forte](https://github.com/judofyr/forter), bytes
 ```
 
 ```
 [Try it online!]()
-## Forth (gforth)
+## [Forth (gforth)](http://www.complang.tuwien.ac.at/forth/gforth/Docs-html/), bytes
 ```
 
 ```
 [Try it online!]()
-## Fortran (GFortran)
+## [Fortran (GFortran)](https://gcc.gnu.org/fortran/), bytes
 ```
 
 ```
 [Try it online!]()
-## Fourier
+## [Fourier](https://github.com/beta-decay/Fourier), bytes
 ```
 
 ```
 [Try it online!]()
-## Funciton
+## [Funciton](https://github.com/Timwi/Funciton), bytes
 ```
 
 ```
 [Try it online!]()
-## Gaia
+## [Gaia](https://github.com/splcurran/Gaia), bytes
 ```
 
 ```
 [Try it online!]()
-## Gambit Scheme (gsi)
+## [Gambit Scheme (gsi)](http://gambitscheme.org), bytes
 ```
 
 ```
 [Try it online!]()
-## Glypho
+## [Glypho](https://web.archive.org/web/20060621185740/http://www4.ncsu.edu/~bcthomp2/glypho.txt), bytes
 ```
 
 ```
 [Try it online!]()
-## Glypho (shorthand)
+## [Glypho (shorthand)](https://web.archive.org/web/20060621185740/http://www4.ncsu.edu/~bcthomp2/glypho.txt), bytes
 ```
 
 ```
 [Try it online!]()
-## gnuplot
+## [gnuplot](http://www.gnuplot.info/), bytes
 ```
 
 ```
 [Try it online!]()
-## Go
+## [Go](https://golang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## GolfScript
+## [GolfScript](http://www.golfscript.com/golfscript/), bytes
 ```
 
 ```
 [Try it online!]()
-## Grass
+## [Grass](https://github.com/TryItOnline/grass), bytes
 ```
 
 ```
 [Try it online!]()
-## Grime
+## [Grime](https://github.com/iatorm/grime), bytes
 ```
 
 ```
 [Try it online!]()
-## Groovy
+## [Groovy](http://groovy-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## GS2
+## [GS2](https://github.com/nooodl/gs2), bytes
 ```
 
 ```
 [Try it online!]()
-## Guile
+## [Guile](https://www.gnu.org/software/guile/), bytes
 ```
 
 ```
 [Try it online!]()
-## Half-Broken Car in Heavy Traffic
+## [Half-Broken Car in Heavy Traffic](https://git.metanohi.name/hbcht.git/), bytes
 ```
 
 ```
 [Try it online!]()
-## Haskell
+## [Haskell](https://www.haskell.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Haystack
+## [Haystack](https://github.com/kade-robertson/haystack), bytes
 ```
 
 ```
 [Try it online!]()
-## Hexagony
+## [Hexagony](https://github.com/m-ender/hexagony), bytes
 ```
 
 ```
 [Try it online!]()
-## Huginn
+## [Huginn](https://codestation.org/?h-action=menu-project&menu=submenu-project&page=&project=huginn), bytes
 ```
 
 ```
 [Try it online!]()
-## Husk
+## [Husk](https://github.com/barbuz/Husk), bytes
 ```
 
 ```
 [Try it online!]()
-## I
+## [I](https://github.com/mlochbaum/ILanguage), bytes
 ```
 
 ```
 [Try it online!]()
-## Incident
+## [Incident](https://github.com/TryItOnline/incident), bytes
 ```
 
 ```
 [Try it online!]()
-## INTERCAL
+## [INTERCAL](http://www.catb.org/~esr/intercal/), bytes
 ```
 
 ```
 [Try it online!]()
-## J
+## [J](http://jsoftware.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## J-uby
+## [J-uby](https://github.com/cyoce/J-uby), bytes
 ```
 
 ```
 [Try it online!]()
-## Japt
+## [Japt](https://github.com/ETHproductions/japt), bytes
 ```
 
 ```
 [Try it online!]()
-## Java (OpenJDK 8)
+## [Java (OpenJDK 8)](http://openjdk.java.net/), bytes
 ```
 
 ```
 [Try it online!]()
-## Java (OpenJDK 9)
+## [Java (OpenJDK 9)](http://openjdk.java.net/projects/jdk9/), bytes
 ```
 
 ```
 [Try it online!]()
-## JavaScript (Babel Node)
+## [JavaScript (Babel Node)](https://babeljs.io/), bytes
 ```
 
 ```
 [Try it online!]()
-## JavaScript (Node.js)
+## [JavaScript (Node.js)](https://nodejs.org), bytes
 ```
 
 ```
 [Try it online!]()
-## JavaScript (SpiderMonkey)
+## [JavaScript (SpiderMonkey)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Releases/45), bytes
 ```
 
 ```
 [Try it online!]()
-## Jelly
+## [Jelly](https://github.com/DennisMitchell/jelly), bytes
 ```
 
 ```
 [Try it online!]()
-## Jellyfish
+## [Jellyfish](https://github.com/iatorm/jellyfish), bytes
 ```
 
 ```
 [Try it online!]()
-## Joy
+## [Joy](http://www.latrobe.edu.au/humanities/research/research-projects/past-projects/joy-programming-language), bytes
 ```
 
 ```
 [Try it online!]()
-## Julia 0.4
+## [Julia 0.4](http://julialang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Julia 0.5
+## [Julia 0.5](http://julialang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Julia 0.6
+## [Julia 0.6](http://julialang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Jx
+## [Jx](http://www.2bestsystems.com/foundation/j/jx1/), bytes
 ```
 
 ```
 [Try it online!]()
-## K (Kona)
+## [K (Kona)](https://github.com/kevinlawler/kona), bytes
 ```
 
 ```
 [Try it online!]()
-## K (oK)
+## [K (oK)](https://github.com/JohnEarnest/ok), bytes
 ```
 
 ```
 [Try it online!]()
-## Klein
+## [Klein](https://github.com/Wheatwizard/Klein), bytes
 ```
 
 ```
 [Try it online!]()
-## Kotlin
+## [Kotlin](https://kotlinlang.org), bytes
 ```
 
 ```
 [Try it online!]()
-## ksh
+## [ksh](http://www.kornshell.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## Labyrinth
+## [Labyrinth](https://github.com/m-ender/labyrinth), bytes
 ```
 
 ```
 [Try it online!]()
-## Lily
+## [Lily](http://fascinatedbox.github.io/lily/), bytes
 ```
 
 ```
 [Try it online!]()
-## LLVM IR
+## [LLVM IR](http://llvm.org/docs/LangRef.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Logicode
+## [Logicode](https://github.com/LogicodeLang/Logicode), bytes
 ```
 
 ```
 [Try it online!]()
-## LOLCODE
+## [LOLCODE](http://lolcode.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Lost
+## [Lost](https://github.com/Wheatwizard/Lost), bytes
 ```
 
 ```
 [Try it online!]()
-## Lua
+## [Lua](https://www.lua.org), bytes
 ```
 
 ```
 [Try it online!]()
-## Ly
+## [Ly](https://github.com/LyricLy/Ly), bytes
 ```
 
 ```
 [Try it online!]()
-## M
+## [M](https://github.com/DennisMitchell/m), bytes
 ```
 
 ```
 [Try it online!]()
-## Make
+## [Make](https://www.gnu.org/software/make/), bytes
 ```
 
 ```
 [Try it online!]()
-## Malbolge
+## [Malbolge](https://www.lscheffer.com/malbolge.shtml), bytes
 ```
 
 ```
 [Try it online!]()
-## MarioLANG
+## [MarioLANG](https://esolangs.org/wiki/MarioLANG), bytes
 ```
 
 ```
 [Try it online!]()
-## Mathics
+## [Mathics](http://mathics.github.io/), bytes
 ```
 
 ```
 [Try it online!]()
-## MATL
+## [MATL](https://github.com/lmendo/MATL), bytes
 ```
 
 ```
 [Try it online!]()
-## Maverick
+## [Maverick](https://github.com/ConorOBrien-Foxx/Maverick), bytes
 ```
 
 ```
 [Try it online!]()
-## Maxima
+## [Maxima](http://maxima.sourceforge.net/), bytes
 ```
 
 ```
 [Try it online!]()
-## MaybeLater
+## [MaybeLater](https://github.com/TehFlaminTaco/MaybeLater), bytes
 ```
 
 ```
 [Try it online!]()
-## Minimal-2D
+## [Minimal-2D](https://esolangs.org/wiki/Minimal-2D), bytes
 ```
 
 ```
 [Try it online!]()
-## miniML
+## [miniML](https://github.com/feresum/acml), bytes
 ```
 
 ```
 [Try it online!]()
-## Minkolang
+## [Minkolang](https://github.com/elendiastarman/Minkolang), bytes
 ```
 
 ```
 [Try it online!]()
-## MY
+## [MY](https://bitbucket.org/zacharyjtaylor/my-language), bytes
 ```
 
 ```
 [Try it online!]()
-## Neim
+## [Neim](https://github.com/okx-code/Neim), bytes
 ```
 
 ```
 [Try it online!]()
-## Nim
+## [Nim](http://nim-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## NTFJ (NTFJC)
+## [NTFJ (NTFJC)](https://github.com/ConorOBrien-Foxx/ntfjc), bytes
 ```
 
 ```
 [Try it online!]()
-## Numberwang
+## [Numberwang](https://esolangs.org/wiki/Numberwang_(brainfuck_derivative)), bytes
 ```
 
 ```
 [Try it online!]()
-## Oasis
+## [Oasis](https://github.com/Adriandmen/Oasis), bytes
 ```
 
 ```
 [Try it online!]()
-## Objective-C (clang)
+## [Objective-C (clang)](http://clang.llvm.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## OCaml
+## [OCaml](http://www.ocaml.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Octave
+## [Octave](https://www.gnu.org/software/octave/), bytes
 ```
 
 ```
 [Try it online!]()
-## Ohm
+## [Ohm](https://github.com/MiningPotatoes/Ohm), bytes
 ```
 
 ```
 [Try it online!]()
-## Parenthetic
+## [Parenthetic](https://github.com/cammckinnon/Parenthetic), bytes
 ```
 
 ```
 [Try it online!]()
-## Pari/GP
+## [Pari/GP](http://pari.math.u-bordeaux.fr/), bytes
 ```
 
 ```
 [Try it online!]()
-## Pascal (FPC)
+## [Pascal (FPC)](https://www.freepascal.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## pbrain
+## [pbrain](http://www.parkscomputing.com/applications/pbrain/), bytes
 ```
 
 ```
 [Try it online!]()
-## Perl 5
+## [Perl 5](https://www.perl.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Perl 6
+## [Perl 6](https://perl6.org), bytes
 ```
 
 ```
 [Try it online!]()
-## Phoenix
+## [Phoenix](https://github.com/senselogic/PHOENIX), bytes
 ```
 
 ```
 [Try it online!]()
-## PHP
+## [PHP](https://php.net/), bytes
 ```
 
 ```
 [Try it online!]()
-## PicoLisp
+## [PicoLisp](http://picolisp.com/), bytes
 ```
 
 ```
 [Try it online!]()
-## PingPong
+## [PingPong](https://github.com/graue/esofiles/tree/master/pingpong), bytes
 ```
 
 ```
 [Try it online!]()
-## Pip
+## [Pip](https://github.com/dloscutoff/pip), bytes
 ```
 
 ```
 [Try it online!]()
-## pl
+## [pl](https://github.com/quartata/pl-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## Pony
+## [Pony](https://www.ponylang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Positron
+## [Positron](https://github.com/alexander-liao/positron), bytes
 ```
 
 ```
 [Try it online!]()
-## PostL
+## [PostL](https://github.com/alexander-liao/postfix-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## PostScript (xpost)
+## [PostScript (xpost)](https://github.com/luser-dr00g/xpost), bytes
 ```
 
 ```
 [Try it online!]()
-## PowerShell
+## [PowerShell](https://github.com/TryItOnline/TioSetup/wiki/Powershell), bytes
 ```
 
 ```
 [Try it online!]()
-## PowerShell Core
+## [PowerShell Core](https://github.com/PowerShell/PowerShell), bytes
 ```
 
 ```
 [Try it online!]()
-## Prelude
+## [Prelude](https://esolangs.org/wiki/Prelude), bytes
 ```
 
 ```
 [Try it online!]()
-## Preproc
+## [Preproc](https://gitlab.com/pavelb/Preproc), bytes
 ```
 
 ```
 [Try it online!]()
-## Prolog (SWI)
+## [Prolog (SWI)](http://www.swi-prolog.org), bytes
 ```
 
 ```
 [Try it online!]()
-## Proton
+## [Proton](https://github.com/alexander-liao/proton), bytes
 ```
 
 ```
 [Try it online!]()
-## Purple
+## [Purple](https://esolangs.org/wiki/Purple), bytes
 ```
 
 ```
 [Try it online!]()
-## Pushy
+## [Pushy](https://github.com/FTcode/Pushy), bytes
 ```
 
 ```
 [Try it online!]()
-## Pyke
+## [Pyke](https://github.com/muddyfish/PYKE), bytes
 ```
 
 ```
 [Try it online!]()
-## Pylons
+## [Pylons](https://github.com/morganthrapp/Pylons-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## Pyramid Scheme
+## [Pyramid Scheme](https://github.com/ConorOBrien-Foxx/Pyramid-Scheme), bytes
 ```
 
 ```
 [Try it online!]()
-## Pyth
+## [Pyth](https://github.com/isaacg1/pyth), bytes
 ```
 
 ```
 [Try it online!]()
-## Python 1
+## [Python 1](https://www.python.org/download/releases/1.6.1/), bytes
 ```
 
 ```
 [Try it online!]()
-## Python 2
+## [Python 2](https://docs.python.org/2/), bytes
 ```
 
 ```
 [Try it online!]()
-## Python 2 (PyPy)
+## [Python 2 (PyPy)](http://pypy.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Python 3
+## [Python 3](https://docs.python.org/3/), bytes
 ```
 
 ```
 [Try it online!]()
-## QuadR
+## [QuadR](https://github.com/abrudz/QuadRS), bytes
 ```
 
 ```
 [Try it online!]()
-## QuadS
+## [QuadS](https://github.com/abrudz/QuadRS), bytes
 ```
 
 ```
 [Try it online!]()
-## R
+## [R](https://www.r-project.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Racket
+## [Racket](https://racket-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Rail
+## [Rail](https://esolangs.org/wiki/Rail), bytes
 ```
 
 ```
 [Try it online!]()
-## Random Brainfuck
+## [Random Brainfuck](https://github.com/TryItOnline/tio-transpilers), bytes
 ```
 
 ```
 [Try it online!]()
-## Reng
+## [Reng](https://github.com/ConorOBrien-Foxx/Reng), bytes
 ```
 
 ```
 [Try it online!]()
-## ReRegex
+## [ReRegex](https://github.com/TehFlaminTaco/ReRegex), bytes
 ```
 
 ```
 [Try it online!]()
-## Reticular
+## [Reticular](https://github.com/ConorOBrien-Foxx/reticular), bytes
 ```
 
 ```
 [Try it online!]()
-## Retina
+## [Retina](https://github.com/m-ender/retina), bytes
 ```
 
 ```
 [Try it online!]()
-## Rexx (Regina)
+## [Rexx (Regina)](http://www.rexx.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## rk
+## [rk](https://github.com/aaronryank/rk-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## ROOP
+## [ROOP](https://github.com/alejandrocoria/ROOP), bytes
 ```
 
 ```
 [Try it online!]()
-## Rotor
+## [Rotor](https://github.com/quartata/rotor-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## RProgN
+## [RProgN](https://github.com/TehFlaminTaco/Reverse-Programmer-Notation), bytes
 ```
 
 ```
 [Try it online!]()
-## RProgN 2
+## [RProgN 2](https://github.com/TehFlaminTaco/RProgN-2), bytes
 ```
 
 ```
 [Try it online!]()
-## Ruby
+## [Ruby](https://www.ruby-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Rust
+## [Rust](https://www.rust-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Röda
+## [Röda](https://github.com/fergusq/roda), bytes
 ```
 
 ```
 [Try it online!]()
-## S.I.L.O.S
+## [S.I.L.O.S](https://github.com/rjhunjhunwala/S.I.L.O.S), bytes
 ```
 
 ```
 [Try it online!]()
-## Sad-Flak
+## [Sad-Flak](https://github.com/Destructible-Watermelon/Sad-Flak), bytes
 ```
 
 ```
 [Try it online!]()
-## Scala
+## [Scala](http://www.scala-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## sed
+## [sed](https://www.gnu.org/software/sed/), bytes
 ```
 
 ```
 [Try it online!]()
-## sed 4.2.2
+## [sed 4.2.2](https://www.gnu.org/software/sed/), bytes
 ```
 
 ```
 [Try it online!]()
-## Self-modifying Brainfuck
+## [Self-modifying Brainfuck](https://soulsphere.org/hacks/smbf/), bytes
 ```
 
 ```
 [Try it online!]()
-## Seriously
+## [Seriously](https://github.com/Mego/Seriously/tree/v1), bytes
 ```
 
 ```
 [Try it online!]()
-## Sesos
+## [Sesos](https://github.com/DennisMitchell/sesos), bytes
 ```
 
 ```
 [Try it online!]()
-## Set
+## [Set](https://github.com/somebody1234/Set), bytes
 ```
 
 ```
 [Try it online!]()
-## Shakespeare Programming Language
+## [Shakespeare Programming Language](https://github.com/TryItOnline/spl), bytes
 ```
 
 ```
 [Try it online!]()
-## ShapeScript
+## [ShapeScript](https://github.com/DennisMitchell/shapescript), bytes
 ```
 
 ```
 [Try it online!]()
-## shortC
+## [shortC](https://github.com/aaronryank/shortC), bytes
 ```
 
 ```
 [Try it online!]()
-## Shove
+## [Shove](https://github.com/TryItOnline/shove), bytes
 ```
 
 ```
 [Try it online!]()
-## Shtriped
+## [Shtriped](https://github.com/HelkaHomba/shtriped), bytes
 ```
 
 ```
 [Try it online!]()
-## Simula (cim)
+## [Simula (cim)](https://directory.fsf.org/wiki/Cim), bytes
 ```
 
 ```
 [Try it online!]()
-## SISAL
+## [SISAL](https://github.com/TryItOnline/sisalc), bytes
 ```
 
 ```
 [Try it online!]()
-## Snails
+## [Snails](https://github.com/feresum/PMA), bytes
 ```
 
 ```
 [Try it online!]()
-## Snowman
+## [Snowman](http://github.com/KeyboardFire/snowman-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## SNUSP (Modular)
+## [SNUSP (Modular)](https://github.com/TryItOnline/snusp), bytes
 ```
 
 ```
 [Try it online!]()
-## Somme
+## [Somme](https://github.com/ConorOBrien-Foxx/Somme), bytes
 ```
 
 ```
 [Try it online!]()
-## Spaced
+## [Spaced](https://github.com/ConorOBrien-Foxx/spaced), bytes
 ```
 
 ```
 [Try it online!]()
-## SQLite
+## [SQLite](https://www.sqlite.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Squirrel
+## [Squirrel](http://www.squirrel-lang.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Stack Cats
+## [Stack Cats](https://github.com/m-ender/stackcats), bytes
 ```
 
 ```
 [Try it online!]()
-## Stacked
+## [Stacked](https://github.com/ConorOBrien-Foxx/stacked), bytes
 ```
 
 ```
 [Try it online!]()
-## Standard ML (MLton)
+## [Standard ML (MLton)](http://www.mlton.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Starry
+## [Starry](https://esolangs.org/wiki/Starry), bytes
 ```
 
 ```
 [Try it online!]()
-## str
+## [str](https://github.com/ConorOBrien-Foxx/str), bytes
 ```
 
 ```
 [Try it online!]()
-## Straw
+## [Straw](https://github.com/tuxcrafting/straw), bytes
 ```
 
 ```
 [Try it online!]()
-## Surface
+## [Surface](https://github.com/TryItOnline/surface), bytes
 ```
 
 ```
 [Try it online!]()
-## Swap
+## [Swap](https://github.com/splcurran/Swap), bytes
 ```
 
 ```
 [Try it online!]()
-## Syms
+## [Syms](https://github.com/CatsAreFluffy/syms), bytes
 ```
 
 ```
 [Try it online!]()
-## TacO
+## [TacO](https://github.com/TehFlaminTaco/TacO), bytes
 ```
 
 ```
 [Try it online!]()
-## Taxi
+## [Taxi](https://bigzaphod.github.io/Taxi/), bytes
 ```
 
 ```
 [Try it online!]()
-## Tcl
+## [Tcl](http://tcl.tk/), bytes
 ```
 
 ```
 [Try it online!]()
-## tcsh
+## [tcsh](http://www.tcsh.org/), bytes
 ```
 
 ```
 [Try it online!]()
-## Templates Considered Harmful
+## [Templates Considered Harmful](https://github.com/feresum/tmp-lang), bytes
 ```
 
 ```
 [Try it online!]()
-## Threead
+## [Threead](https://github.com/TehFlaminTaco/Threead), bytes
 ```
 
 ```
 [Try it online!]()
-## Thue
+## [Thue](https://esolangs.org/wiki/Thue), bytes
 ```
 
 ```
 [Try it online!]()
-## Thutu
+## [Thutu](https://esolangs.org/wiki/Thutu), bytes
 ```
 
 ```
 [Try it online!]()
-## tinylisp
+## [tinylisp](https://github.com/dloscutoff/Esolangs/tree/master/tinylisp), bytes
 ```
 
 ```
 [Try it online!]()
-## TRANSCRIPT
+## [TRANSCRIPT](https://web.archive.org/web/20071018030927/http://www.corknut.org/code/transcript/), bytes
 ```
 
 ```
 [Try it online!]()
-## Trefunge-98 (PyFunge)
+## [Trefunge-98 (PyFunge)](https://pythonhosted.org/PyFunge/), bytes
 ```
 
 ```
 [Try it online!]()
-## Triangular
+## [Triangular](https://github.com/aaronryank/triangular), bytes
 ```
 
 ```
 [Try it online!]()
-## Trigger
+## [Trigger](http://yiap.nfshost.com/esoteric/trigger/trigger.html), bytes
 ```
 
 ```
 [Try it online!]()
-## TrumpScript
+## [TrumpScript](https://github.com/samshadwell/TrumpScript), bytes
 ```
 
 ```
 [Try it online!]()
-## Turtlèd
+## [Turtlèd](https://github.com/Destructible-Watermelon/Turtl-d), bytes
 ```
 
 ```
 [Try it online!]()
-## TypeScript
+## [TypeScript](https://www.typescriptlang.org), bytes
 ```
 
 ```
 [Try it online!]()
-## uBASIC
+## [uBASIC](https://github.com/EtchedPixels/ubasic), bytes
 ```
 
 ```
 [Try it online!]()
-## Underload
+## [Underload](https://github.com/catseye/stringie), bytes
 ```
 
 ```
 [Try it online!]()
-## Unefunge-98 (PyFunge)
+## [Unefunge-98 (PyFunge)](https://pythonhosted.org/PyFunge/), bytes
 ```
 
 ```
 [Try it online!]()
-## Unicat
+## [Unicat](https://github.com/gemdude46/unicat), bytes
 ```
 
 ```
 [Try it online!]()
-## Unlambda
+## [Unlambda](http://www.madore.org/~david/programs/unlambda/), bytes
 ```
 
 ```
 [Try it online!]()
-## Unreadable
+## [Unreadable](https://esolangs.org/wiki/Unreadable), bytes
 ```
 
 ```
 [Try it online!]()
-## V
+## [V](https://github.com/DJMcMayhem/V), bytes
 ```
 
 ```
 [Try it online!]()
-## Vala
+## [Vala](https://wiki.gnome.org/Projects/Vala), bytes
 ```
 
 ```
 [Try it online!]()
-## Visual Basic .NET (Mono)
+## [Visual Basic .NET (Mono)](http://www.mono-project.com/docs/about-mono/languages/visualbasic/), bytes
 ```
 
 ```
 [Try it online!]()
-## Vitsy
+## [Vitsy](https://github.com/VTCAKAVSMoACE/Vitsy), bytes
 ```
 
 ```
 [Try it online!]()
-## Whirl
+## [Whirl](https://bigzaphod.github.io/Whirl/), bytes
 ```
 
 ```
 [Try it online!]()
-## Whitespace
+## [Whitespace](https://web.archive.org/web/20150618184706/http://compsoc.dur.ac.uk/whitespace/tutorial.php), bytes
 ```
 
 ```
 [Try it online!]()
-## Width
+## [Width](https://github.com/stestoltz/Width), bytes
 ```
 
 ```
 [Try it online!]()
-## Wise
+## [Wise](https://github.com/Wheatwizard/Wise), bytes
 ```
 
 ```
 [Try it online!]()
-## Woefully
+## [Woefully](https://github.com/Destructible-Watermelon/Woefully), bytes
 ```
 
 ```
 [Try it online!]()
-## wsf
+## [wsf](https://github.com/dkudriavtsev/wsf), bytes
 ```
 
 ```
 [Try it online!]()
-## yup
+## [yup](https://github.com/ConorOBrien-Foxx/yup), bytes
 ```
 
 ```
 [Try it online!]()
-## zkl
+## [zkl](http://www.zenkinetic.com/zkl.html), bytes
 ```
 
 ```
 [Try it online!]()
-## Zsh
+## [Zsh](https://www.zsh.org/), bytes
 ```
 
 ```
