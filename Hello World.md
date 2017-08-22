@@ -273,7 +273,7 @@
  - [Snowman, 18 bytes](#snowman-18-bytes)
  - [SNUSP (Modular), 291 bytes](#snusp-modular-291-bytes)
  - [Somme, 38 bytes](#somme-38-bytes)
- - [Spaced, 84 bytes](#spaced-84-bytes)
+ - [Spaced, 67 bytes](#spaced-67-bytes)
  - [SQLite, 21 bytes](#sqlite-21-bytes)
  - [Squirrel, 22 bytes](#squirrel-22-bytes)
  - [Stack Cats, 134 bytes](#stack-cats-134-bytes)
@@ -2109,11 +2109,11 @@ $@\H.@/e.+++++++l.l.+++o.>>++++.< .<@/w.@\o.+++r.++@\l.@\d.>+.@/.#
 8s+vi:7+::J:^B4*25p9s6+v:J:6-:8-25pim,
 ```
 [Try it online!](https://tio.run/##K87PzU39/9@iWLss08pc28rKyyrOyUTLyLTAsthMuwzINdO1stAF8jNzdf7/BwA)
-## [Spaced](https://github.com/ConorOBrien-Foxx/spaced), 84 bytes
+## [Spaced](https://github.com/ConorOBrien-Foxx/spaced), 67 bytes
 ```
-(q="Helo,Wrd!")[1]+q[3]+q[5]+q[5]+q[7]+q[9]+''+q[9+2]+q[7]+q[9+4]+q[5]+q[9+6]+q[9+8]
+[,a,,b,,c,,d,,e,f,g,,h,,i,,j]='Helo,Wrd!';a+b+c+c+d+e+f+g+d+h+c+i+j
 ```
-[Try it online!](https://tio.run/##Ky5ITE5N@f9fo9BWySM1J18nvChFUUkz2jBWuzDaGESYwglzEGEZq62uDqK1jRBi2iZwRZbaZhDKIvb/fwA)
+[Try it online!](https://tio.run/##Dcc7CoAwEADRs1il2LmB2HsDC7GI2c0PQdH7s4YpHvM9MZm670Q4IYGCkSlQoUE/lrDadbO9OoU5yilppGKSpQzruCbd/Qc)
 ## [SQLite](https://www.sqlite.org/), 21 bytes
 ```
 select'Hello, World!'
