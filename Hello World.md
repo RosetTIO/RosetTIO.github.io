@@ -143,7 +143,7 @@
  - [Groovy, 20 bytes](#groovy-20-bytes)
  - [GS2, 2 bytes](#gs2-2-bytes)
  - [Guile, 24 bytes](#guile-24-bytes)
- - [Half-Broken Car in Heavy Traffic, 3273 bytes](#half-broken-car-in-heavy-traffic-3273-bytes)
+ - [Half-Broken Car in Heavy Traffic, (WARNING: INCORRECT)](#half-broken-car-in-heavy-traffic-warning-incorrect)
  - [Haskell, 26 bytes](#haskell-26-bytes)
  - [Haystack, 17 bytes](#haystack-17-bytes)
  - [Hexagony, 32 bytes](#hexagony-32-bytes)
@@ -1184,7 +1184,7 @@ print'Hello, World!'
 (display"Hello, World!")
 ```
 [Try it online!](https://tio.run/##K07OSM1N1U0vzcxJ/f9fIyWzuCAnsVLJIzUnJ19HITy/KCdFUUnz/38A)
-## [Half-Broken Car in Heavy Traffic](https://git.metanohi.name/hbcht.git/), 3273 bytes
+## [Half-Broken Car in Heavy Traffic](https://git.metanohi.name/hbcht.git/) (WARNING: INCORRECT)
 ```
 @outtext
 
