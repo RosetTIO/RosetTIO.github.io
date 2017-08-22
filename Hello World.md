@@ -100,7 +100,7 @@
  - [dc, 16 bytes](#dc-16-bytes)
  - [Deadfish~, 1 byte](#deadfish-1-byte)
  - [Decimal, 46 bytes](#decimal-46-bytes)
- - [Del|m|t, 30 bytes](#delmt-30-bytes)
+ - [Del\|m\|t, 30 bytes](#delmt-30-bytes)
  - [Detour, 19 bytes](#detour-19-bytes)
  - [DStack, 21 bytes](#dstack-21-bytes)
  - [eacal, 24 bytes](#eacal-24-bytes)
@@ -860,12 +860,36 @@ when H=""then set H="Hello, World!"put H
 "Hello, World!
 ```
 [Try it online!](https://tio.run/##S87PK0ut@P9fySM1JydfRyE8vygnRfH/fwA)
-## Cood
+## [Cood](https://github.com/jesobreira/cood/tree/php-interpreter), 417 bytes
 ```
-https://tio.run/##S87PT/n/31OhPDGvRMHcSCE/TaEkI7OYyzNXoSy1qFIhozQvvaiSC6rA0MCQoAoLnCqwazAkZKSJCQEFxoScbWFOyNUEHWFoaEKBz2EqDAj5xBiHgv//AQ
+I want 72 of this
+Im very hungry
+I want 101 of this
+Im very hungry
+I want 108 of this
+Im very hungry
+Im very hungry
+I want 111 of this
+Im very hungry
+I want 44 of this
+Im very hungry
+I want 32 of this
+Im very hungry
+I want 87 of this
+Im very hungry
+I want 111 of this
+Im very hungry
+I want 114 of this
+Im very hungry
+I want 108 of this
+Im very hungry
+I want 100 of this
+Im very hungry
+I want 33 of this
+Im very hungry
 ```
 [Try it online!](https://tio.run/##S87PT/n/31OhPDGvRMHcSCE/TaEkI7OYyzNXoSy1qFIhozQvvaiSC6rA0MCQoAoLnCqwazAkZKSJCQEFxoScbWFOyNUEHWFoaEKBz2EqDAj5xBiHgv//AQ)
-## COW
+## [COW](https://bigzaphod.github.io/COW/), 261 bytes
 ```
 MOoMOoMOomoOMOomoOMOomoOmoOMoOmoOMoOmoOmoOMoOMOOMoOMoOMoOMoOMOOmoOMoOMoOMoOMOOmoOMoOMoOMoOMoOmoOMOoMOomoOMoOMoOMoOmOomOomOoMOomoomOoMOomoomOoMoOMoOMoOmoomoOmoOmoOMoomoOMOoMOomoOMOoMoomoOMooMooMoOmoOMoOMoOMoOMoOmoOMoOMoOMoOMooMoOmoOMOoMOomoOMOOmoOMOoMoomOomOomoo
 ```
