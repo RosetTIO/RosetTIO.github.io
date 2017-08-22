@@ -46,8 +46,8 @@
  - [Beatnik, 148 bytes](#beatnik-148-bytes)
  - [Beeswax, 15 bytes](#beeswax-15-bytes)
  - [Befunge, 21 bytes](#befunge-21-bytes)
- - [Befunge-98 (FBBI), 20 bytes](#befunge-98-fbbi-20-bytes)
- - [Befunge-98 (PyFunge), 20 bytes](#befunge-98-pyfunge-20-bytes)
+ - [Befunge-98 (FBBI), 19 bytes](#befunge-98-fbbi-19-bytes)
+ - [Befunge-98 (PyFunge), 19 bytes](#befunge-98-pyfunge-19-bytes)
  - [Binary Lambda Calculus, 14 bytes](#binary-lambda-calculus-14-bytes)
  - [Boo, 20 bytes](#boo-20-bytes)
  - [Brachylog, 16 bytes](#brachylog-16-bytes)
@@ -634,16 +634,16 @@ _`Hello, World!
 "!dlroW ,olleH">:#,_@
 ```
 [Try it online!](https://tio.run/##S0pNK81LT/3/X0kxJacoP1xBJz8nJ9VDyc5KWSfe4f9/AA)
-## [Befunge-98 (FBBI)](https://github.com/catseye/FBBI), 20 bytes
+## [Befunge-98 (FBBI)](https://github.com/catseye/FBBI), 19 bytes
 ```
-"9!dlroW ,olleH"ck,@
+"!dlroW ,olleH"ck,@
 ```
-[Try it online!](https://tio.run/##S0pNK81LT9W1tPj/X8lSMSWnKD9cQSc/JyfVQyk5W8fh/38A)
+[Try it online!](https://tio.run/##S0pNK81LT9W1tPj/X0kxJacoP1xBJz8nJ9VDKTlbx@H/fwA)
 ## [Befunge-98 (PyFunge)](https://pythonhosted.org/PyFunge/), 20 bytes
 ```
-"9!dlroW ,olleH"ck,@
+"!dlroW ,olleH"ck,@
 ```
-[Try it online!](https://tio.run/##S0pNK81LT9W1tNAtqAQz//9XslRMySnKD1fQyc/JSfVQSs7Wcfj/HwA)
+[Try it online!](https://tio.run/##S0pNK81LT9W1tNAtqAQz//9XUkzJKcoPV9DJz8lJ9VBKztZx@P8fAA)
 ## [Binary Lambda Calculus](https://tromp.github.io/cl/cl.html), 14 bytes
 ```
 00000000: 2a48 656c 6c6f 2c20 576f 726c 6421       *Hello, World!
@@ -2241,7 +2241,7 @@ He is here.
 [Try it online!](https://tio.run/##KylKzCtOLsosKPn/3yNVIbNYISO1KFWPy87DVUfBIzUnJ19HITy/KCdFkcsuQsHD9f9/AA)
 ## [Trefunge-98 (PyFunge)](https://pythonhosted.org/PyFunge/), 19 bytes
 ```
-"9!dlroW ,olleH"ck,@
+"!dlroW ,olleH"ck,@
 ```
 [Try it online!](https://tio.run/##KylKTSvNS0/VtbTQLagEM///V1JMySnKD1fQyc/JSfVQSs7Wcfj/HwA)
 ## [Triangular](https://github.com/aaronryank/triangular), 66 bytes
