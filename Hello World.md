@@ -265,7 +265,7 @@
  - [Shakespeare Programming Language, 1186 bytes](#shakespeare-programming-language-1186-bytes)
  - [ShapeScript, 15 bytes](#shapescript-15-bytes)
  - [shortC, 16 bytes](#shortc-16-bytes)
- - [Shove, 30 bytes](#shove-30-bytes)
+ - [Shove, 16 bytes](#shove-16-bytes)
  - [Shtriped, 239 bytes](#shtriped-239-bytes)
  - [Simula (cim), 24 bytes](#simula-cim-24-bytes)
  - [SISAL, 66 bytes](#sisal-66-bytes)
@@ -2009,10 +2009,9 @@ AJ"Hello, World!
 [Try it online!](https://tio.run/##K87ILypJ/v/f0UvJIzUnJ19HITy/KCdF8f9/AA)
 ## [Shove](https://github.com/TryItOnline/shove), 30 bytes
 ```
-" ,olleH"V       v
- S"!dlroW"<
+"Hello, World!"S
 ```
-[Try it online!](https://tio.run/##K87IL0v9/19JQSc/JyfVQylMAQLKuBSClRRTcoryw5Vs/v8HAA)
+[Try it online!](https://tio.run/##K87IL0v9/1/JIzUnJ19HITy/KCdFUSn4/38A)
 ## [Shtriped](https://github.com/HelkaHomba/shtriped), 239 bytes
 ```
 e n
