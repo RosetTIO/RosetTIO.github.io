@@ -75,7 +75,7 @@
  - [Check, 16 bytes](#check-16-bytes)
  - [Cheddar, 20 bytes](#cheddar-20-bytes)
  - [Chez Scheme, 24 bytes](#chez-scheme-24-bytes)
- - [CHICKEN Scheme, 24 bytes](#chicken-scheme-24-bytes)
+ - [CHICKEN Scheme, 22 bytes](#chicken-scheme-22-bytes)
  - [Chip, 119 bytes](#chip-119-bytes)
  - [Cinnamon Gum, 15 bytes](#cinnamon-gum-15-bytes)
  - [CJam, 15 bytes](#cjam-15-bytes)
@@ -790,11 +790,11 @@ print"Hello, World!"
 (display"Hello, World!")
 ```
 [Try it online!](https://tio.run/##K07OSM1N1QWSVf//a6RkFhfkJFYqeaTm5OTrKITnF@WkKCpp/v8PAA)
-## [CHICKEN Scheme](https://www.call-cc.org/), 24 bytes
+## [CHICKEN Scheme](https://www.call-cc.org/), 22 bytes
 ```
-(display"Hello, World!")
+(print"Hello, World!")
 ```
-[Try it online!](https://tio.run/##K07OSM1N1U3OyEzOTs37/18jJbO4ICexUskjNScnX0chPL8oJ0VRSfP/fwA)
+[Try it online!](https://tio.run/##K07OSM1N1U3OyEzOTs37/1@joCgzr0TJIzUnJ19HITy/KCdFUUnz/38A)
 ## [Chip](https://github.com/Phlarx/chip), 119 bytes
 ```
 !ZZZZZZZZZZZZt
