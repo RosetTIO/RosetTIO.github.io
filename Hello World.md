@@ -159,7 +159,7 @@
  - [Java (OpenJDK 9), 76 bytes](#java-openjdk-9-76-bytes)
  - [JavaScript (Babel Node), 28 bytes](#javascript-babel-node-28-bytes)
  - [JavaScript (Node.js), 28 bytes](#javascript-nodejs-28-bytes)
- - [JavaScript (SpiderMonkey), 28 bytes](#javascript-spidermonkey-28-bytes)
+ - [JavaScript (SpiderMonkey), 20 bytes](#javascript-spidermonkey-20-bytes)
  - [Jelly, 8 bytes](#jelly-8-bytes)
  - [Jellyfish, 15 bytes](#jellyfish-15-bytes)
  - [Joy, 41 bytes](#joy-41-bytes)
@@ -1374,9 +1374,9 @@ console.log('Hello, World!')
 [Try it online!](https://tio.run/##y0osSyxOLsosKNHNy09J/f8/OT@vOD8nVS8nP11D3SM1JydfRyE8vygnRVFd8/9/AA)
 ## [JavaScript (SpiderMonkey)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Releases/45), 28 bytes
 ```
-console.log('Hello, World!')
+print`Hello, World!`
 ```
-[Try it online!](https://tio.run/##y0osSyxOLsosKNEtLshMSS3Kzc/LTq38/z85P684PydVLyc/XUPdIzUnJ19HITy/KCdFUV3z/38A)
+[Try it online!](https://tio.run/##y0osSyxOLsosKNEtLshMSS3Kzc/LTq38/7@gKDOvJMEjNScnX0chPL8oJ0Ux4f9/AA)
 ## [Jelly](https://github.com/DennisMitchell/jelly), 8 bytes
 ```
 “3ḅaė;œ»
