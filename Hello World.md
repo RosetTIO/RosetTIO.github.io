@@ -202,7 +202,7 @@
  - [OCaml, 27 bytes](#ocaml-27-bytes)
  - [Octave, 19 bytes](#octave-19-bytes)
  - [Ohm, 14 bytes](#ohm-14-bytes)
- - [Parenthetic, 608 bytes](#parenthetic-608-bytes)
+ - [Parenthetic, 604 bytes](#parenthetic-604-bytes)
  - [Pari/GP, 22 bytes](#parigp-22-bytes)
  - [Pascal (FPC), 32 bytes](#pascal-fpc-32-bytes)
  - [pbrain, 87 bytes](#pbrain-87-bytes)
@@ -1615,11 +1615,11 @@ disp"Hello, World!"
 "Hello, World!
 ```
 [Try it online!](https://tio.run/##y8/I/f9fySM1JydfRyE8vygnRfH/fwA)
-## [Parenthetic](https://github.com/cammckinnon/Parenthetic), 608 bytes
+## [Parenthetic](https://github.com/cammckinnon/Parenthetic), 604 bytes
 ```
-((()()())(()())((()())((()()())(()()()()))((()(())(())())((()(()()))((()()(()))((())()()()()()())((())()()()()()()()()()()()()()()()()()()()))((()()(()))(()()())((())()()()()()()()()()()()()()))(()()()())))))((()(()))((()())((())()()())((())()()()))((()())((())())((())))((()())((()))((())()()()()()()))((()())((()))((())()()()()()()))((()())((()))((())()()()))((()())((())()()()()())((())()()()()()))((()())((())()()()()()())((())()()()()))((()())((())()())((())()))((()())((()))((())()()()))((()())((()))((())))((()())((()))((())()()()()()()))((()())((())())((())()))((()())((())()()()()()())((())()()())))
+((()()())(()())((()())((()()())(()(())))((()(())(())())((()(()()))((()()(()))((())()()()()()())((())()()()()()()()()()()()()()()()()()()()))((()()(()))(()()())((())()()()()()()()()()()()()()))(()(()))))))((()(()))((()())((())()()())((())()()()))((()())((())())((())))((()())((()))((())()()()()()()))((()())((()))((())()()()()()()))((()())((()))((())()()()))((()())((())()()()()())((())()()()()()))((()())((())()()()()()())((())()()()()))((()())((())()())((())()))((()())((()))((())()()()))((()())((()))((())))((()())((()))((())()()()()()()))((()())((())())((())()))((()())((())()()()()()())((())()()())))
 ```
-[Try it online!](https://tio.run/##K0gsSs0ryUgtyUz@/19DQ0MTBDU1oCQSBRMFsyBiECG4EiQZsDiYqamBBDFFcEM0k4jSj@JEJFci@wSLU9DlITSqKBbPkC2PzT1Y@TjUoYtgqoP7hEg3kONjXLbgcicQ/P8PAA)
+[Try it online!](https://tio.run/##K0gsSs0ryUgtyUz@/19DQ0MTBDU1oCQSBRUFUlARiABcAVgFTC2MqamBBDFFcEM0k4jSj@RAJDci@wKLQ9DlITSqKBavkC2PzT1Y@TjUoYtgqoP7hEg3kONjXLbgcicQ/P8PAA)
 ## [Pari/GP](http://pari.math.u-bordeaux.fr/), 22 bytes
 ```
 print("Hello, World!")
