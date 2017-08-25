@@ -18,7 +18,7 @@
  - [Actually, 1 byte](#actually-1-byte)
  - [Add++, 70 bytes](#add-70-bytes)
  - [ADJUST (WARNING: INCORRECT)](#adjust-warning-incorrect)
- - [Agony, 35 bytes](#agony-35-bytes)
+ - [Agony, 33 bytes](#agony-33-bytes)
  - [ALGOL 68 (Genie), 33 bytes](#algol-68-genie-33-bytes)
  - [Alice, 22 bytes](#alice-22-bytes)
  - [Alphuck, 78 bytes](#alphuck-78-bytes)
@@ -87,8 +87,8 @@
  - [Common Lisp, 25 bytes](#common-lisp-25-bytes)
  - [Condit, 41 bytes](#condit-41-bytes)
  - [Convex, 14 bytes](#convex-14-bytes)
- - [Cood](#cood)
- - [COW](#cow)
+ - [Cood, 417 bytes](#cood-417-bytes)
+ - [COW, 261 bytes](#cow-261-bytes)
  - [cQuents, 15 bytes](#cquents-15-bytes)
  - [Crayon, 16 bytes](#crayon-16-bytes)
  - [Crystal, 20 bytes](#crystal-20-bytes)
@@ -1380,7 +1380,7 @@ console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 [Try it online!](https://tio.run/##y0osSyxOLsosKNHNy09J/f8/OT@vOD8nVS8nP11D3SM1JydfRyE8vygnRVFd8/9/AA)
-## [JavaScript (SpiderMonkey)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Releases/45), 28 bytes
+## [JavaScript (SpiderMonkey)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Releases/45), 20 bytes
 ```
 print`Hello, World!`
 ```
@@ -2015,7 +2015,7 @@ Puck:Speak thy mind!You is as big as the sum of thyself and myself!Speak thy min
 AJ"Hello, World!
 ```
 [Try it online!](https://tio.run/##K87ILypJ/v/f0UvJIzUnJ19HITy/KCdF8f9/AA)
-## [Shove](https://github.com/TryItOnline/shove), 30 bytes
+## [Shove](https://github.com/TryItOnline/shove), 16 bytes
 ```
 "Hello, World!"S
 ```
@@ -2495,7 +2495,7 @@ GZiwWOwQROWIkilBAQWmkOCDmifGww
 print("Hello, World!")
 ```
 [Try it online!](https://tio.run/##q8rO@f@/oCgzr0RDySM1JydfRyE8vygnRVFJ8/9/AA)
-## [Zsh](https://www.zsh.org/), 18 bytes
+## [Zsh](https://www.zsh.org/), 17 bytes
 ```
 <<<Hello,\ World!
 ```
