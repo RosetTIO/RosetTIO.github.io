@@ -16,7 +16,7 @@
  - [\\/, 189 bytes](#-189-bytes)
  - [A Pear Tree, 29 bytes](#a-pear-tree-29-bytes)
  - [Actually, 1 byte](#actually-1-byte)
- - [Add++, 70 bytes](#add-70-bytes)
+ - [Add++, 26 bytes](#add-26-bytes)
  - [ADJUST (WARNING: INCORRECT)](#adjust-warning-incorrect)
  - [Agony, 33 bytes](#agony-33-bytes)
  - [ALGOL 68 (Genie), 33 bytes](#algol-68-genie-33-bytes)
@@ -411,36 +411,13 @@ print("Hello, World!")
 H
 ```
 [Try it online!](https://tio.run/##S0wuKU3Myan8/9/j/38A)
-## [Add++](https://github.com/SatansSon/AddPlusPlus), 70 bytes
+## [Add++](https://github.com/SatansSon/AddPlusPlus), 26 bytes
 ```
-+72
-&
-+29
-&
-+7
-&
-&
-+3
-&
--67
-&
--12
-&
-+55
-&
-+24
-&
-+3
-&
--6
-&
--8
-&
--67
-&
-P
+D,f,^,"Hello, World!"
+$f
+O
 ```
-[Try it online!](https://tio.run/##S0xJKSj4/1/b3IhLjUvbyBJEmgMJIGUMJHTNQBxdQ7CsqSlYjQlCEkRYwJUF/P8PAA)
+[Try it online!](https://tio.run/##S0xJKSj4/99FJ00nTkfJIzUnJ19HITy/KCdFUYlLJY3L//9/AA)
 ## [ADJUST](https://github.com/TryItOnline/adjust) (WARNING: INCORRECT)
 ```
 
