@@ -39,7 +39,7 @@
  - [AWK, 25 bytes](#awk-25-bytes)
  - [axo, 29 bytes](#axo-29-bytes)
  - [Bash, 18 bytes](#bash-18-bytes)
- - [bc, 22 bytes](#bc-22-bytes)
+ - [bc, 16 bytes](#bc-16-bytes)
  - [Beam, 120 bytes](#beam-120-bytes)
  - [Bean, 17 bytes](#bean-17-bytes)
  - [BeanShell, 23 bytes](#beanshell-23-bytes)
@@ -582,12 +582,12 @@ END{print"Hello, World!"}
 echo Hello, World!
 ```
 [Try it online!](https://tio.run/##S0oszvj/PzU5I1/BIzUnJ19HITy/KCdF8f9/AA)
-## [bc](https://www.gnu.org/software/bc/manual/html_mono/bc.html), 22 bytes
+## [bc](https://www.gnu.org/software/bc/manual/html_mono/bc.html), 16 bytes
 ```
-print"Hello, World!";
+"Hello, World!"
 
 ```
-[Try it online!](https://tio.run/##S0r@/7@gKDOvRMkjNScnX0chPL8oJ0VRyZrr/38A)
+[Try it online!](https://tio.run/##S0r@/1/JIzUnJ19HITy/KCdFUYnr/38A)
 ## [Beam](https://github.com/ETHproductions/beam-js), 120 bytes
 ```
 '''''''''>`++++++++)@'''P''''>`++++)+@+++++++@P@+++@'P'L'''>`++++++)''P'>`++++)@''p@'p>`+++++)@'p@+++@`p@--------@''p+@H
