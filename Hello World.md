@@ -101,6 +101,7 @@
  - [Deadfish~, 1 byte](#deadfish-1-byte)
  - [Decimal, 46 bytes](#decimal-46-bytes)
  - [Del\|m\|t, 30 bytes](#delmt-30-bytes)
+ - [Deorst, 15 bytes](#deorst-15-bytes)
  - [Detour, 19 bytes](#detour-19-bytes)
  - [DStack, 21 bytes](#dstack-21-bytes)
  - [eacal, 24 bytes](#eacal-24-bytes)
