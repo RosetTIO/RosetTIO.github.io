@@ -939,6 +939,11 @@ w
 =#:#Hello, World!#/##3#=#?#9#"
 ```
 [Try it online!](https://tio.run/##S0nNyczNLPn/31bZStkjNScnX0chPL8oJ0VRWV9Z2VjZVtle2VJZ6f///8oA)
+## [Deorst](https://github.com/SatansSon/Deorst), 15 bytes
+```
+'Hello, World!'
+```
+[Try it online!](https://tio.run/##S0nNLyou@f9f3SM1JydfRyE8vygnRVH9/38A "Deorst – Try It Online")
 ## [Detour](https://github.com/cyoce/detour), 19 bytes
 ```
 `u
