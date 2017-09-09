@@ -821,7 +821,7 @@ console.log("Hello, World!")
 [Try it online!](https://tio.run/##S85PS0tNLU4uyiwo@f8/OT@vOD8nVS8nP11DySM1JydfRyE8vygnRVFJ8/9/AA)
 ## [Commentator](https://github.com/SatansSon/Commentator), 1168 bytes
 ```
-                                                                        /*#                                                                                                     /*#                                                                                                            /*#                                                                                                            /*#                                                                                                               /*#                                            /*#                                /*#                                                                                       /*#                                                                                                               /*#                                                                                                                  /*#                                                                                                            /*#                                                                                                    /*#                                 /*#
+         {-        -}!/*{-{-           {-         -}!  /*       /*/*   /*-}-}#    {-   -}!/*{- e#-}///*{-e#-}//{-#  -}!{-# e#-}///*{-{-/*   /*{-e#-}//   /*-}-}             /*#   {-            -}!/*
 ```
 [Try it online!](https://tio.run/##S87PzU3NK0ksyS/6/1@BSkBfS1mBHoBe9owI60i3kQjltPPDoA@d0TRHmTVANf//AwA)
 ## [Commercial](https://github.com/tuxcrafting/commercial), 83 bytes
