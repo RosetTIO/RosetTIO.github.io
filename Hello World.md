@@ -82,7 +82,7 @@
  - [Clojure, 22 bytes](#clojure-22-bytes)
  - [COBOL (GNU), 55 bytes](#cobol-gnu-55-bytes)
  - [CoffeeScript, 28 bytes](#coffeescript-28-bytes)
- - [Commentator, 1168 bytes](#commentator-1168-bytes)
+ - [Commentator, 197 bytes](#commentator-197-bytes)
  - [Commercial, 83 bytes](#commercial-83-bytes)
  - [Common Lisp, 25 bytes](#common-lisp-25-bytes)
  - [Condit, 41 bytes](#condit-41-bytes)
@@ -819,11 +819,11 @@ DIVISION.DISPLAY "Hello, World!".
 console.log("Hello, World!")
 ```
 [Try it online!](https://tio.run/##S85PS0tNLU4uyiwo@f8/OT@vOD8nVS8nP11DySM1JydfRyE8vygnRVFJ8/9/AA)
-## [Commentator](https://github.com/SatansSon/Commentator), 1168 bytes
+## [Commentator](https://github.com/SatansSon/Commentator), 197 bytes
 ```
          {-        -}!/*{-{-           {-         -}!  /*       /*/*   /*-}-}#    {-   -}!/*{- e#-}///*{-e#-}//{-#  -}!{-# e#-}///*{-{-/*   /*{-e#-}//   /*-}-}             /*#   {-            -}!/*
 ```
-[Try it online!](https://tio.run/##S87PzU3NK0ksyS/6/1@BSkBfS1mBHoBe9owI60i3kQjltPPDoA@d0TRHmTVANf//AwA)
+[Try it online!](https://tio.run/##VY5BCsAwCAS/YvEmiG8qJcc0UHIT325JGpNmL46urF4l53TXs5bHHULKQWyHkPIabG6zAYRGJ9RRiI0N5@rIgIRsIg0/UsZutro85RESazMR/hLC/ZU45P4C)
 ## [Commercial](https://github.com/tuxcrafting/commercial), 83 bytes
 ```
 "Hello, World!" - Satisfied Consumer of Hello
