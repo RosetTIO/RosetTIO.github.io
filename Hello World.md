@@ -27,7 +27,7 @@
  - [APL (Dyalog Unicode), 17 bytes](#apl-dyalog-unicode-17-bytes)
  - [APL (ngn-apl), 17 bytes](#apl-ngn-apl-17-bytes)
  - [Archway, 366 bytes](#archway-366-bytes)
- - [Archway2, 366 bytes](#archway2-366-bytes)
+ - [Archway2, 182 bytes](#archway2-182-bytes)
  - [Arcyóu, 15 bytes](#arcyóu-15-bytes)
  - [ArnoldC, 71 bytes](#arnoldc-71-bytes)
  - [Assembly (as, x64, Linux), 77 bytes](#assembly-as-x64-linux-77-bytes)
@@ -479,12 +479,18 @@ iiciccepepceaiiiaiaiaicccsascciijceeeeeejccijjccjcejaajaajcccjeeejaajaaijcccej
 ```
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.+++++++++++++++++++++++++++++.+++++++..+++.-------------------------------------------------------------------.------------.+++++++++++++++++++++++++++++++++++++++++++++++++++++++.++++++++++++++++++++++++.+++.------.--------.-------------------------------------------------------------------.
 ```
+
 [Try it online!](https://tio.run/##SyxKzihPrPz/X5tKQI8oWT0QQ0@XcoBihh613YzkSj2sNpLr6v//AQ)
-## [Archway2](https://github.com/TryItOnline/archway), 366 bytes
+## [Archway2](https://github.com/TryItOnline/archway), 182 bytes
 ```
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.+++++++++++++++++++++++++++++.+++++++..+++.-------------------------------------------------------------------.------------.+++++++++++++++++++++++++++++++++++++++++++++++++++++++.++++++++++++++++++++++++.+++.------.--------.-------------------------------------------------------------------.
+                   \
+ /
+  >++>+++>+++>+<<<<-/>+>+>->+<<<<<-\>>.>---.+++++++..+++.>>++++.------------.<-.<.+++.------.--------.>>+.
+  \    \
+\++++>
+++++++++/                         /
 ```
-[Try it online!](https://tio.run/##SyxKzihPrDT6/1@bSkCPKFk9EENPl3KAYoYetd2M5Eo9rDaS6@r//wE)
+[Try it online!](https://tio.run/##dY07CoBADET7PUX6kASslzlJGrGxthFPH7PuooL4mMDkP2/Lus/HFEFfvJAVIjCnRtREDOkgPavigEJElDvajAKXlxdaU/pU72Yb1nzl/a23TZRxjo3@sIgT)
 ## [Arcyóu](https://github.com/Nazek42/arcyou), 15 bytes
 ```
 "Hello, World!"
