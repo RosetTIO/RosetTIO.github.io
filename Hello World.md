@@ -17,7 +17,7 @@
  - [A Pear Tree, 29 bytes](#a-pear-tree-29-bytes)
  - [Actually, 1 byte](#actually-1-byte)
  - [Add++, 26 bytes](#add-26-bytes)
- - [ADJUST (WARNING: INCORRECT)](#adjust-warning-incorrect)
+ - [ADJUST, 281 bytes](#adjust-281-bytes)
  - [Agony, 33 bytes](#agony-33-bytes)
  - [ALGOL 68 (Genie), 33 bytes](#algol-68-genie-33-bytes)
  - [Alice, 22 bytes](#alice-22-bytes)
@@ -419,21 +419,12 @@ $f
 O
 ```
 [Try it online!](https://tio.run/##S0xJKSj4/99FJ00nTkfJIzUnJ19HITy/KCdFUYlLJY3L//9/AA)
-## [ADJUST](https://github.com/TryItOnline/adjust) (WARNING: INCORRECT)
+## [ADJUST](https://github.com/TryItOnline/adjust), 281 bytes
 ```
-
-                    C
-                       u
-                      =
-             v
-            AP
-             d
-             2
-             K   [
-<!-- ;}IA$
-#       4eQ    K
+ ;I-      &  e$      &  m-        &  g2Ph$      &  a2$      &  n$      &  e2+-      &  g2Ph$      &  OPh$      &  m-      &  e-      &  n-
+}     AgR};      AgR};      A=AgR};         AgR};       AgR};      AgR};        AgR};         AgR};        AgR};      AgR};      AgR};      AC
 ```
-[Try it online!](https://tio.run/##S0zJKi0u@f9fAQtw5lLADkpxSNiiipehcB0DUGVTULlGqFxvII7mUrCu9XRU4VKGCpqkBoLl/v8HAA)
+[Try it online!](https://tio.run/##S0zJKi0u@f9fwdpTVwEM1BQUUlXgzFyoKJiTbhSQgZBKNEKw8xDMVCNtXRw6/JE5uUj2IZh5uly1YLZjelCttQIG0xaJgyqFQwcaB6cUDqbz//8A)
 ## [Agony](https://github.com/royvanrijn/JAgony), 33 bytes
 ```
 <[.<]$$$,{}~<~)+{~*@+{${)~*~)~)~@<-
