@@ -137,7 +137,7 @@
  - [Glypho, 480 bytes](#glypho-480-bytes)
  - [Glypho (shorthand), 120 bytes](#glypho-shorthand-120-bytes)
  - [gnuplot, 33 bytes](#gnuplot-33-bytes)
- - [Go, 65 bytes](#go-65-bytes)
+ - [Go, 61 bytes](#go-61-bytes)
  - [GolfScript, 15 btyes](#golfscript-15-btyes)
  - [Grass, 623 bytes](#grass-623-bytes)
  - [Grime, 2 bytes](#grime-2-bytes)
@@ -1162,11 +1162,13 @@ set print'-'
 print'Hello, World!'
 ```
 [Try it online!](https://tio.run/##S88rLcjJL/n/vzi1RKGgKDOvRF1XnQvC8EjNycnXUQjPL8pJUVT//x8A)
-## [Go](https://golang.org/), 65 bytes
+## [Go](https://golang.org/), 61 bytes
 ```
-https://tio.run/##S8///78gMTk7MT1VITcxM48rM7cgv6hEQSktt0SJK600LxksrKFZDRTQCyjKzCvRUPJIzcnJ11EIzy/KSVFU0qz9/x8A
+package main
+import."fmt"
+func main(){Print("Hello, World!")}
 ```
-[Try it online!](https://tio.run/##S8///78gMTk7MT1VITcxM48rM7cgv6hEQSktt0SJK600LxksrKFZDRTQCyjKzCvRUPJIzcnJ11EIzy/KSVFU0qz9/x8A)
+[Try it online!](https://tio.run/##S8///78gMTk7MT1VITcxM48rM7cgv6hETyktt0SJK600LxksrKFZHVCUmVeioeSRmpOTr6MQnl@Uk6KopFn7/z8A)
 ## [GolfScript](http://www.golfscript.com/golfscript/), 15 btyes
 ```
 "Hello, World!"
