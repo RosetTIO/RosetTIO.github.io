@@ -298,7 +298,7 @@
  - [TRANSCRIPT, 36 bytes](#transcript-36-bytes)
  - [Trefunge-98 (PyFunge), 19 bytes](#trefunge-98-pyfunge-19-bytes)
  - [Triangular, 66 bytes](#triangular-66-bytes)
- - [Triangularity, 71 bytes](#triangularity-71-bytes)
+ - [Triangularity, 49 bytes](#triangularity-49-bytes)
  - [Trigger, 40 bytes](#trigger-40-bytes)
  - [TrumpScript, 36 bytes](#trumpscript-36-bytes)
  - [Turtlèd, 14 bytes](#turtlèd-14-bytes)
@@ -2263,16 +2263,15 @@ He is here.
 8.9,*<>@5\,1*6<>-+@7\,+3@@+<>@:3_7+\,3@-*43@<>*9-@p@3+\@_3@-8@-6@<
 ```
 [Try it online!](https://tio.run/##DchLCoAgFAXQ/bxPEK/8hMhdiCCOIogIqfVbZ3iefrRrf8/WxwhTFEoZa5GZXMrK8EXYAP53s@q5iEFpMaRMUXHDuKD@F6AOaYwP)
-## [Triangularity](https://github.com/Mr-Xcoder/Triangularity), 71 bytes
+## [Triangularity](https://github.com/Mr-Xcoder/Triangularity), 49 bytes
 ```
-..... .....
-...."!"....
-..."ld"+...
-.." Wor"+..
-."Hello,"+.
-...........
+.... ....
+..."!"...
+.."rld"..
+."o, Wo".
+"Hell"+++
 ```
-[Try it online!](https://tio.run/##KynKTMxLL81JLMosqfz/Xw8EFMAkF4hQUlSCsZVyUpS0IWwlhfD8IhCHS0/JIzUnJ18HyAGrh4L//wE)
+[Try it online!](https://tio.run/##KynKTMxLL81JLMosqfz/Xw8IFEAEFxArKSpBWEpFOSlKIJZSvo5CeL6SHpeSR2pOjpK2tvb//wA)
 ## [Trigger](http://yiap.nfshost.com/esoteric/trigger/trigger.html), 40 bytes
 ```
 HHHeeelll lllooo,,,   WWWooorrrlllddd!!!
