@@ -263,7 +263,7 @@
  - [Seriously, 1 byte](#seriously-1-byte)
  - [Sesos, 21 bytes](#sesos-21-bytes)
  - [Set, 84 bytes](#set-84-bytes)
- - [Shakespeare Programming Language, 1186 bytes](#shakespeare-programming-language-1186-bytes)
+ - [Shakespeare Programming Language, 926 bytes](#shakespeare-programming-language-926-bytes)
  - [ShapeScript, 15 bytes](#shapescript-15-bytes)
  - [shortC, 16 bytes](#shortc-16-bytes)
  - [Shove, 16 bytes](#shove-16-bytes)
@@ -1971,23 +1971,11 @@ put
 set!Hset!101set!108set!108set!111set!44set!32set!Wset!111set!114set!108set!100set!33
 ```
 [Try it online!](https://tio.run/##K04t@f@/OLVE0QNEGBoYQigLZMoQLGhiAiKNjUBkOJK4oaEJih4DsDLj//8B)
-## [Shakespeare Programming Language](https://github.com/TryItOnline/spl), 1186 bytes
+## [Shakespeare Programming Language](https://github.com/TryItOnline/spl), 926 bytes
 ```
-a.
-Ajax,a.
-Puck,a.
-Act I:a.
-Scene I:a.
-[Enter Ajax and Puck]
-Ajax:You big big big cat!
-Puck:You is as big as the sum of myself and the square of myself!Speak thy mind!You is as big as the sum of thyself and twice twice myself!
-Ajax:You is as big as the sum of a big cat and a cat!
-Puck:You is as big as the difference between thyself and myself!Speak thy mind!You is as big as the sum of the sum of thyself and myself and a big big cat!Speak thy mind!Speak thy mind!You is as big as the sum of myself and thyself!Speak thy mind!
-Ajax:You big big big big big cat!You is as big as the sum of the sum of thyself and a big big big cat and a big big cat!Speak thy mind!You big big big big big cat!Speak thy mind!You is as big as the sum of the difference between myself and thyself and a big big big cat!Speak thy mind!You is as big as the sum of a big cat and a cat!
-Puck:Speak thy mind!You is as big as the sum of thyself and myself!Speak thy mind!You is as big as the difference between thyself and twice myself!Speak thy mind!You is as big as the sum of thyself and a big big big pig!Speak thy mind!You is as big as the sum of a cat and a big big big big big cat!Speak thy mind!
-[Exeunt]
+a.Ajax,.Puck,.Act I:.Scene I:.[Enter Ajax and Puck]Ajax:You big big big cat!Puck:You as big as the sum of I the square of I!Speak mind!You as big as the sum of you twice twice I!Ajax:You as big as the sum of a big cat a cat!Puck:You as big as the difference between you I!Speak mind!You as big as the sum of the sum of you I a big big cat!Speak mind!Speak mind!You as big as the sum of I you!Speak mind!Ajax:You big big big big big cat!You as big as the sum of the sum of you a big big big cat a big big cat!Speak mind!You big big big big big cat!Speak mind!You as big as the sum of the difference between I you a big big big cat!Speak mind!You as big as the sum of a big cat a cat!Puck:Speak mind!You as big as the sum of you I!Speak mind!You as big as the difference between you twice I!Speak mind!You as big as the sum of you a big big big pig!Speak mind!You as big as the sum of a cat a big big big big big cat!Speak mind!
 ```
-[Try it online!](https://tio.run/##nVS9EoIwDN59irB7PoCbg4Obd0ye5xBK0KpUpO2BT4@l/kC1ypWhTa8JX758SZHFuWlwNlkcsZ4au9bs1NoFU7Cam0PMSNDjuF0KRSW0oYAihTZ2Z7@cby4aEr5/L4YqsljWwyWgtPfGqAOB1DlcMshvks6ZxbK3V40ldY4oLghPxnWDnIs0@gdlgjqsijN67k@kjuUvAHzxthA4VEHKs4xKEiZFQqoiEg6FMQV4a@lJhI66H9ABmRzVvTz9Pe1nH1EJfoIMF/WPQaC0nn596@DnGZLq9xSNnOWAQRoYSec9jGTjalPwfZg2300fkNr8cmrSQu2a5g4)
+[Try it online!](https://tio.run/##jVK7DoMwDPwVsyM@gI2hQ7ZKTFXVwQRDU0qgEET79ZRQQIACzZCHY@fuck5dPrsOveCBb9c7NzxzvYArYL4XcpKkN9eTVFSBLgGUMeiqm478S9FAJNJ5cFSOzg4JrIezflF3grrJoUiA/YJXgxUNsROWhBnkQsbO7q1Pn1Ct4DTOzJnpjfU4qel3B5pikSRUkewRI1ItkRyY7DRt5LGRdLJhAWGDxjTIstLo75LAVhhub@4LPaKztcTgKTPrsII0dtL2y/xp5E77py9my7J@WClSy4etW3FgTtd9AQ)
 ## [ShapeScript](https://github.com/DennisMitchell/shapescript), 15 bytes
 ```
 'Hello, World!'
