@@ -147,7 +147,7 @@
  - [Half-Broken Car in Heavy Traffic, (WARNING: INCORRECT)](#half-broken-car-in-heavy-traffic-warning-incorrect)
  - [Haskell, 26 bytes](#haskell-26-bytes)
  - [Haystack, 17 bytes](#haystack-17-bytes)
- - [Hexagony, 32 bytes](#hexagony-32-bytes)
+ - [Hexagony, 29 bytes](#hexagony-32-bytes)
  - [Huginn, 31 bytes](#huginn-31-bytes)
  - [Husk, 8 bytes](#husk-8-bytes)
  - [I, 15 bytes](#i-15-bytes)
@@ -1298,11 +1298,11 @@ main=putStr"Hello, World!"
 "Hello, World!"o|
 ```
 [Try it online!](https://tio.run/##y0isLC5JTM7@/1/JIzUnJ19HITy/KCdFUSm/5v9/AA)
-## [Hexagony](https://github.com/m-ender/hexagony), 32 bytes
+## [Hexagony](https://github.com/m-ender/hexagony), 29 bytes
 ```
-H;e;P1;@/;W;o;/l;;o;Q/r;l;d;2;P0
+H;_e;r;2l.;P.QW;l/P1;@;0d;\o;
 ```
-[Try it online!](https://tio.run/##y0itSEzPz6v8/9/DOtU6wNDaQd863DrfWj/HGkgG6hdZ51inWBtZBxj8/w8A)
+[Try it online!](https://tio.run/##y0itSEzPz6v8/9/DOj7VusjaKEfPOkAvMNw6Rz/A0NrB2iDFOibf@v9/AA)
 ## [Huginn](https://codestation.org/?h-action=menu-project&menu=submenu-project&page=&project=huginn), 31 bytes
 ```
 main(){print("Hello, World!");}
