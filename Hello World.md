@@ -16,7 +16,7 @@
  - [\\/, 189 bytes](#-189-bytes)
  - [A Pear Tree, 29 bytes](#a-pear-tree-29-bytes)
  - [Actually, 1 byte](#actually-1-byte)
- - [Add++, 26 bytes](#add-26-bytes)
+ - [Add++, 24 bytes](#add-24-bytes)
  - [ADJUST, 281 bytes](#adjust-281-bytes)
  - [Agony, 33 bytes](#agony-33-bytes)
  - [ALGOL 68 (Genie), 33 bytes](#algol-68-genie-33-bytes)
@@ -103,6 +103,7 @@
  - [Del\|m\|t, 30 bytes](#delmt-30-bytes)
  - [Deorst, 15 bytes](#deorst-15-bytes)
  - [Detour, 19 bytes](#detour-19-bytes)
+ - [Dodos, 159 bytes](#dodos-159-bytes)
  - [DStack, 21 bytes](#dstack-21-bytes)
  - [eacal, 24 bytes](#eacal-24-bytes)
  - [Element, 17 bytes](#element-17-bytes)
@@ -415,11 +416,10 @@ H
 [Try it online!](https://tio.run/##S0wuKU3Myan8/9/j/38A)
 ## [Add++](https://github.com/SatansSon/AddPlusPlus), 26 bytes
 ```
-D,f,^,"Hello, World!"
+D,f,:,"Hello, World!"
 $f
-O
 ```
-[Try it online!](https://tio.run/##S0xJKSj4/99FJ00nTkfJIzUnJ19HITy/KCdFUYlLJY3L//9/AA)
+[Try it online!](https://tio.run/##S0xJKSj4/99FJ03HSkfJIzUnJ19HITy/KCdFUYlLJe3/fwA)
 ## [ADJUST](https://github.com/TryItOnline/adjust), 281 bytes
 ```
  ;I-      &  e$      &  m-        &  g2Ph$      &  a2$      &  n$      &  e2+-      &  g2Ph$      &  OPh$      &  m-      &  e-      &  n-
@@ -949,6 +949,48 @@ w
 @"Hello, World!"
 ```
 [Try it online!](https://tio.run/##S0ktyS8t@v8/oZTLQckjNScnX0chPL8oJ0VR6f9/AA)
+## [Dodos](https://github.com/DennisMitchell/dodos), 159 bytes
+```
+	* 2
+	1 0 4
+	L
+	L
+	1 *
+	4 3 1
+	2 1 1
+	2 2 3
+	1 *
+	4 *
+	L
+	+ 0 0 4
+	3 1 1
+L
+	3 1 4
+*
+	2 4
++
+	dot
+i
+	+ j
+j
+	
+	dip + dab
+0
+	
+	
+	
+	
+	
+1
+	i + 0
+2
+	i 1
+3
+	i 2
+4
+	i 3
+```
+[Try it online!](https://tio.run/##PYxBDsMwCATP7Cs426pkY17Qcz7RyhfnEEdK3h9qnCoCaReYpfbaDzMKLKDMiRW0zM4cQMqFM0g43yJcnkuYWByZmSqTWW6jCI4rIqj2E83BFStozG3nyPXzRfLxX@N9G@sEcZNRXATqUsyuvp@tb4e93j8)
 ## [DStack](https://github.com/alejandrocoria/DStack), 21 bytes
 ```
 @0
