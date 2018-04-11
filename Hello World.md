@@ -16,11 +16,12 @@
  - [\\/, 189 bytes](#-189-bytes)
  - [A Pear Tree, 29 bytes](#a-pear-tree-29-bytes)
  - [Actually, 1 byte](#actually-1-byte)
- - [Add++, 24 bytes](#add-24-bytes)
+ - [Add++, 20 bytes](#add-20-bytes)
  - [ADJUST, 281 bytes](#adjust-281-bytes)
  - [Agony, 33 bytes](#agony-33-bytes)
  - [ALGOL 68 (Genie), 33 bytes](#algol-68-genie-33-bytes)
  - [Alice, 22 bytes](#alice-22-bytes)
+ - [AlphaBeta, 68 bytes](#alphabeta-68-bytes)
  - [Alphuck, 78 bytes](#alphuck-78-bytes)
  - [anyfix, 15 bytes](#anyfix-15-bytes)
  - [APL (Dyalog Classic), 17 bytes](#apl-dyalog-classic-17-bytes)
@@ -39,7 +40,7 @@
  - [Attache, 21 bytes](#attache-21-bytes)
  - [Aubergine, 61 bytes](#aubergine-61-bytes)
  - [AWK, 25 bytes](#awk-25-bytes)
- - [axo, 29 bytes](#axo-29-bytes)
+ - [axo, 22 bytes](#axo-22-bytes)
  - [Bash, 18 bytes](#bash-18-bytes)
  - [bc, 16 bytes](#bc-16-bytes)
  - [Beam, 120 bytes](#beam-120-bytes)
@@ -58,6 +59,7 @@
  - [Brain-Flak, 136 bytes](#brain-flak-136-bytes)
  - [Brain-Flak (BrainHack), 136 bytes](#brain-flak-brainhack-136-bytes)
  - [brainbool, 157 bytes](#brainbool-157-bytes)
+ - [BrainFlump, 362 bytes](#brainflump-362-bytes)
  - [brainfuck, 78 bytes](#brainfuck-78-bytes)
  - [Braingolf, 17 bytes](#braingolf-17-bytes)
  - [Broccoli, 22 bytes](#broccoli-22-bytes)
@@ -81,7 +83,7 @@
  - [Cheddar, 20 bytes](#cheddar-20-bytes)
  - [Chez Scheme, 24 bytes](#chez-scheme-24-bytes)
  - [CHICKEN Scheme, 22 bytes](#chicken-scheme-22-bytes)
- - [Chip, 119 bytes](#chip-119-bytes)
+ - [Chip, 97 bytes](#chip-97-bytes)
  - [Cinnamon Gum, 15 bytes](#cinnamon-gum-15-bytes)
  - [CJam, 15 bytes](#cjam-15-bytes)
  - [Clean, 33 bytes](#clean-33-bytes)
@@ -131,6 +133,7 @@
  - [F# (Mono), 21 bytes](#f-mono-21-bytes)
  - [face, 41 bytes](#face-41-bytes)
  - [Factor, 28 bytes](#factor-28-bytes)
+ - [Felix, 21 bytes](#felix-21-bytes)
  - [FerNANDo, 109 bytes](#fernando-109-bytes)
  - [FEU, 15 bytes](#feu-15-bytes)
  - [Fireball, 14 bytes](#fireball-14-bytes)
@@ -140,6 +143,7 @@
  - [Flipbit, 148 bytes](#flipbit-148-bytes)
  - [FOCAL-69, 25 bytes](#focal-69-25-bytes)
  - [Foo, 14 bytes](#foo-14-bytes)
+ - [Forked, 42 bytes](#forked-42-bytes)
  - [Forte, 25 bytes](#forte-25-bytes)
  - [Forth (gforth), 17 bytes](#forth-gforth-17-bytes)
  - [Fortran (GFortran), 28 bytes](#fortran-gfortran-28-bytes)
@@ -161,7 +165,7 @@
  - [Half-Broken Car in Heavy Traffic, (WARNING: INCORRECT)](#half-broken-car-in-heavy-traffic-warning-incorrect)
  - [Haskell, 26 bytes](#haskell-26-bytes)
  - [Haystack, 17 bytes](#haystack-17-bytes)
- - [Hexagony, 29 bytes](#hexagony-32-bytes)
+ - [Hexagony, 29 bytes](#hexagony-29-bytes)
  - [Huginn, 31 bytes](#huginn-31-bytes)
  - [Husk, 8 bytes](#husk-8-bytes)
  - [I, 15 bytes](#i-15-bytes)
@@ -193,7 +197,7 @@
  - [LLVM IR, 110 bytes](#llvm-ir-110-bytes)
  - [Logicode, 120 bytes](#logicode-120-bytes)
  - [LOLCODE, 37 bytes](#lolcode-37-bytes)
- - [Lost, 54 bytes](#lost-54-bytes)
+ - [Lost, 45 bytes](#lost-45-bytes)
  - [Lua, 20 bytes](#lua-20-bytes)
  - [Ly, 17 bytes](#ly-17-bytes)
  - [M, 14 bytes](#m-14-bytes)
@@ -209,6 +213,8 @@
  - [Minimal-2D, 175 bytes](#minimal-2d-175-bytes)
  - [miniML, 26 bytes](#miniml-26-bytes)
  - [Minkolang, 18 bytes](#minkolang-18-bytes)
+ - [Momema, 63 bytes](#momema-63-bytes)
+ - [Monkeys, 448 bytes](#monkeys-448-bytes)
  - [Mornington Crescent, 3568 bytes](#mornington-crescent-3568-bytes)
  - [MY, 60 bytes](#my-60-bytes)
  - [MY-BASIC, 20 bytes](#my-basic-20-bytes)
@@ -227,6 +233,7 @@
  - [Pain-Flak, 152 bytes](#pain-flak-152-bytes)
  - [Pari/GP, 22 bytes](#parigp-22-bytes)
  - [Pascal (FPC), 32 bytes](#pascal-fpc-32-bytes)
+ - [PATH, 113 bytes](#path-113-bytes)
  - [pbrain, 87 bytes](#pbrain-87-bytes)
  - [Perl 5, 20 bytes](#perl-5-20-bytes)
  - [Perl 6, 19 bytes](#perl-6-19-bytes)
@@ -269,6 +276,7 @@
  - [Rail, 27 bytes](#rail-27-bytes)
  - [Random Brainfuck, 78 bytes](#random-brainfuck-78-bytes)
  - [Rapira, 22 bytes](#rapira-22-bytes)
+ - [Recursiva, 14 bytes](#recursiva-14-bytes)
  - [Reng, 20 bytes](#reng-20-bytes)
  - [ReRegex, 13 bytes](#reregex-13-bytes)
  - [Reticular, 17 bytes](#reticular-17-bytes)
@@ -355,6 +363,7 @@
  - [Wise, 135 bytes](#wise-135-bytes)
  - [Woefully (WARNING: INCORRECT)](#woefully-warning-incorrect)
  - [wsf, 174 bytes](#wsf-174-bytes)
+ - [Wumpus, 19 bytes](#wumpus-19-bytes)
  - [Yabasic, 16 bytes](#yabasic-16-bytes)
  - [yup, 1171 bytes](#yup-1171-bytes)
  - [zkl, 22 bytes](#zkl-22-bytes)
@@ -452,10 +461,9 @@ H
 [Try it online!](https://tio.run/##S0wuKU3Myan8/9/j/38A)
 ## [Add++](https://github.com/SatansSon/AddPlusPlus), 26 bytes
 ```
-D,f,:,"Hello, World!"
-$f
+D,f,,"Hello, World!"
 ```
-[Try it online!](https://tio.run/##S0xJKSj4/99FJ03HSkfJIzUnJ19HITy/KCdFUYlLJe3/fwA)
+[Try it online!](https://tio.run/##S0xJKSj4/99FJ01HR8kjNScnX0chPL8oJ0VR6f//f/kFJZn5ecX/dTMB)
 ## [ADJUST](https://github.com/TryItOnline/adjust), 281 bytes
 ```
  ;I-      &  e$      &  m-        &  g2Ph$      &  a2$      &  n$      &  e2+-      &  g2Ph$      &  OPh$      &  m-      &  e-      &  n-
@@ -478,6 +486,11 @@ print("Hello, World!")
 @""edlr,W\ 
 ```
 [Try it online!](https://tio.run/##S8zJTE79/1/f30MxJyc/X0Gfy0FJKTUlp0gnPEbh/38A)
+## [AlphaBeta](https://github.com/TryItOnline/alphabeta), 68 bytes
+```
+kjjjggDLeaCLcbbbCLLaaaCLjjjggDLjhhDLsFihhDLCLaaaCLdaaaaCLdaaCLsFiiDL
+```
+[Try it online!](https://tio.run/##NYnBDYAwDMSGS8TrlrhA1TTwqAT7h1aFly2bV3daeZh5RkStikLBbmYCkMO/HO6Ke2sTss7BHzJPU2S@)
 ## [Alphuck](https://github.com/TryItOnline/tio-transpilers), 78 bytes
 ```
 iiciccepepceaiiiaiaiaicccsascciijceeeeeejccijjccjcejaajaajcccjeeejaajaaijcccej
@@ -610,13 +623,11 @@ Print!"Hello, World!"
 END{print"Hello, World!"}
 ```
 [Try it online!](https://tio.run/##SyzP/v/f1c@luqAoM69EySM1JydfRyE8vygnRVGp9v9/AA)
-## [axo](https://esolangs.org/wiki/Axo), 29 bytes
+## [axo](https://esolangs.org/wiki/Axo), 22 bytes
 ```
-"!dlroW ,o%
-\%#[<"Hell<
- >( ^
+"!dlroW ,olleeH">[(#<\
 ```
-[Try it online!](https://tio.run/##S6zI//9fSTElpyg/XEEnX5UrRlU52kbJIzUnx4ZLwU5DIe7/fwA)
+[Try it online!](https://tio.run/##S6zI//9fSTElpyg/XEEnPycnNdVDyS5aQ9km5v9/AA)
 ## [Bash](https://www.gnu.org/software/bash/), 18 bytes
 ```
 echo Hello, World!
@@ -722,6 +733,11 @@ print"Hello, World!"
 .+.+..+.+....+..+..+.+.+.+.+..+.+..+...+..+.+..+...+..+.+....+..+.+.+..+....+.+......+.+.+.+.+...+.+..+.+....+.+...+..+.+..+..+.+..+...+..+..+.+....+.+....+.
 ```
 [Try it online!](https://tio.run/##SypKzMxLys/P@f9fTxsIIYQehAXmaCOJa@vpYWUjKYZxwRSKCWjmo5mFaiaqMiDx//9/XScA)
+## [BrainFlump](https://github.com/gunnerwolf/BrainFlump), 362 bytes
+```
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.+++++++++++++++++++++++++++++.+++++++:..+++.-------------------------------------------------------------------.------------.+++++++++++++++++++++++++++++++++++++++++++++++++++++++.++++++++++++++++++++++++.+++.;.--------.-------------------------------------------------------------------.
+```
+[Try it online!](https://tio.run/##SypKzMxLyynNLfj/X5tKQI8oWSs9EEtPl3KAYoYetR0NdqW1HlbLyHXw//8A)
 ## [brainfuck](https://github.com/TryItOnline/tio-transpilers), 78 bytes
 ```
 --<-<<+[+[<+>--->->->-<<<]>]<<--.<++++++.<<-..<<.<+.>>.>>.<<<.+++.>>.>>-.<<<+.
@@ -848,18 +864,17 @@ print"Hello, World!"
 (print"Hello, World!")
 ```
 [Try it online!](https://tio.run/##K07OSM1N1U3OyEzOTs37/1@joCgzr0TJIzUnJ19HITy/KCdFUUnz/38A)
-## [Chip](https://github.com/Phlarx/chip), 119 bytes
+## [Chip](https://github.com/Phlarx/chip), 97 bytes
 ```
 !ZZZZZZZZZZZZt
-)))))xx)))))xg
-x))))))x)))))f
-xxxxxxx)x)xxxe
-)x))))xx)x)xxd
-x)))))x))x))xc
-xxxx)xx)))xxxb
-x)xx)xx))xxx)a
+|))))))x)))))f
+|)xx)x-))xxxa
+|)))))-))x))c
+)))))x-))))g
+)-))))-x)xd
+    b e^b^e
 ```
-[Try it online!](https://tio.run/##S87ILPj/XzEKCZRwaYJARQWESueCMDQhVBpXBQQA@UAylQsiDuWnQBVXQFAyF0RlBVhFRRIXmA3igoQT////r1sOAA)
+[Try it online!](https://tio.run/##S87ILPj/XzEKCZRw1WiCQQWYTANyKyo0K3SBAhUViVBJXbB0MhdEoS6ITOfSBNO6QMUpXApAkKSQGpcUl/r//3/dcgA)
 ## [Cinnamon Gum](https://github.com/quartata/cinnamon-gum), 15 bytes
 ```
 00000000: 2201 1d92 93bd 33f1 a12f 2a4e 940b 32    ".....3../*N..2
@@ -1220,6 +1235,11 @@ printf"Hello, World!"
 USE: io "Hello, World!"print
 ```
 [Try it online!](https://tio.run/##S0tMLskv@v8/NNjVSiEzX0HJIzUnJ19HITy/KCdFUamgKDOv5P9/AA)
+## [Felix](https://github.com/felix-lang/felix), 21 bytes
+```
+print"Hello, World!";
+```
+[Try it online!](https://tio.run/##S0vNyaz4/7@gKDOvRMkjNScnX0chPL8oJ0VRyfr/fwA)
 ## [FerNANDo](https://esolangs.org/wiki/FerNANDo), 109 bytes
 ```
 7 7
@@ -1278,6 +1298,11 @@ g
 "Hello, World!
 ```
 [Try it online!](https://tio.run/##S8vP//9fySM1JydfRyE8vygnRfH/fwA)
+## [Forked](https://github.com/aaronryank/Forked), 42 bytes
+```
+89*@AA*i@7+@@3+@4B*@C'!sF+!@3+@6'@8'!3B*!&
+```
+[Try it online!](https://tio.run/##S8svyk5N@f/fwlLLwdFRK9PBXNvBwVjbwcRJy8FZXbHYTVsRxDVTd7BQVzR20lJU@/8fAA)
 ## [Forte](https://github.com/judofyr/forter), 25 bytes
 ```
 1PRINT"Hello, World!":END
@@ -1662,13 +1687,12 @@ VISIBLE "Hello, World!"
 KTHXBYE
 ```
 [Try it online!](https://tio.run/##y8nPSc5PSf3/38PRU8GQK8wz2NPJx1VBySM1JydfRyE8vygnRVGJyzvEI8Ip0vX/fwA)
-## [Lost](https://github.com/Wheatwizard/Lost), 54 bytes
+## [Lost](https://github.com/Wheatwizard/Lost), 45 bytes
 ```
-v<<<<<<<<<<<>>>>>>>>>>>>
->%?!|"Hello, WorldvU"-+@
-   v
+v<<<<<<<<<<>>>>>>>>>>>
+>%?"Hello, WorldvU"-+@
 ```
-[Try it online!](https://tio.run/##y8kvLvn/v8wGAeyQAJedqr1ijZJHak5Ovo5CeH5RTkpZqJKutgOXgoJC2f///3UdAQ)
+[Try it online!](https://tio.run/##y8kvLvn/v8wGDuwQgMtO1V7JIzUnJ19HITy/KCelLFRJV9vh////uo4A)
 ## [Lua](https://www.lua.org), 20 bytes
 ```
 print"Hello, World!"
@@ -1756,6 +1780,75 @@ map putchar"Hello, World!"
 "Hello, World!"$O.
 ```
 [Try it online!](https://tio.run/##y83My87PScxL//9fySM1JydfRyE8vygnRVFJxV/v/38A)
+## [Momema](https://github.com/ScratchMan544/momema), 63 bytes
+```
+0-9*072*0101*0108*0108*0111*044*032*087*0111*0114*0108*0100*033
+```
+[Try it online!](https://tio.run/##y83PTc1N/P/fQNdSy8DcSMvA0MAQRFjACEMg18REy8AYKGdhDhUwNDSBKzIAyhn//w8A)
+## [Monkeys](https://github.com/TryItOnline/monkeys), 448 bytes
+```
+7 RIGHT
+7 RIGHT
+7 RIGHT
+7 RIGHT
+7 UP
+5 DOWN
+5 RIGHT
+4 DOWN
+7 TEACH
+7 BOND
+4 UP
+7 BOND
+7 TEACH
+7 TEACH
+6 YELL
+4 TEACH
+4 TEACH
+7 FIGHT
+5 TEACH
+6 YELL
+7 TEACH
+7 TEACH
+5 FIGHT
+6 YELL
+6 YELL
+7 TEACH
+5 FIGHT
+6 YELL
+7 EGO
+4 TEACH
+5 TEACH
+6 YELL
+4 FIGHT
+7 TEACH
+6 YELL
+4 TEACH
+4 TEACH
+4 DOWN
+7 TEACH
+4 UP
+4 TEACH
+5 FIGHT
+6 YELL
+4 TEACH
+7 TEACH
+6 YELL
+7 TEACH
+5 FIGHT
+6 YELL
+7 FIGHT
+5 FIGHT
+5 FIGHT
+6 YELL
+7 FIGHT
+7 FIGHT
+6 YELL
+7 EGO
+7 TEACH
+7 TEACH
+6 YELL
+```
+[Try it online!](https://tio.run/##y83Py06tLP7/31whyNPdI4QLNx0awGWq4OIf7gekIGImEK65Qoiro7MHkHby93MBigJVQtkIKQhtphDp6uMDVALhmsCl3cAGmqIqQ9dtClUGlUZThSZrruDq7g@3wRTdAW5QX@F1F5oHwT4zwW6dCXaf4nQczMOoNJq0OTYvYQ/T//8B)
 ## [Mornington Crescent](https://github.com/padarom/esoterpret), 3568 bytes
 ```
 Take Northern Line to Hendon Central
@@ -1967,6 +2060,12 @@ print("Hello, World!")
 begin write('Hello, World!')end.
 ```
 [Try it online!](https://tio.run/##K0gsTk7M0U0rSP7/Pyk1PTNPobwosyRVQ90jNScnX0chPL8oJ0VRXTM1L0Xv/38A)
+## [PATH](https://sourceforge.net/projects/pathlang/), 113 bytes
+```
+/++}+++++++}+++++}<$+++++++<
+\+}++}++++++{{{{{-^}++.}+++.+++++++..+++.}++.}++++.}+++.{{{.+++.------.--------.}}+.
+```
+[Try it online!](https://tio.run/##K0gsyfj/X19bu1YbAiB0rY0KlG/DFQMSg0pXg4BuHJCnBxLRgyrSAzH0YKJQOaBKsLAuGEApIKO2Vlvv/38A)
 ## [pbrain](http://www.parkscomputing.com/applications/pbrain/), 87 bytes
 ```
 --->->->>+>+>>+[++++[>+++[>++++>-->+++<<<-]<-]<+++]>>>.>-->-.>..+>++++>+++.+>-->[>-.<<]
@@ -2192,6 +2291,11 @@ $'main'
 OUTPUT:"Hello, World!"
 ```
 [Try it online!](https://tio.run/##K0osyCxK/P/fPzQkIDTESskjNScnX0chPL8oJ0VR6f9/AA)
+## [Recursiva](https://github.com/officialaimm/recursiva), 14 bytes
+```
+"Hello, World!
+```
+[Try it online!](https://tio.run/##K0pNLi0qzixL/P9fySM1JydfRyE8vygnRfH/fwA)
 ## [Reng](https://github.com/ConorOBrien-Foxx/Reng), 20 bytes
 ```
 "Hello, World!"rao;~
@@ -2913,6 +3017,11 @@ GZiwWOwQROWIkilBAQWmkOCDmifGww
 	
 ```
 [Try it online!](https://tio.run/##XU1BDgAgCDrjK3xdH@jQ821C6UqHQ4ew5ohwsK1g7gcmourlO@ubJSuHoaZE8s3D1SM5QMkTQh@0M9MozIeIDQ)
+## [Wumpus](https://github.com/m-ender/wumpus), 19 bytes
+```
+"!dlroW ,olleH"l&o@
+```
+[Try it online!](https://tio.run/##Ky/NLSgt/v9fSTElpyg/XEEnPycn1UMpRy3f4f9/AA)
 ## [Yabasic](http://www.yabasic.de/), 16 bytes
 ```
 ?"Hello, World!"
