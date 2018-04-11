@@ -30,11 +30,13 @@
  - [Archway2, 182 bytes](#archway2-182-bytes)
  - [Arcyóu, 15 bytes](#arcyóu-15-bytes)
  - [ArnoldC, 71 bytes](#arnoldc-71-bytes)
- - [Assembly (as, x64, Linux), 77 bytes](#assembly-as-x64-linux-77-bytes)
+ - [AsciiDots, 18 bytes](#asciidots-18-bytes)
+ - [Assembly (as, x64, Linux), 22 bytes](#assembly-as-x64-linux-22-bytes)
  - [Assembly (fasm, x64, Linux), 119 bytes](#assembly-fasm-x64-linux-119-bytes)
  - [Assembly (gcc, x64, Linux), 149 bytes](#assembly-gcc-x64-linux-149-bytes)
  - [Assembly (MIPS, SPIM), 56 bytes](#assembly-mips-spim-56-bytes)
  - [Assembly (nasm, x64, Linux), 117 bytes](#assembly-nasm-x64-linux-117-bytes)
+ - [Attache, 21 bytes](#attache-21-bytes)
  - [Aubergine, 61 bytes](#aubergine-61-bytes)
  - [AWK, 25 bytes](#awk-25-bytes)
  - [axo, 29 bytes](#axo-29-bytes)
@@ -49,14 +51,16 @@
  - [Befunge-98 (FBBI), 18 bytes](#befunge-98-fbbi-18-bytes)
  - [Befunge-98 (PyFunge), 19 bytes](#befunge-98-pyfunge-19-bytes)
  - [Binary Lambda Calculus, 14 bytes](#binary-lambda-calculus-14-bytes)
+ - [Bitwise, 149 bytes](#bitwise-149-bytes)
  - [Boo, 20 bytes](#boo-20-bytes)
  - [Brachylog, 16 bytes](#brachylog-16-bytes)
  - [Brachylog v1, 3 bytes](#brachylog-v1-3-bytes)
- - [Brain-Flak, 148 bytes](#brain-flak-148-bytes)
- - [Brain-Flak (BrainHack), 148 bytes](#brain-flak-brainhack-148-bytes)
+ - [Brain-Flak, 136 bytes](#brain-flak-136-bytes)
+ - [Brain-Flak (BrainHack), 136 bytes](#brain-flak-brainhack-136-bytes)
  - [brainbool, 157 bytes](#brainbool-157-bytes)
  - [brainfuck, 78 bytes](#brainfuck-78-bytes)
  - [Braingolf, 17 bytes](#braingolf-17-bytes)
+ - [Broccoli, 22 bytes](#broccoli-22-bytes)
  - [Brian & Chuck, 32 bytes](#brian--chuck-32-bytes)
  - [Bubblegum, 11 bytes](#bubblegum-11-bytes)
  - [C (clang), 30 bytes](#c-clang-30-bytes)
@@ -66,6 +70,7 @@
  - [C# (Mono), 77 bytes](#c-mono-77-bytes)
  - [C++ (gcc), 47 bytes](#c-gcc-47-bytes)
  - [Cardinal, 18 bytes](#cardinal-18-bytes)
+ - [Cauliflower, 22 bytes](#cauliflower-22-bytes)
  - [Ceres, 34 bytes](#ceres-34-bytes)
  - [Ceylon, 42 bytes](#ceylon-42-bytes)
  - [Chain, 13 bytes](#chain-13-bytes)
@@ -79,6 +84,7 @@
  - [Chip, 119 bytes](#chip-119-bytes)
  - [Cinnamon Gum, 15 bytes](#cinnamon-gum-15-bytes)
  - [CJam, 15 bytes](#cjam-15-bytes)
+ - [Clean, 33 bytes](#clean-33-bytes)
  - [Clojure, 22 bytes](#clojure-22-bytes)
  - [COBOL (GNU), 55 bytes](#cobol-gnu-55-bytes)
  - [CoffeeScript, 28 bytes](#coffeescript-28-bytes)
@@ -87,12 +93,12 @@
  - [Common Lisp, 25 bytes](#common-lisp-25-bytes)
  - [Condit, 41 bytes](#condit-41-bytes)
  - [Convex, 14 bytes](#convex-14-bytes)
- - [Cood, 417 bytes](#cood-417-bytes)
+ - [Cood, 381 bytes](#cood-381-bytes)
  - [COW, 261 bytes](#cow-261-bytes)
  - [cQuents, 15 bytes](#cquents-15-bytes)
  - [Crayon, 16 bytes](#crayon-16-bytes)
  - [Crystal, 20 bytes](#crystal-20-bytes)
- - [Cubically, 123 bytes](#cubically-123-bytes)
+ - [Cubically, 78 bytes](#cubically-78-bytes)
  - [Cubix, 29 bytes](#cubix-29-bytes)
  - [Cy, 18 bytes](#cy-18-bytes)
  - [D, 52 bytes](#d-52-bytes)
@@ -103,12 +109,16 @@
  - [Del\|m\|t, 30 bytes](#delmt-30-bytes)
  - [Deorst, 15 bytes](#deorst-15-bytes)
  - [Detour, 19 bytes](#detour-19-bytes)
+ - [Dirty, 16 bytes](#dirty-16-bytes)
+ - [DOBELA, 143 bytes](#dobela-143-bytes)
  - [Dodos, 159 bytes](#dodos-159-bytes)
+ - [Dreaderef, 31 bytes](#dreaderef-31-bytes)
  - [DStack, 21 bytes](#dstack-21-bytes)
  - [eacal, 24 bytes](#eacal-24-bytes)
  - [Element, 17 bytes](#element-17-bytes)
  - [ELF (x86/x64, Linux), 59 bytes](#elf-x86x64-linux-59-bytes)
  - [Elixir, 22 bytes](#elixir-22-bytes)
+ - [ELVM-IR, 68 bytes](#elvm-ir-68-bytes)
  - [Emacs Lisp, 22 bytes](#emacs-lisp-22-bytes)
  - [Emmental, 57 bytes](#emmental-57-bytes)
  - [Emoji, 24 bytes](#emoji-24-bytes)
@@ -119,6 +129,7 @@
  - [Explode, 92 bytes](#explode-92-bytes)
  - [ExtraC, 55 bytes](#extrac-55-bytes)
  - [F# (Mono), 21 bytes](#f-mono-21-bytes)
+ - [face, 41 bytes](#face-41-bytes)
  - [Factor, 28 bytes](#factor-28-bytes)
  - [FerNANDo, 109 bytes](#fernando-109-bytes)
  - [FEU, 15 bytes](#feu-15-bytes)
@@ -126,12 +137,14 @@
  - [fish, 18 bytes](#fish-18-bytes)
  - [Fission, 17 bytes](#fission-17-bytes)
  - [Fission 2, 17 bytes](#fission-2-17-bytes)
+ - [Flipbit, 148 bytes](#flipbit-148-bytes)
  - [FOCAL-69, 25 bytes](#focal-69-25-bytes)
  - [Foo, 14 bytes](#foo-14-bytes)
  - [Forte, 25 bytes](#forte-25-bytes)
  - [Forth (gforth), 17 bytes](#forth-gforth-17-bytes)
  - [Fortran (GFortran), 28 bytes](#fortran-gfortran-28-bytes)
  - [Fourier, 15 bytes](#fourier-15-bytes)
+ - [Fueue, 40 bytes](#fueue-40-bytes)
  - [Funciton, 209 bytes](#funciton-209-bytes)
  - [Gaia, 14 bytes](#gaia-14-bytes)
  - [Gambit Scheme (gsi), 24 bytes](#gambit-scheme-gsi-24-bytes)
@@ -152,6 +165,7 @@
  - [Huginn, 31 bytes](#huginn-31-bytes)
  - [Husk, 8 bytes](#husk-8-bytes)
  - [I, 15 bytes](#i-15-bytes)
+ - [Implicit, 14 bytes](#implicit-14-bytes)
  - [Incident, 2080 bytes](#incident-2080-bytes)
  - [INTERCAL, 285 bytes](#intercal-285-bytes)
  - [J, 19 bytes](#j-19-bytes)
@@ -176,13 +190,14 @@
  - [ksh, 18 bytes](#ksh-18-bytes)
  - [Labyrinth, 40 bytes](#labyrinth-40-bytes)
  - [Lily, 33 bytes](#lily-33-bytes)
- - [LLVM IR, 155 bytes](#llvm-ir-155-bytes)
- - [Logicode, 121 bytes](#logicode-121-bytes)
+ - [LLVM IR, 110 bytes](#llvm-ir-110-bytes)
+ - [Logicode, 120 bytes](#logicode-120-bytes)
  - [LOLCODE, 37 bytes](#lolcode-37-bytes)
  - [Lost, 54 bytes](#lost-54-bytes)
  - [Lua, 20 bytes](#lua-20-bytes)
  - [Ly, 17 bytes](#ly-17-bytes)
  - [M, 14 bytes](#m-14-bytes)
+ - [MachineCode, 54 bytes](#machinecode-54-bytes)
  - [Make, 28 bytes](#make-28-bytes)
  - [Malbolge, 112 bytes](#malbolge-112-bytes)
  - [MarioLANG, 235 bytes](#mariolang-235-bytes)
@@ -194,9 +209,13 @@
  - [Minimal-2D, 175 bytes](#minimal-2d-175-bytes)
  - [miniML, 26 bytes](#miniml-26-bytes)
  - [Minkolang, 18 bytes](#minkolang-18-bytes)
+ - [Mornington Crescent, 3568 bytes](#mornington-crescent-3568-bytes)
  - [MY, 60 bytes](#my-60-bytes)
+ - [MY-BASIC, 20 bytes](#my-basic-20-bytes)
  - [Neim, 16 bytes](#neim-16-bytes)
+ - [Nhohnhehr, 181 bytes](#nhohnhehr-181-bytes)
  - [Nim, 19 bytes](#nim-19-bytes)
+ - [NotQuiteThere, 17 bytes](#notquitethere-17-bytes)
  - [NTFJ (NTFJC), 106 bytes](#ntfj-ntfjc-106-bytes)
  - [Numberwang, 77 bytes](#numberwang-77-bytes)
  - [Oasis, 14 bytes](#oasis-14-bytes)
@@ -205,6 +224,7 @@
  - [Octave, 19 bytes](#octave-19-bytes)
  - [Ohm, 14 bytes](#ohm-14-bytes)
  - [Parenthetic, 604 bytes](#parenthetic-604-bytes)
+ - [Pain-Flak, 152 bytes](#pain-flak-152-bytes)
  - [Pari/GP, 22 bytes](#parigp-22-bytes)
  - [Pascal (FPC), 32 bytes](#pascal-fpc-32-bytes)
  - [pbrain, 87 bytes](#pbrain-87-bytes)
@@ -231,17 +251,24 @@
  - [Pyke, 14 bytes](#pyke-14-bytes)
  - [Pylons, 16 bytes](#pylons-16-bytes)
  - [Pyramid Scheme, 857 bytes](#pyramid-scheme-857-bytes)
+ - [Pyt, 40 bytes](#pyt-40-bytes)
  - [Pyth, 14 bytes](#pyth-14-bytes)
  - [Python 1, 20 bytes](#python-1-20-bytes)
  - [Python 2, 20 bytes](#python-2-20-bytes)
+ - [Python 2 (Cython), 20 bytes](#python-2-cython-20-bytes)
+ - [Python 2 (IronPython), 20 bytes](#python-2-ironpython-20-bytes)
+ - [Python 2 (Jython), 20 bytes](#python-2-jython-20-bytes)
  - [Python 2 (PyPy), 20 bytes](#python-2-pypy-20-bytes)
  - [Python 3, 22 bytes](#python-3-22-bytes)
+ - [Python 3 (Cython), 22 bytes](#python-3-cython-22-bytes)
+ - [Python 3 (Stackless), 22 bytes](#python-3-stackless-22-bytes)
  - [QuadR, 13 bytes](#quadr-13-bytes)
  - [QuadS, 13 bytes](#quads-13-bytes)
  - [R, 20 bytes](#r-20-bytes)
  - [Racket, 37 bytes](#racket-37-bytes)
  - [Rail, 27 bytes](#rail-27-bytes)
  - [Random Brainfuck, 78 bytes](#random-brainfuck-78-bytes)
+ - [Rapira, 22 bytes](#rapira-22-bytes)
  - [Reng, 20 bytes](#reng-20-bytes)
  - [ReRegex, 13 bytes](#reregex-13-bytes)
  - [Reticular, 17 bytes](#reticular-17-bytes)
@@ -260,6 +287,7 @@
  - [Scala, 47 bytes](#scala-47-bytes)
  - [sed, 14 bytes](#sed-14-bytes)
  - [sed 4.2.2, 19 bytes](#sed-422-19-bytes)
+ - [Seed, 4203 bytes](#seed-4203-bytes)
  - [Self-modifying Brainfuck, 29 bytes](#self-modifying-brainfuck-29-bytes)
  - [Seriously, 1 byte](#seriously-1-byte)
  - [Sesos, 21 bytes](#sesos-21-bytes)
@@ -272,6 +300,7 @@
  - [Simula (cim), 24 bytes](#simula-cim-24-bytes)
  - [SISAL, 66 bytes](#sisal-66-bytes)
  - [Snails, 45 bytes](#snails-45-bytes)
+ - [SNOBOL4 (CSNOBOL4), 28 bytes](#snobol4-csnobol4-28-bytes)
  - [Snowman, 18 bytes](#snowman-18-bytes)
  - [SNUSP (Modular), 291 bytes](#snusp-modular-291-bytes)
  - [Somme, 38 bytes](#somme-38-bytes)
@@ -286,6 +315,7 @@
  - [Straw, 2 bytes](#straw-2-bytes)
  - [Surface (WARNING: INCORRECT)](#surface-warning-incorrect)
  - [Swap, 29 bytes](#swap-29-bytes)
+ - [Symbolic Python, 200 bytes](#symbolic-python-200-bytes)
  - [Syms, 16 bytes](#syms-16-bytes)
  - [TacO, 16 bytes](#taco-16-bytes)
  - [Taxi, 183 bytes](#taxi-183-bytes)
@@ -304,7 +334,7 @@
  - [TrumpScript, 36 bytes](#trumpscript-36-bytes)
  - [Turtlèd, 14 bytes](#turtlèd-14-bytes)
  - [TypeScript, 28 bytes](#typescript-28-bytes)
- - [uBASIC, 22 bytes](#ubasic-22-bytes)
+ - [uBASIC, 17 bytes](#ubasic-17-bytes)
  - [Underload, 16 bytes](#underload-16-bytes)
  - [Unefunge-98 (PyFunge), 19 bytes](#unefunge-98-pyfunge-19-bytes)
  - [Unicat, 832 bytes](#unicat-832-bytes)
@@ -312,14 +342,20 @@
  - [Unreadable, 577 bytes](#unreadable-577-bytes)
  - [V, 14 bytes](#v-14-bytes)
  - [Vala, 42 bytes](#vala-42-bytes)
+ - [Verbosity, 390 bytes](#verbosity-390-bytes)
  - [Visual Basic .NET (Mono), 71 bytes](#visual-basic-net-mono-71-bytes)
  - [Vitsy, 16 bytes](#vitsy-16-bytes)
+ - [VSL, 32 bytes](#vsl-32-bytes)
  - [Whirl, 1350 bytes](#whirl-1350-bytes)
- - [Whitespace, 146 bytes](#whitespace-146-bytes)
+ - [Whispers v1, 29 bytes](#whispers-v1-29-bytes)
+ - [Whispers v2, 29 bytes](#whispers-v2-29-bytes)
+ - [Whitespace, 126 bytes](#whitespace-126-bytes)
  - [Width, 30 bytes](#width-30-bytes)
+ - [Wierd (John's), 181 bytes](#wierd-johns-181-bytes)
  - [Wise, 135 bytes](#wise-135-bytes)
  - [Woefully (WARNING: INCORRECT)](#woefully-warning-incorrect)
  - [wsf, 174 bytes](#wsf-174-bytes)
+ - [Yabasic, 16 bytes](#yabasic-16-bytes)
  - [yup, 1171 bytes](#yup-1171-bytes)
  - [zkl, 22 bytes](#zkl-22-bytes)
  - [Zsh, 17 bytes](#zsh-17-bytes)
@@ -495,16 +531,16 @@ TALK TO THE HAND "Hello, World!"
 YOU HAVE BEEN TERMINATED
 ```
 [Try it online!](https://tio.run/##DcmxCoAgEADQ3a@4XFr6CcMDpVTIK2mMbDsS/H@4euu7@tu43iKexgzZpUI@oCKzLkAJyCE4Ey1o9zC3CUrrXAetzrT/cSDMiBEIt@CjIbQiHw)
-## [Assembly (as, x64, Linux)](https://sourceware.org/binutils/docs/as/index.html), 77 bytes
+## [AsciiDots](https://github.com/aaronduino/asciidots), 18 bytes
 ```
-.globl _start
+.-$"Hello, World!"
+```
+[Try it online!](https://tio.run/##SyxOzsxMyS8p/v9fT1dFySM1JydfRyE8vygnRVHp/38A)
+## [Assembly (as, x64, Linux)](https://sourceware.org/binutils/docs/as/index.html), 22 bytes
+```
 .print "Hello, World!"
-_start:
-mov $60,%rax
-mov $0,%rdi
-syscall
 ```
-[Try it online!](https://tio.run/##SywuTs1NyqnUTSz@/18vPSc/KUchvrgksaiES6@gKDOvREHJIzUnJ19HITy/KCdFUYkLImvFlZtfpqBiZqCjWpRYAeGA2CmZXMWVxcmJOTn//wMA)
+[Try it online!](https://tio.run/##SywuTs1NyqnUTSz@/1@voCgzr0RBySM1JydfRyE8vygnRVHp/38A)
 ## [Assembly (fasm, x64, Linux)](https://flatassembler.net/), 119 bytes
 ```
 format ELF executable
@@ -558,6 +594,11 @@ int 128
 s db"Hello, World!"
 ```
 [Try it online!](https://tio.run/##PclBCoAgEEDRvaeYWhtktYhO0A1axpgSwZjQSNjpLRJc/Q8Pma3T9DQnsktpJ6@RYOWAVxA5k/M3WBOl6sW/W5ScD6Mc8umPxXEGUN1YTBVrizEYXc@WyEtY/EWmqlN6AQ)
+## [Attache](https://github.com/ConorOBrien-Foxx/attache), 21 bytes
+```
+Print!"Hello, World!"
+```
+[Try it online!](https://tio.run/##SywpSUzOSP3/P6AoM69EUckjNScnX0chPL8oJ0VR6f9/AA)
 ## [Aubergine](https://esolangs.org/wiki/Aubergine), 61 bytes
 ```
 =aA-a1=oA=bi+b1-Ab-bb:bA+B1=iBGolf by Quintopia
@@ -633,6 +674,24 @@ _`Hello, World!
 00000000: 2a48 656c 6c6f 2c20 576f 726c 6421       *Hello, World!
 ```
 [Try it online!](https://tio.run/##S8pJ/v/fAAqsFIwSTSwUzEzNkhXMks3SFIySjQwUTM2BLHMjkJiJkaECBGh5pObk5OsohOcX5aQo/v8PAA)
+## [Bitwise](https://github.com/aaronryank/bitwise), 149 bytes
+```
+MOV 1 &1 &1
+OUT &72 1
+OUT &101 1
+OUT &108 1
+OUT &108 1
+OUT &111 1
+OUT &44 1
+OUT &32 1
+OUT &87 1
+OUT &111 1
+OUT &114 1
+OUT &108 1
+OUT &100 1
+OUT &33 1
+```
+[Try it online!](https://tio.run/##S8osKc8sTv3/39c/TMFQQQ2EuPxDQxTUzI0UoCxDA0ME0wIb0xCuwMQExjKG67cwx6LQ0NAEq6EGcP3GCob//wMA)
 ## [Boo](http://boo-lang.org/), 20 bytes
 ```
 print"Hello, World!"
@@ -650,14 +709,14 @@ print"Hello, World!"
 [Try it online!](https://tio.run/##SypKTM6ozMlP///fwaP8/38A)
 ## [Brain-Flak](https://github.com/DJMcMayhem/Brain-Flak), 148 bytes
 ```
-(((((((((((()()()()){}){}){}()))){}{}())[][][][])[][])[[]]())[[][][][][]]())([([]([])[][]{})]()()()([[]](([()()()]([([][][])](((({}()){}))){}{})))))
+((((((((((((()()){}){}){}){}()))){}{}())([][]){})[][])[[]]())[((()[]){}){}])([()[]](([]([](((([][]))([]{}{})))[]{}[])[[]])))(([][][]){})
 ```
-[Try it online!](https://tio.run/##SypKzMzTTctJzP7/XwMJaEKgZnUtBAGZIA6YER0LgZoQIjo2FiQIE4VwNaI1omM1oGqAJsRCTQSrBkqCebFgVWBTYkGWgk0HKobYBLJR8////7qOAA)
+[Try it online!](https://tio.run/##TYzBCoAwDEN/pzvsI/yOksM8CKJ48Dr27TVZRSyFNmle17vtV93OdkTYv4qV0sfXVNJzMYdD9pzuAE0Xk3YfYEYKxqzaLCGx@sJnWl6cKu/JR0RdHg)
 ## [Brain-Flak (BrainHack)](https://github.com/Flakheads/BrainHack), 148 bytes
 ```
-(((((((((((()()()()){}){}){}()))){}{}())[][][][])[][])[[]]())[[][][][][]]())([([]([])[][]{})]()()()([[]](([()()()]([([][][])](((({}()){}))){}{})))))
+((((((((((((()()){}){}){}){}()))){}{}())([][]){})[][])[[]]())[((()[]){}){}])([()[]](([]([](((([][]))([]{}{})))[]{}[])[[]])))(([][][]){})
 ```
-[Try it online!](https://tio.run/##SypKzMzLSEzO/v9fAwloQqBmdS0EAZkgDpgRHQuBmhAiOjYWJAgThXA1ojWiYzWgaoAmxEJNBKsGSoJ5sWBVYFNiQZaCTQcqhtgEslHz////uo4A)
+[Try it online!](https://tio.run/##TYwxDoAwDAO/4w48gndEGVoWEBIDa9W3B7tBiChSYseXdtfj2ut2RuBfBaX08TWV9Fxgbi57TjN3miYm7T6cGSkHs2ogIbH6wmdaXpwq78lHxLI@)
 ## [brainbool](https://github.com/TryItOnline/tio-transpilers), 157 bytes
 ```
 .+.+..+.+....+..+..+.+.+.+.+..+.+..+...+..+.+..+...+..+.+....+..+.+.+..+....+.+......+.+.+.+.+...+.+..+.+....+.+...+..+.+..+..+.+..+...+..+..+.+....+.+....+.
@@ -679,6 +738,11 @@ _#Jgnnq."Yqtnf#_{?
 #{<{>-?>--.>?
 ```
 [Try it online!](https://tio.run/##SyrKTMzTTc4oTc7@/z9e2Ss9L69QTymysCQvTTm@2p5Ludqm2k7X3k5XV8/O/v9/AA)
+## [Broccoli, 22 bytes](https://github.com/broccoli-lang/broccoli), 22 bytes
+```
+(print"Hello, World!")
+```
+[Try it online!](https://tio.run/##SyrKT07Oz8n8/1@joCgzr0TJIzUnJ19HITy/KCdFUUnz/38A)
 ## [Bubblegum](https://esolangs.org/wiki/Bubblegum), 11 bytes
 ```
 00000000: 1527 4d50 62a9 9a29 6b6d e2              .'MPb..)km.
@@ -720,6 +784,11 @@ main(){puts("Hello, World!");}
 %"Hello, World!";x
 ```
 [Try it online!](https://tio.run/##S04sSsnMS8z5/19VySM1JydfRyE8vygnRVHJuuL/fwA)
+## [Cauliflower](https://github.com/broccoli-lang/broccoli), 22 bytes
+```
+(print"Hello, World!")
+```
+[Try it online!](https://tio.run/##S04szclMy8kvTy36/1@joCgzr0TJIzUnJ19HITy/KCdFUUnz/38A)
 ## [Ceres](https://github.com/alexander-liao/ceres), 34 bytes
 ```
 389960998265612367812323333 115dÆP
@@ -801,6 +870,12 @@ x)xx)xx))xxx)a
 "Hello, World!"
 ```
 [Try it online!](https://tio.run/##S85KzP3/X8kjNScnX0chPL8oJ0VR6f9/AA)
+## [Clean](https://clean.cs.ru.nl/), 33 bytes
+```
+module main
+Start="Hello, World!"
+```
+[Try it online!](https://tio.run/##S85JTcz7/z83P6U0J1UhNzEzjyu4JLGoxFbJIzUnJ19HITy/KCdFUen//3/JaTmJ6cX/dZMA)
 ## [Clojure](https://clojure.org/), 22 bytes
 ```
 (print"Hello, World!")
@@ -844,35 +919,35 @@ when H=""then set H="Hello, World!"put H
 "Hello, World!
 ```
 [Try it online!](https://tio.run/##S87PK0ut@P9fySM1JydfRyE8vygnRfH/fwA)
-## [Cood](https://github.com/jesobreira/cood/tree/php-interpreter), 417 bytes
+## [Cood](https://github.com/jesobreira/cood/tree/php-interpreter), 381 bytes
 ```
-I want 72 of this
+More 72 of this
 Im very hungry
-I want 101 of this
+More 29 of this
 Im very hungry
-I want 108 of this
+More 7 of this
 Im very hungry
 Im very hungry
-I want 111 of this
+More 3 of this
 Im very hungry
-I want 44 of this
+Less 67 of this
 Im very hungry
-I want 32 of this
+Less 12 of this
 Im very hungry
-I want 87 of this
+More 55 of this
 Im very hungry
-I want 111 of this
+More 24 of this
 Im very hungry
-I want 114 of this
+More 3 of this
 Im very hungry
-I want 108 of this
+Less 6 of this
 Im very hungry
-I want 100 of this
+Less 8 of this
 Im very hungry
-I want 33 of this
+Less 67 of this
 Im very hungry
 ```
-[Try it online!](https://tio.run/##S87PT/n/31OhPDGvRMHcSCE/TaEkI7OYyzNXoSy1qFIhozQvvaiSC6rA0MCQoAoLnCqwazAkZKSJCQEFxoScbWFOyNUEHWFoaEKBz2EqDAj5xBiHgv//AQ)
+[Try it online!](https://tio.run/##S87PT/n/3ze/KFXB3EghP02hJCOzmMszV6EstahSIaM0L72okgssbWSJV9oclyw2xca4FPukFhcrmJnjlTbE705TU/zeMMErTcBleGUtyPPV//8A)
 ## [COW](https://bigzaphod.github.io/COW/), 261 bytes
 ```
 MOoMOoMOomoOMOomoOMOomoOmoOMoOmoOMoOmoOmoOMoOMOOMoOMoOMoOMoOMOOmoOMoOMoOMoOMOOmoOMoOMoOMoOMoOmoOMOoMOomoOMoOMoOMoOmOomOomOoMOomoomOoMOomoomOoMoOMoOMoOmoomoOmoOmoOMoomoOMOoMOomoOMOoMoomoOMooMooMoOmoOMoOMoOMoOMoOmoOMoOMoOMoOMooMoOmoOMOoMOomoOMOOmoOMOoMoomOomOomoo
@@ -895,9 +970,9 @@ puts "Hello, World!"
 [Try it online!](https://tio.run/##Sy6qLC5JzPn/v6C0pFhBySM1JydfRyE8vygnRVHp/38A)
 ## [Cubically](https://github.com/aaronryank/cubically), 123 bytes
 ```
-+53@6+1F2L2+0@6L2F2U3R3F1L1+2@66L3F3R1U1B3+0@6:4U1R1+00@6-000@6+50000@6+000000@6+2-000000@6-5+4000@6-00@6/0+00@6:0+0/0+00@6
+RU+432@6+50-4@6+3-4@6@6+1-00@6-331@6-00@6+4110@6+0000@6+1-00@6-0@6-2+4@6-331@6
 ```
-[Try it online!](https://tio.run/##NYs7DoAgEEQPtCHuB7agIhZUVCQcQKlMaC08PaJiM@8lM1PP/ahba1fv4CQoUOTEgEETRy6SJVIi4KCaJEqmQqs8tbeFMgEONfgkOPyIOIXNr8aBxTkNuuB78wNTe78B)
+[Try it online!](https://tio.run/##Sy5NykxOzMmp/P8/KFTbxNjIwUzb1EDXBEgZg0ggbahrYOBgpmtsbAgkQUxtE0NDEGVgAOZB5UHYSNsEpvL/fwA)
 ## [Cubix](https://github.com/ETHproductions/cubix), 29 bytes
 ```
 ./v.o;@?/"!dlroW"S',u/"Hello"
@@ -949,6 +1024,39 @@ w
 @"Hello, World!"
 ```
 [Try it online!](https://tio.run/##S0ktyS8t@v8/oZTLQckjNScnX0chPL8oJ0VR6f9/AA)
+## [Dirty](https://github.com/Ourous/dirty), 16 bytes
+```
+'Hello, World!'‼
+```
+[Try it online!](https://tio.run/##S8ksKqn8/1/dIzUnJ19HITy/KCdFUf1Rw57//wE)
+## [DOBELA](https://deewiant.iki.fi/projects/dobelx64/), 143 bytes
+```
+.,,,,.,..,,.,,,..,..,,,...,,.,,..,....,.,.,...,,.,,,,,,,.,..,,,..,....,..,..,,,..,..,,,..,,.,.,.,,.,,,$
+ ^+ +
++  +
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ++.#
+++
+```
+[Try it online!](https://tio.run/##S8lPSs1J/P9fTwcI9HT09ECkDojWg9AQATAfRIDVQBUhtCDkkfkQGqIHokOFSyFOW0GbS1sBSGABQGFtPWUube3//wE)
 ## [Dodos](https://github.com/DennisMitchell/dodos), 159 bytes
 ```
 	* 2
@@ -991,6 +1099,11 @@ j
 	i 3
 ```
 [Try it online!](https://tio.run/##PYxBDsMwCATP7Cs426pkY17Qcz7RyhfnEEdK3h9qnCoCaReYpfbaDzMKLKDMiRW0zM4cQMqFM0g43yJcnkuYWByZmSqTWW6jCI4rIqj2E83BFStozG3nyPXzRfLxX@N9G@sEcZNRXATqUsyuvp@tb4e93j8)
+## [Dreaderef](https://github.com/ScratchMan544/Dreaderef), 31 bytes
+```
+"Hello, World!\n"
+```
+[Try it online!](https://tio.run/##SylKTUxJLUpN@/9fic2DLZUtBwjz2XTYFNjCgXQRkJfCpsgWk6f0/z8A)
 ## [DStack](https://github.com/alejandrocoria/DStack), 21 bytes
 ```
 @0
@@ -1022,6 +1135,17 @@ Hello\,\ World\!`
 IO.puts"Hello, World!"
 ```
 [Try it online!](https://tio.run/##S83JrMgs@v/f01@voLSkWMkjNScnX0chPL8oJ0VR6f9/AA)
+## [ELVM-IR, 68 bytes](https://github.com/shinh/elvm), 68 bytes
+```
+load B,A
+putc B
+add A,1
+jne 0,A,13
+exit
+.data
+.string"Hello, World!"
+```
+[Try it online!](https://tio.run/##S80py9XNLPr/Pyc/MUXBSceRq6C0JFnBiSsxJUXBUceQKysvVcFAB8gy5kqtyCzh0ktJLEnk0isuKcrMS1fySM3JyddRCM8vyklRVPr/HwA)
 ## [Emacs Lisp](https://www.gnu.org/software/emacs/manual/eintr.html), 22 bytes
 ```
 (princ"Hello, World!")
@@ -1085,6 +1209,12 @@ printf(quote(Hello)CHAR CHAR quote(World)CHAR,44,32,33)
 printf"Hello, World!"
 ```
 [Try it online!](https://tio.run/##SyvWzc3Py///v6AoM68kTckjNScnX0chPL8oJ0VR6f9/AA)
+## [Face](https://github.com/KeyboardFire/face), 41 bytes
+```
+(Hello, World!
+)\$*m%*7%+%%%,c'$,ioow%$%o
+```
+[Try it online!](https://tio.run/##S0tMTv3/X8MjNScnX0chPL8oJ0WRSzNGRStXVctcVVtVVVUnWV1FJzM/v1xVRTX//38A)
 ## [Factor](https://factorcode.org/), 28 bytes
 ```
 USE: io "Hello, World!"print
@@ -1132,6 +1262,11 @@ R"Hello, World!";
 R"Hello, World!";
 ```
 [Try it online!](https://tio.run/##S8ssLs7MzzP6/z9IySM1JydfRyE8vygnRVHJ@v9/AA)
+## [Flipbit](https://github.com/cairdcoinheringaahing/Flipbit), 148 bytes
+```
+>^>>>^>>>.^<<^<^<<^>>>>>.^<<<^>>>..^<^>.^<^<<<<<^>>>>>>.<<^<^>>>.^<^<^<<^<^<^>>>>>>.<<<^<^<^>>>>>.^<<^<^<^>>>>.<^<^<^<^>>>>.<<<^>>>.^<<^<<<<^>>>>>>.
+```
+[Try it online!](https://tio.run/##S8vJLEjKLPn/3y7Ozg6M9eJsbOJsQISdHZQLZuoBWXEgLkgAJmunB1YMUQfRBeVD5JC4esiSehAmjGNjg7AZyez//wE)
 ## [FOCAL-69](http://www.cozx.com/dpitts/), 25 bytes
 ```
 10.10 t "Hello, World!"
@@ -1164,6 +1299,11 @@ end
 `Hello, World!`
 ```
 [Try it online!](https://tio.run/##S8svLcpMLfr/P8EjNScnX0chPL8oJ0Ux4f9/AA)
+## [Fueue](https://github.com/TryItOnline/fueue), 40 bytes
+```
+72:108)<101[44+-6:114)32[100 33H]87]:111
+```
+[Try it online!](https://tio.run/##SytNLU39/9/cyMrQwELTxtDAMNrERFvXzMrQ0ETT2Cja0MBAwdjYI9bCPBYoZPj/PwA)
 ## [Funciton](https://github.com/Timwi/Funciton), 209 bytes
 ```
 ╔══════════╗
@@ -1360,6 +1500,11 @@ main(){print("Hello, World!");}
 "Hello, World!"
 ```
 [Try it online!](https://tio.run/##y/z/X8kjNScnX0chPL8oJ0VR6f9/AA)
+## [Implicit](https://github.com/aaronryank/Implicit), 14 bytes
+```
+«Hello, World!
+```
+[Try it online!](https://tio.run/##K87MLchJLS5JTM7@///Qao/UnJx8HYXw/KKcFMX//wE)
 ## [Incident](https://github.com/TryItOnline/incident), 2080 bytes
 ```
 A1.A2.A3,A4.A5,A6,A7;A8;B1;B2,B3.B4,B5;B6.B7.B8;C1,C2.C3;C4.C5,C6;C7,:C8.D1;D2,D3.D4,D5.D6;D7.D8,E1;E2;E3;E4,E5,E6.E7,E8.F1;F2.F3.F4,F5.F6;:F7.F8;G1,G2;G3,G4;G5.G6.G7.G8;H1.H2;H3.H4.H5.H6,H7;H8;I1,I2.I3;I4,I5.:I6,I7.I8,J1;J2,J3,J4,J5;J6;J7.J8;K1;K2;K3;K4,K5,K6;K7.K8,L1;L2,L3;L4,:L5;L6;L7,L8,M1.M2.M3.M4,M5,M6,M7,M8,N1.N2;N3,N4.N5;N6,N7.N8,Z4;a1,a1.:Z3.A1,a1;a2,a2,A1,A2.a2,a3.a3.A2,A3,a3.a5,a5,A3;A5.a5,a6,a6.A5;A6.a6.:a8.a8.A6;A8.a8;b2,b2.A8;B2.b2,b4.b4,B2,B4;b4.b5;b5;B4;B5;b5.b8.b8,B5.:B8.b8.c1;c1,B8,C1;c1,c2,c2;C1;C2,c2.c5,c5;C2,C5,c5.c8.c8,C5;C8;c8,d1;:d1.C8,D1;d1.d2;d2.D1.D2.d2.d5,d5,D2.D5.d5.d8,d8;D5;D8.d8,e5.e5.D8;E5,:e5,e8,e8,E5,E8;e8,f1.f1.E8.F1;f1;f2,f2;F1.F2.f2;f5.f5;F2;F5,f5;f7;f7.:F5,F7,f7;f8.f8;F7.F8,f8,g1;g1.F8;G1.g1,g2;g2.G1,G2,g2,g3;g3;G2,G3;g3,:g4,g4.G3;G4.g4.g5.g5,G4,G5.g5;g7;g7.G5;G7,g7,g8;g8.G7,G8;g8;h4.h4,G8;:H4,h4;h8,h8,H4.H8,h8.i5.i5;H8;I5;i5.i8;i8.I5,I8,i8.j1;j1;I8,J1;j1.j3.:j3;J1,J3;j3;j4,j4.J3,J4.j4,j8,j8.J4;J8,j8.k1.k1.J8.K1,k1,k2.k2;K1,K2;:k2.k5;k5;K2,K5.k5,k8;k8,K5.K8,k8;l1,l1;K8;L1;l1,Z1;Z2;Z2,Z3.Z2;Z1.Z1,:l2;l2;L1;L2,l2;l4.l4.L2.L4;l4.l5.l5.L4;L5;l5.l8.l8,L5.L8;l8;m2;m2.L8;:M2.m2,m3,m3,M2,M3,m3;m4.m4.M3;M4.m4,m5.m5.M4,M5,m5;m7,m7.M5.M7;m7.m8.:m8,M7,M8,m8,n1;n1.M8,N1;n1.n3,n3;N1;N3,n3.n5,n5;N3,N5;n5,n6.n6.N5.N6.:n6,n7;n7;N6.N7;n7.n8,n8;N7,N8;n8,a4,a4;Z3;A4,a4;a7.a7.A4.A7;a7,b1.b1;:A7;B1,b1;b3;b3,B1,B3.b3,b6.b6;B3;B6,b6;b7;b7,B6,B7,b7;c3,c3.B7,C3,c3.:c4.c4,C3,C4.c4;c6.c6,C4,C6.c6;c7,c7;C6.C7,c7.d3;d3.C7,D3,d3;d4;d4.D3,:D4,d4;d6,d6,D4,D6.d6;d7,d7,D6,D7.d7,e1,e1;D7,E1.e1,e2,e2;E1;E2,e2.e3;:e3,E2,E3,e3.e4;e4.E3.E4;e4,e6;e6;E4,E6,e6.e7.e7;E6.E7.e7,f3,f3.E7,F3;:f3.f4;f4,F3;F4,f4;f6;f6.F4.F6,f6,g6.g6;F6.G6.g6.h1;h1;G6;H1,h1.h2;h2.:H1;H2,h2.h3,h3,H2,H3,h3.h5.h5;H3,H5;h5;h6;h6;H5.H6.h6,h7.h7.H6,H7.h7;:i1,i1,H7.I1,i1.i2;i2;I1;I2,i2,i3.i3,I2,I3.i3;i4;i4;I3,I4,i4.i6,i6,I4.:I6,i6.i7.i7,I6;I7;i7.j2;j2;I7.J2;j2,j5;j5.J2.J5;j5.j6,j6.J5,J6,j6;j7;:j7;J6,J7.j7;k3,k3;J7.K3.k3.k4.k4,K3.K4;k4,k6;k6,K4.K6;k6,k7.k7;K6,K7.:k7,l3.l3.K7;L3;l3.l6;l6,L3;L6,l6;l7,l7,L6;L7.l7,m1.m1,L7;M1;m1,m6;m6,:M1;M6,m6;n2;n2;M6,N2,n2;n4.n4,N2;N4,n4.N8.N4,Z4,Z4
@@ -1367,9 +1512,25 @@ A1.A2.A3,A4.A5,A6,A7;A8;B1;B2,B3.B4,B5;B6.B7.B8;C1,C2.C3;C4.C5,C6;C7,:C8.D1;D2,D
 [Try it online!](https://tio.run/##LZXdbvJKDEVfyLI0/6PsKwgQkkAeoHcl/FO4@t6/Zzs90qq0PEoi1Nm2H5/5cb58/v3@rpyuvK6CrKKukqyyrApWFWuHtZd10HWUdcI667rouqJ10nptA9qobZI2oy3StFU3Dhsvm6CbKJukm4xN0U2VrcPWYxuwjbJNss26LbKtunPYed0F3UXZJd1lNLuiu4rOSefRBekiuqRd1q5oV7F3uvfYB91H3SfdZ9kX7Ct6J73XPqCP0idt@ix90b7K4DB4GYIMUYaEIWMoOlSMDqPHGDBGGZOMGWPRscrB4eDlEHCI0hwSDhmHIocqR6dHr8egxyjHJMcsxyLHKpPTyWMKMkWdEqYsU9GpylfEt5Nvp81X0JUZvr0QOv/Z5kHJiidh8SRkFbBKi2fC28AqK6X5rkpWmfdCwcnLiVfGO/JqHvXEO@JlRZgnEPraRE@V8Aa1WZvp7DA7WVdpF5k94aWiNdE5yZzMWxOd@Tyf5EkF5ezQnJ22VXjZlLPH2fPidePpek5C6Lz@M@ELFZuETTW/JCWbCoaguSS5VMMSUUG5OiV/ubgSL1ePnVNmhHJNek3MC3ZJKNdCtGGxK2JF1WvFEh@5Vrk53NxflPTm5OZx87rEii63AELvTKS5RblFZdFFpdwSYfakM8GtEO0SuiI3UnGrDKR0JrhHvUfzZh/lHnGvQiygJvpIZMlognnFo2qfhOGkPB3IX1CfTp9Bm2fA4BhZUJ5RnlGX@Kp5JTpEDIu8nDFUHZ28iNcXM@2EyW6sSCCjZ8Dp8qp4VXPGnP7j5IdNUMHI078cvjwRxtXE6ZeT5seD/DWFeVRy8HqIiyeDzkYxr0QOPOHXK96emDdsnLeXdzCOXo4meEclx4CjibyTkr/meie8i7yLHnlS6Pqu2rzr/y1H@Th82JDWfiafIJ8A@mSinySftPRkgnlWMiWd2EefLJ8CwmIy0Q8/VzEVmSro35Hgi324yHdRYoOx0OXk9MQOYLF2LHAKROickpRT1lPGOnBW0nEqROhrvlkwB5k5TIu0izRz1Dla0ZpgzjpnOgcqBXORuYDemug54BzMN0HMI1F6w1lrRRZiczfrOeNchGx4wjeLXBzhMOYkVnNPsExlil4CmksQFtsgl6CXiEvUbdCtiVwyiI3uTNdLIVhmOEWugdg83/ErtGvENVrBmW6eCec7h7tcs9yy3jJ22UY6/e5AuszBLnend4@712bvsPdCuwch9L2J3hPh9Jd9AuWejWUN6D3LvShZVgIFzcMJYdGb6MOD9Gw2Lw8S9BG4NKQ3wSMaPU@iPKI@spA@LpvkkfVRiPQZfQH96UG4YQYTeSY8E12HRZ5Znpkugwme/C38Y8HVQ3kFeQVbQ2PQF4lE6GME5ZXxyjJGHRd5FX0VjDzhrHsV@QlKxgKuKPOMn7ysqyzmfIDbynaWUt5O304OBUcHyjvjnaVhwe3F4uMN@uTFPOonii2zKPSpKuXL@P39Dw)
 ## [INTERCAL](http://www.catb.org/~esr/intercal/), 285 bytes
 ```
-DO,1<-#14 DO,1SUB#1<-#238 DO,1SUB#2<-#108 DO,1SUB#3<-#112 PLEASE DO,1SUB#4<-#256 DO,1SUB#5<-#64 DO,1SUB#6<-#194 PLEASE DO,1SUB#7<-#48 DO,1SUB#8<-#26 DO,1SUB#9<-#244 PLEASE DO,1SUB#10<-#168 DO,1SUB#11<-#24 DO,1SUB#12<-#16 PLEASE DO,1SUB#13<-#162 DO,1SUB#14<-#52 DO READ OUT,1 DO GIVE UP
+DO,1<-#14
+DO,1SUB#1<-#238
+DO,1SUB#2<-#108
+DO,1SUB#3<-#112
+PLEASE DO,1SUB#4<-#256
+DO,1SUB#5<-#64
+DO,1SUB#6<-#194
+PLEASE DO,1SUB#7<-#48
+DO,1SUB#8<-#26
+DO,1SUB#9<-#244
+PLEASE DO,1SUB#10<-#168
+DO,1SUB#11<-#24
+DO,1SUB#12<-#16
+PLEASE DO,1SUB#13<-#162
+DO,1SUB#14<-#52
+DO READ OUT,1
+DO GIVE UP
 ```
-[Try it online!](https://tio.run/##ZY/BCsIwEER/ZaHXCt00WVvwUmkQQWixxrtID4J4EP8/dnLIir3lTXjD7OP1md/32zPGfih5tynYEl5T2BdAUzeZDb4r5RrMhsaT7yafYwvNSWa3sGirwGrtv7VdYqvdDUq0owXalcQVykQ1Tpt/TkibZeWl6WI0wGgHprPvehrCpWTQ4Xj1FMYYvw)
+[Try it online!](https://tio.run/##y8wrSS1KTsz5/9/FX8fQRlfZ0IQLxAoOdVIGcY2MLeB8I5C0AYJvDOIbGnEF@Lg6BrsqwIRNQNpMzeDKTIF8M4SpZiBdlibousyBwiYIsy1AhiDMsARxTTA0GRqADDNDaDMEuxnJC2A3m2HoAzvdzAihDuRoUxBfIcjV0UXBPzRExxDEc/cMc1UIDfj/HwA)
 ## [J](http://jsoftware.com/), 19 bytes
 ```
 echo'Hello, World!'
@@ -1481,19 +1642,19 @@ echo Hello, World!
 print("Hello, World!")
 ```
 [Try it online!](https://tio.run/##y8nMqfz/v6AoM69EQ8kjNScnX0chPL8oJ0VRSfP/fwA)
-## [LLVM IR](http://llvm.org/docs/LangRef.html), 155 bytes
+## [LLVM IR](http://llvm.org/docs/LangRef.html), 141 bytes
 ```
-@s=constant[14 x i8]c"Hello, World!\00"declare i32@puts(i8*)define i32@main(){call i32@puts(i8*getelementptr([14 x i8],[14 x i8]*@s,i32 0,i32 0))ret i32 0}
+@s=global[13x i8]c"Hello, World!"declare i8@puts([13x i8]*)define i8@main(){call i8@puts([13x i8]*@s)ret i8 0}
 ```
-[Try it online!](https://tio.run/##y8kpy/3/36HYNjk/r7gkMa8k2tBEoUIh0yI2WckjNScnX0chPL8oJ0UxxsBAKSU1OSexKFUh09jIoaC0pFgj00JLMyU1LTMPIpabmJmnoVmdnJiTg6ImPbUkNSc1NzWvpKCkSANugw6cpeVQrAPUoGAAITU1i1JLFMDM2v//AQ)
-## [Logicode](https://github.com/LogicodeLang/Logicode), 121 bytes
+[Try it online!](https://tio.run/##y8kpy/3/36HYNj0nPykxJ9rQuEIh0yI2WckjNScnX0chPL8oJ0VRKSU1OSexKBUo5VBQWlKsAVOnpZmSmpaZB5bITczM09CsTk7MycFU51CsWZRaAmQqGNT@/w8A)
+## [Logicode](https://github.com/LogicodeLang/Logicode), 120 bytes
 ```
 var a=11011
 var l=@(a+00)
 var o=a+11
-out @1001000+@1100101+l+l+@o+@101100+@100000+@1010111+@o+@1110010+l+@1100100+@100001
+out@1001000+@1100101+l+l+@o+@101100+@100000+@1010111+@o+@1110010+l+@1100100+@100001
 ```
-[Try it online!](https://tio.run/##NYpBCoBACEX3nWKWhRv/AQbmKlIRwYAQ1fVNR0LB932/63Guuu1mr1xFKsDAFNxrm4WYl5G0CrnQ5y4NzL5MDYNA3aepZ45PXE4fFkiX5Wgm/T2YfQ)
+[Try it online!](https://tio.run/##NYpBCoBQCET3naJl4cY5wAevIhURfBCiur5pEgq@8U23/Vhs3dwfPUdtAANDcm8yKTHPX7KmFMLuS8AcyyT4CNRjxCJzfvJy@bRAuSpns@jvwf0F)
 ## [LOLCODE](http://lolcode.org/), 37 bytes
 ```
 HAI 1
@@ -1523,6 +1684,11 @@ print"Hello, World!"
 “Hello, World!
 ```
 [Try it online!](https://tio.run/##y/3//1HDHI/UnJx8HYXw/KKcFMX//wE)
+## [MachineCode](https://github.com/aaronryank/MachineCode), 54 bytes
+```
+e80d00000H656c6c6f2c20576f726c6421596a1[6adZ6a4Xcd80c3
+```
+[Try it online!](https://tio.run/##y01MzsjMS03OT0n9/z/VwiDFAAQ8zEzNkoEwzSjZyMDU3CzN3AjIMzEyNLU0SzSMNktMiTJLNIlITrEwSDb@/x8A)
 ## [Make](https://www.gnu.org/software/make/), 28 bytes
 ```
 $(info Hello, World!)
@@ -1590,21 +1756,162 @@ map putchar"Hello, World!"
 "Hello, World!"$O.
 ```
 [Try it online!](https://tio.run/##y83My87PScxL//9fySM1JydfRyE8vygnRVFJxV/v/38A)
+## [Mornington Crescent](https://github.com/padarom/esoterpret), 3568 bytes
+```
+Take Northern Line to Hendon Central
+Take Northern Line to Bank
+Take Circle Line to Bank
+Take District Line to Gunnersbury
+Take District Line to Victoria
+Take Victoria Line to Seven Sisters
+Take Victoria Line to Victoria
+Take Circle Line to Victoria
+Take Circle Line to Bank
+Take Circle Line to Hammersmith
+Take Circle Line to Cannon Street
+Take Circle Line to Hammersmith
+Take Circle Line to Cannon Street
+Take Circle Line to Bank
+Take Circle Line to Hammersmith
+Take District Line to Upminster
+Take District Line to Hammersmith
+Take District Line to Upminster
+Take District Line to Gunnersbury
+Take District Line to Paddington
+Take District Line to Acton Town
+Take Piccadilly Line to Holloway Road
+Take Piccadilly Line to Acton Town
+Take District Line to Acton Town
+Take District Line to Gunnersbury
+Take District Line to Hammersmith
+Take Circle Line to Notting Hill Gate
+Take District Line to Upminster
+Take District Line to Notting Hill Gate
+Take District Line to Upminster
+Take District Line to Victoria
+Take Victoria Line to Seven Sisters
+Take Victoria Line to Victoria
+Take Circle Line to Victoria
+Take District Line to Upminster
+Take District Line to Gunnersbury
+Take District Line to Mile End
+Take District Line to Hammersmith
+Take Circle Line to Notting Hill Gate
+Take District Line to Upminster
+Take District Line to Upminster
+Take District Line to Mile End
+Take District Line to Paddington
+Take Circle Line to Paddington
+Take District Line to Acton Town
+Take Piccadilly Line to Heathrow Terminals 1, 2, 3
+Take Piccadilly Line to Holborn
+Take Central Line to Holborn
+Take Central Line to Mile End
+Take District Line to Upminster
+Take District Line to Hammersmith
+Take District Line to Upminster
+Take District Line to Barking
+Take District Line to Hammersmith
+Take District Line to Upminster
+Take District Line to Gunnersbury
+Take District Line to Barking
+Take District Line to Gunnersbury
+Take District Line to Paddington
+Take Circle Line to Paddington
+Take Circle Line to Wood Lane
+Take Circle Line to Victoria
+Take Circle Line to Victoria
+Take District Line to Gunnersbury
+Take District Line to Hammersmith
+Take District Line to Upminster
+Take District Line to Gunnersbury
+Take District Line to Paddington
+Take Circle Line to Paddington
+Take District Line to Mile End
+Take Central Line to Fairlop
+Take Central Line to Mile End
+Take District Line to Barking
+Take District Line to Upminster
+Take District Line to Upminster
+Take District Line to Hammersmith
+Take Circle Line to Notting Hill Gate
+Take District Line to Upminster
+Take District Line to Mile End
+Take District Line to Gunnersbury
+Take District Line to Paddington
+Take Circle Line to Paddington
+Take Circle Line to Hammersmith
+Take District Line to Mile End
+Take District Line to Richmond
+Take District Line to Mile End
+Take District Line to Paddington
+Take Circle Line to Paddington
+Take District Line to Richmond
+Take District Line to Bank
+Take Circle Line to Hammersmith
+Take District Line to Upminster
+Take District Line to Stepney Green
+Take District Line to Hammersmith
+Take District Line to Stepney Green
+Take District Line to Upney
+Take District Line to Notting Hill Gate
+Take Circle Line to Notting Hill Gate
+Take Circle Line to Notting Hill Gate
+Take District Line to Upminster
+Take District Line to Upney
+Take District Line to Upminster
+Take District Line to Bank
+Take Circle Line to Bank
+Take Northern Line to Charing Cross
+Take Bakerloo Line to Charing Cross
+Take Bakerloo Line to Paddington
+Take Circle Line to Bank
+Take Circle Line to Bank
+Take Northern Line to Mornington Crescent
+```
+[Try it online!](https://tio.run/##xVdLbsJADN33FHMAumh7gpK2sACE@LRrk1jNiMRGzlDE6akRn4pAGJIS2CBFz3ie7Wd7JmUhS9@O6TEUzEIkt1qNYIqmx@JiFDIdS2gcmzZSxGQCNRFIHk4bNYGmGyiwEiZ4AnizmRMbuj3UmhOhZJO5LAssPvWDxcIG3n3t4SH@IJmh/kvdFNgcusiROwsWhtSGNNUDU@vik3gARJqwoRNEV5OHy8kdJXU8Sy2tU1aA/9@Dv7B9iKKN/AoMXrUwZEa82Br0bRhCZJNk@ceTk4QXsDQDhqjQKu/Ie1KFaHzl7LFzGq1pKzPTAocV83otP7dtqxrk07V62jtFd66HD/fQzDdBjuVVegTBxcILM0JRrpBk5qlhnhvm5VxbTXQ5bClthv5loCfc@udOE2SqGbvjXDvPoPxc9EgiB38xR6YDhOWXnadlK8zAG2yNsg1zKNC8fD/ASsKzSto@X/f/zpFbzTNPkHXL1y8hD8GBDeOUC@Gax7Hn9BpvbEOHM8Klael1kSr35yVexmuLcreTy7Ra24Yu5uvfJt4nzdEzKIhB1rwD4Wx7dWrqj84VLmXj0WIVat39i09P3r34fgE)
 ## [MY](https://bitbucket.org/zacharyjtaylor/my-language), 60 bytes
 ```
 27á'←1Aá'←8Aá'2×←1Bá'←44á'←2Ġ'←78á'←1Bá'←4Bá'←8Aá'←AȦ'←33á'←
 ```
 [Try it online!](https://tio.run/##y638/9/I/PBC9UdtEwwdIbQFiDY6PB0k5AQRMjGB0EZHFoAocwuoDpi0E5JOIO14YhmIMjaGcP//BwA)
+## [MY-BASIC](https://github.com/paladin-t/my_basic), 20 bytes
+```
+Print"Hello, World!"
+```
+[Try it online!](https://tio.run/##y63UTUoszkz@/z@gKDOvRMkjNScnX0chPL8oJ0VR6f9/AA)
 ## [Neim](https://github.com/okx-code/Neim), 16 bytes
 ```
 (Hello, World!)B
 ```
 [Try it online!](https://tio.run/##y0vNzP3/X8MjNScnX0chPL8oJ0VR0@n/fwA)
+## [Nhohnhehr](https://github.com/catseye/Nhohnhehr), 181 bytes
+```
++-----------+
+|$010010000\|
+|1100101011\|
+|0110001101\|
+|1000110111\|
+|1001011000\|
+|0100000010\|
+|1011101101\|
+|1110111001\|
+|0011011000\|
+|1100100001\|
+|00001@    \|
++-----------+
+```
+[Try it online!](https://tio.run/##y8vIz8jLSM0o@v9fWxcBtLlqVAwMDUDIwCCmhqvGEMwBQkMQzwDEBRFgHoxtCOMZQuQhKg3AwBBiCkgRQh9EkwGEBzUDxT4DuByQ4aAABEAeijv//wcA)
 ## [Nim](http://nim-lang.org/), 19 bytes
 ```
 echo"Hello, World!"
 ```
 [Try it online!](https://tio.run/##y8vM/f8/NTkjX8kjNScnX0chPL8oJ0VR6f9/AA)
+## [NotQuiteThere](https://github.com/cairdcoinheringaahing/NotQuiteThere), 17 bytes
+```
+'Hello, World!'+0
+```
+[Try it online!](https://tio.run/##yyss@f9f3SM1JydfRyE8vygnRVFd2@D/fwA)
 ## [NTFJ (NTFJC)](https://github.com/ConorOBrien-Foxx/ntfjc), 106 bytes
 ```
 ~#~~#~~~@*~##~~#~#@*~##~##~~@::**~##~####@:*~~#~##~~@*~~#~~~~~@*~#~#~###@**~###~~#~@**~##~~#~~@*~~#~~~~#@*
@@ -1640,6 +1947,11 @@ disp"Hello, World!"
 "Hello, World!
 ```
 [Try it online!](https://tio.run/##y8/I/f9fySM1JydfRyE8vygnRfH/fwA)
+## [Pain-Flak](https://github.com/Cis112233/Pain-Flak), 152 bytes
+```
+)))))}{}{)))}{))(}{((((])][][][([(])()()([((]][[()()()(])}{][][)][(][([())(]][][][][][[))(]][[)][][)][][][][))(}{}{))))(}{)}{)}{))()()()((((((((((((}><{
+```
+[Try it online!](https://tio.run/##TU1JCsAwCPyOHvKDUug7xEMuhdCSBNqb5Ou1GnvojOA2jj2XmvYzH6roGDJkJkQYAgZGJieQleAkGzIRRMcm9r3JYKrskuPESdESfprgdJ@fvMAI/Bx/GOsiqk/rd2n10rS9)
 ## [Parenthetic](https://github.com/cammckinnon/Parenthetic), 604 bytes
 ```
 ((()()())(()())((()())((()()())(()(())))((()(())(())())((()(()()))((()()(()))((())()()()()()())((())()()()()()()()()()()()()()()()()()()()))((()()(()))(()()())((())()()()()()()()()()()()()()))(()(()))))))((()(()))((()())((())()()())((())()()()))((()())((())())((())))((()())((()))((())()()()()()()))((()())((()))((())()()()()()()))((()())((()))((())()()()))((()())((())()()()()())((())()()()()()))((()())((())()()()()()())((())()()()()))((()())((())()())((())()))((()())((()))((())()()()))((()())((()))((())))((()())((()))((())()()()()()()))((()())((())())((())()))((()())((())()()()()()())((())()()())))
@@ -1788,6 +2100,11 @@ AA1AA1AA1bA1b1Bo1bb1bbibb1Bi1b
 -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
 ```
 [Try it online!](https://tio.run/##rZFBCoQwDEX3PcW/gLTRgh5GBFHBWYiDowtPX22chZVuismir/lJCj/97ks7ffrs143DNDgHNOAIENNSoKBR@1uAmJYGpedtPZMAMS0VKvPRIACfeAcFEeOPNXh041KL4nxVxPJzAeLudZn7RJOhCxWDOLOWa8XVUpW41YjsfcAY7izw/35AEM4d)
+## [Pyt](https://github.com/mudkip201/pyt), 40 bytes
+```
+89*2ᴇ⁺Đ7+ĐĐ3+7²5-2⁵9²6+Đ4!+Đ3+Đ6-2ᴇĐ₃áƇǰ
+```
+[Try it online!](https://tio.run/##K6gs@f/fwlLL6OGW9keNu45MMNc@MuHIBGNt80ObTHWNHjVutTy0yQwoZqKoDRI@MsFMF6T2yIRHTc2HFx5rP77h/38A)
 ## [Pyth](https://github.com/isaacg1/pyth), 14 bytes
 ```
 "Hello, World!
@@ -1803,6 +2120,21 @@ print"Hello, World!"
 print"Hello, World!"
 ```
 [Try it online!](https://tio.run/##K6gsycjPM/r/v6AoM69EySM1JydfRyE8vygnRVHp/38A)
+## [Python 2 (Cython)](http://cython.org/), 20 bytes
+```
+print"Hello, World!"
+```
+[Try it online!](https://tio.run/##K6gsycjPM9JNBtP//xcUZeaVKHmk5uTk6yiE5xflpCgq/f8PAA)
+## [Python 2 (IronPython)](http://ironpython.net/), 20 bytes
+```
+print"Hello, World!"
+```
+[Try it online!](https://tio.run/##K6gsycjPM9LNLMrP@/@/oCgzr0TJIzUnJ19HITy/KCdFUen/fwA)
+## [Python 2 (Jython)](http://www.jython.org/), 20 bytes
+```
+print"Hello, World!"
+```
+[Try it online!](https://tio.run/##K6gsycjPM9LNAtP//xcUZeaVKHmk5uTk6yiE5xflpCgq/f8PAA)
 ## [Python 2 (PyPy)](http://pypy.org/), 20 bytes
 ```
 print"Hello, World!"
@@ -1813,6 +2145,16 @@ print"Hello, World!"
 print("Hello, World!")
 ```
 [Try it online!](https://tio.run/##K6gsycjPM/7/v6AoM69EQ8kjNScnX0chPL8oJ0VRSfP/fwA)
+## [Python 3 (Cython)](http://cython.org/), 22 bytes
+```
+print("Hello, World!")
+```
+[Try it online!](https://tio.run/##K6gsycjPM9ZNBtP//xcUZeaVaCh5pObk5OsohOcX5aQoKmn@/w8A)
+## [Python 3 (Stackless)](https://github.com/stackless-dev/stackless), 22 bytes
+```
+print("Hello, World!")
+```
+[Try it online!](https://tio.run/##K6gsycjPM9YtLklMzs5JLS7@/7@gKDOvREPJIzUnJ19HITy/KCdFUUnz/38A)
 ## [QuadR](https://github.com/abrudz/QuadRS), 13 bytes
 ```
 Hello, World!
@@ -1845,6 +2187,11 @@ $'main'
 --<-<<+[+[<+>--->->->-<<<]>]<<--.<++++++.<<-..<<.<+.>>.>>.<<<.+++.>>.>>-.<<<+.
 ```
 [Try it online!](https://tio.run/##HYpRCoAwDEMPVNIThF5k7GMqgogTBp6/tk1C4JGsMY/3wbbGNc9vv90BgpQmjWIArEyyWycBpZQ0QKOC1SwTH82hCImi7j8)
+## [Rapira](https://github.com/freeduke33/rerap2), 22 bytes
+```
+OUTPUT:"Hello, World!"
+```
+[Try it online!](https://tio.run/##K0osyCxK/P/fPzQkIDTESskjNScnX0chPL8oJ0VR6f9/AA)
 ## [Reng](https://github.com/ConorOBrien-Foxx/Reng), 20 bytes
 ```
 "Hello, World!"rao;~
@@ -1964,6 +2311,11 @@ cHello, World!
 cHello, World!
 ```
 [Try it online!](https://tio.run/##K05N@f8/2SM1JydfRyE8vygnRfH/fwA)
+## [Seed](https://github.com/TryItOnline/seed), 4203 bytes
+```
+20 854872453003476740699221564322673731945828554947586276010721089172712854441839676581917455319274850944955030258951339804246125714958815519550291630078076933441706558540342671975808828643360922071900333028778314875248417953197990571991784126564752005357199892690656368640420204822142316716413192024742766282266114842280731756458212469988291309261528542889299297601723286769284159107438930448971911102280330101196758384815655479640836157495863547199726234352265518586460633795171196315255736880028338460236768181141732764911402112878175632130129852788301009582463631290071329795384336617491655825493435803011947670180368458659271192428341035912236946048939139042310380278430049252171822721598175984923434205610723412240162418996808671543770639111617709604242882388664919702606792443015941265168129550718541372361144081848761690730764968771245566074501485020726368378675085908872608679630368472956274468410052703615106090238423979678950131481176272880569100533049143775921798055136871254424261001442543122666701145111965968366507060931708140304772342855064834334129143038575569044150428480231956133612367393837580345180691911525531699573096952433882387811884727975431823620782822755161559988205401134640722220804177812794328129589949692446031008866917615922944976151073653201316255518389496411696741029209242119521978920200314572718584995265523235225587228975886710511855501710470163649632761488899317729943053884132314641377747687975638119132094777769497069556255954031537245957811105217875011509899497752696062748928963281605780942517262774976217663461063680912331030221981433051827519906741285738915397005702326447635845195923640649166530310494885569783989508000344280715868581532826832242144647203531393142251025361866506821695860883605004105862208004440476654027574832078603305884731766236740069411566854496824754558761536201352147934963241039597221404341132342297870517293237489233057335406510464277610336142382379135365550299895416613763920950687921780736585299310706573253951966294045814905727514141733220565108490291792987304210662448111170752411153136765318541264632854767660676223663544921028492602135525959428999005153729028491208277493747933069008199074925710651071766675870081314909460661981433426167330215548196538791617762566403934129026219366764038390123622134753742930729751695349588862441999672547791630729398908283091638866715502470152431589429837867944760012419885615525232399584379209285060418518373512154801760060312646951597932345591416241634668119867158079946680321131213357200382937049485606706114467095019612014749723443159443363662563254359712162432143334612180576945072905749883870150120687696027984317320305291407322779803583395375616762530641605634303022155218169343410634115050596030685041633824154135240376022159918501703555881290333205131375705406831260759974112248490451605422031345264183102048614606636275942039438138959188478277971377232005036301145411215067576576667743288951344423152531417111852584846747428443123174595987315325304540564683047858415059703724263652136185848573853965992798725654430360647040362341567082462847275277303225817689141675391972818943419663764371222973269129542760661385278009266471167618553065823580448848795731295589715602705860758954890415040763604082216728159486423396295188510311881004469017351709060492844398219491990895826924575575549615118821417543037296628825303328056839433114519945243963946989899508355224823109677424196639930153649890175062456649384605721510239142861693109687536600667811037619175927995599388547421689316110236566026931360164495251160997857372500940728057700473763884480342708897319990346726967220426504612260565552531158509215849649565188655100774748485416791517853427613458459889062942881409801879085054494129489535044719193283409051007851153504224002807392992520076910314763705776345053922387355156981872691537772657428096384535960466923475731297217863371650154415835785630016335858514130863258775100537612371430357576913148500310344278511588325852376442503898849856566716198848377379400158332792027967216204970114516984638014129252882482309132898416484525230488700253065644547798869056136044415413099076332059572505138116227535024546891015836838323022822272664771489129085797354578016574544759934333471793
+```
+[Try it online!](https://tio.run/##JdfZdR05DATQVBwCSXDNZxyB8z@aWy3/WHpPTQK1Af3v79//fn5G@3PXvGfMVa3VPPvMtt8bo689a4x96lR/c91x15pvnnX3OLv1dkZv9/UzTvfdnLPfevvsdbtP51qeG2fe1d6cb61Wbaz7Vq96t80xdx/rdF/d29fq@ZPx@lbIue3sV@XM0/ZajlecYvpzf7uKUV3tptDmQ6WX0@85t7p21pjXoy8lnPeaa56afDa2vnzf2qrv0/vGfu7YtZ2prDbavPqfo7oL9@zpo415pr738N3e3S1zDGVWP04ET9eQ464WSl27r6Ayrgvg@QLZGaVwnQ2VrAfCWfdVm/M@tfTeW87USm@9w3LduhM4IJjnKe@Wc08g2@Uj9Z@xR81aqoLh9cXcbVdpvp8cUgpZ62jvNhCVE3cbpYzbrz76KX1Nt882OirPTUs1tNHHu2uce1NRc6sey4kD4qeXrkB8w8TGOO5QNagkBekjTURSrftlXyjtRRI@HYCp2VtBYSjmqQkIBbvXgnyr21w8iWG@sYZeAE9y66W8d33qFnStHSk6bIzZ@h5k@N4mEuStWYeAKtCq8LS3IzykjLp3p@t32gDYUZLLHP9ppANnRJCuXRTggnCOgI6QszvNnGrBbVMd7tfaG5@r9SieKkcUVUcZq931iNZHqQolHxrHBaw0p5@hC@cWdnsjawTRV8F3H5ZpPbLu/fh7xev55QlC0UF6BCu5@4K7FMRYM32CRj3Tbzgj21DR5@rRxVI53rSYC8lYb1zW5gmacXvbE0kVaHMLStbRJoKoF46QUCffbpZmZpqqV3oO9265kiSqjv546T0qxMDjTioMBaTWb5A4fK1Gn23Q3ZjMVThb6/NUEwC912SBM/xrAgSfSDpPTH1koR0b4XE3AmohmOmdISUSQedDlxNWjSC61aVKFvTcpBBgY2JwewQKJLp78E8mOHKuZB2LTa3Ebuwc4xG9om6iKaJr8IUe0vw8IU4ILojLkCgPAjbyFY5C7TOSwxM05xx@uUFjF2zYQS0YOUJDAwBFgAtfArGvSnCD9SY6YhLRByeJ@4FBF8KNuhPDQidF3L7F4XXqEBDCw5WQ8eze8KU@AmpcWTGhPOoMhy9dXZxInBaU6OMATgmqciAhjD0Vz/gzWc6eyIrDaKxCiOFxb/QjpF9ELY/oZCZFu2gArONQT5cj@COSNGRESQUIQRo7i9RudLtl7k4SYtooWJICCKZT1EGjwlxPgFK2/ivC2gnXFclVGo5kZ4Mq9vk3U4wrRP2aIZVeoseO5C5/62MxqaW9kxHRJFAPfWrT1mmB9Pn9wztXnZLTxov2t/nhyBav8DatH/y6YX2DL5BMYFGBwEJ7Ojzx9f00K4ijnNjVqWAQ8E8LTxWQm5lyIWh@kQ5BKeFaYs1UddC77AfW5qGZNJEnLaPSD4E4o7u@uMNklLKS3TvhuJPRmThSFwUJXzNE8awNCxQ@utB9FPm@P@hY@LQFC9AVkFky8jkJdNZIdScsZM6dfFnpIqMACr@qS4RJFTqUBGoWW1LjfWHOBxIcGV9ASXFSVeXJZxTWEkhIstSoaqJFdDBWNFPf0nGDg4rYXkKe8@0e4Q8Vijf08klihD5XNgDzQXYRq5bfb7i/iF7KglFQrSTW@IJBRhhf5wsTE8Hgga20ObW6bmRnz4PJquCNTaKKdkhP3H6TLI7cyYFvmNEBV/ugGc7A0psdJtFk6ajzGWyFrvbNKv9ncjzJbAjE5c5O9UqmQVCNjHm562KHudC5vkoMDOm9EjoriLTsHFx2g4Beo8wEi/TVYzYIUbEyJUhVdGcUCQKLHuhXKHQXCcyEj6bqN1lAZQXZWRdmgicu5GOTyffc2IKA5oybGRMiFmR50DZ3E7BuWVkflahukgeLG0/mhRiBLIVbkpw8shOaXSs18CvcQQ16nPRv6WPLSI9qTjRNWdazLuXwkciIniFVGZBZII3r@uZpTlc5HbPQJ@iTofTtunJofCtYxZc9o8EWrBTJczJDM5or@7JrODQRCCqHQspqkIGckRNkRG0SP5sF5JKDOSlBLA0M9Bc@aFnoBWLNkCzQsiHKNxPe/ja@eWvbkAa4Eh0mzic4Psk@ZETQtyekC7xpGHacI@Bf5mzW4Di0vtWwZdd1Tw/JmXuYswRm/xMyWZYy9r9lKkvuimiS0nhJ4HHat0xYpdRrv8LuTgkYsMrK0Cfi@IZ3MOb/nmwXJj1GIvE46304PgPhZaXj3uyq2QWysZy8uGT2e3qEhRV0yDrb/A3apJOl6obx@jYkRovVBT7HyQMBZ2Al8Mgo@@kLyeMXJLncMipmgsPxBu5MNr1v117ZWikMuPjO6vg9blSzoADYGd9Rdl6bsh@7CpeCZ0UhVlEP7LwboN0TIwcAy6uJGDMTCZrEowPc4yM7UtwrU825kwhDRV6gKAAJlczzK5yz8rACSeFgZ0fM1FifXAWORULtN@vRyzSRhTYmu3@0G@lFNZYAM2rl@B1Lmf@yAi8jgyFLpTTodGANbhkhiWvEewHDZN57pJ5FE5Xf2Zju33dZ6Nv3jvW9QuWl7WTx5SRNnXQoM5zp@yyT2KEvgyObdlYTa5PG4jJ448KpeQGwFo5MhU@WJwM270teXpCY1RbNish7aOIHCjdTtezurGnbX9/ufbLxnm8vXjH@@3b0lUXx22p@@xCaI6M7RrJxiWrY0MkKle7M0LCbMKNJ4sKE5sjQGFn9E8ote9@nSa2Zy7AMgOCg3WixZUt0LC5w8k0fYZaJ@mWuFJnfdEPey9tSfDZ/I7VlHO8vOLlUeQKLGHe278rEWzPZ8JXFHXpJbvOo15CYXvs3mYBZyWg/yGbZAzkgE7z1jRNT/tXPz/8)
 ## [Self-modifying Brainfuck](https://soulsphere.org/hacks/smbf/), 29 bytes
 ```
 <[.<----------]
@@ -2025,9 +2377,9 @@ a.Ajax,.Puck,.Act I:.Scene I:.[Enter Ajax and Puck]Ajax:You big big big cat!Puck
 [Try it online!](https://tio.run/##K85ILEgtTi7KLCj5/1/dIzUnJ19HITy/KCdFUf3/fwA)
 ## [shortC](https://github.com/aaronryank/shortC), 16 bytes
 ```
-AJ"Hello, World!
+AR"Hello, World!
 ```
-[Try it online!](https://tio.run/##K87ILypJ/v/f0UvJIzUnJ19HITy/KCdF8f9/AA)
+[Try it online!](https://tio.run/##K87ILypJ/v/fMUjJIzUnJ19HITy/KCdF8f9/AA)
 ## [Shove](https://github.com/TryItOnline/shove), 16 bytes
 ```
 "Hello, World!"S
@@ -2136,6 +2488,12 @@ define main function main(returns array[character])"Hello, World!"
 \p|\P)z(\a|\A)z{\n|\N)z{\a|\A}z(\m|\M)z(\a|\A
 ```
 [Try it online!](https://tio.run/##K85LzMwp/v8/pqAmJkCzSiMmsSbGUbOqOiavJsYPRIP4tUDx3JoYX5j8//@uuZEBGX6llVyOiYneYcVZPlz5eTnuZZnO5VwuKf7pbkVBeVyewakeUbmFyVxVvqHZTu5egQA)
+## [SNOBOL4 (CSNOBOL4)](http://www.snobol4.org/csnobol4/), 28 bytes
+```
+ OUTPUT ='Hello, World!'
+END
+```
+[Try it online!](https://tio.run/##K87LT8rPMfn/X8E/NCQgNETBVt0jNScnX0chPL8oJ0VRncvVz@X/fwA)
 ## [Snowman](http://github.com/KeyboardFire/snowman-lang), 18 bytes
 ```
 ("Hello, World!"sP
@@ -2223,6 +2581,17 @@ print"Hello, World!";
 "!dlroW ,olleH"ooooooooooooox
 ```
 [Try it online!](https://tio.run/##Ky5PLPj/X0kxJacoP1xBJz8nJ9VDKR8ZVPz/DwA)
+## [Symbolic Python](https://github.com/FTcode/Symbolic-Python), 200 bytes
+```
+__=-~(_==_)
+__=`_`[~__]+`_>_`[__::__]+`''`[-__::~__**__]
+_=_==_
+___='%'+__[-_]
+__,_=___+__[-~_]+__[_]*-~_+__[_>_]+', '+___+__[_>_]+`_`[_]+__[-~_-_]+__[~_]+'!',-~-~_
+___=_*_<<_
+_=__%(___,___+_*-~-~_)
+```
+[Try it online!](https://tio.run/##RU1LDoIwEN1zCl2QgdJegDBchJDX4EYTFRPdsOkNvJQXK2/KwtW877z39ljW@@0SXtvnuj5zBjSkBqpoK@KIOCVg7iJGQqDvC5PfV@IUjNN2jmIFtRpbUKmlA@hThacBFJ7Y5cXsCAsaqYg/Wfwv2OqRZCwcyKpyFh8StTICh2GAzaJuYDv2wpVAm/MO)
 ## [Syms](https://github.com/CatsAreFluffy/syms), 16 bytes
 ```
 {Hello, World!}>
@@ -2322,12 +2691,11 @@ say "Hello, World!"America is great.
 console.log('Hello, World!')
 ```
 [Try it online!](https://tio.run/##K6ksSC1OLsosKPn/Pzk/rzg/J1UvJz9dQ90jNScnX0chPL8oJ0VRXfP/fwA)
-## [uBASIC](https://github.com/EtchedPixels/ubasic), 22 bytes
+## [uBASIC](https://github.com/EtchedPixels/ubasic), 17 bytes
 ```
-0PRINT"Hello, World!"
-
+0?"Hello, World!"
 ```
-[Try it online!](https://tio.run/##K01KLM5M/v/fICDI0y9EySM1JydfRyE8vygnRVGJ6/9/AA)
+[Try it online!](https://tio.run/##K01KLM5M/v/fwF7JIzUnJ19HITy/KCdFUen/fwA)
 ## [Underload](https://github.com/catseye/stringie), 16 bytes
 ```
 (Hello, World!)S
@@ -2363,6 +2731,23 @@ iHello, World!
 void main(){stdout.puts("Hello, World!");}
 ```
 [Try it online!](https://tio.run/##K0vMSfz/vyw/M0UhNzEzT0OzurgkJb@0RK@gtKRYQ8kjNScnX0chPL8oJ0VRSdO69v9/AA)
+## [Verbosity](https://github.com/cairdcoinheringaahing/Verbosity), 390 bytes
+```
+Include<Integer>
+Include<MetaFunctions>
+Include<Output>
+Include<String>
+Integer:DefineVariable<o; 1>
+Output:DefineVariable<P; 0>
+String:DefineVariable<s; "Hello, World!">
+String:RedefineVariable<s; String:RemoveCharactersFromStart<s; o>>
+String:RedefineVariable<s; String:TakeFirstCharacters<s; o>>
+Output:DisplayAsText<P; s>
+DefineMain<> [
+MetaFunctions:ExecuteScript<MetaFunctions@FILE>
+]
+```
+[Try it online!](https://tio.run/##jVA9T8MwEN39K0xnBlibyAJBo0aiApEKBsRwdY72hGtH53PV/vpAiNKo7cJ470v33g55FSLJoW1Lb12qMS@94BrZqAFYoECRvBUKPo7wc5ImyXhXwuTX3f3nnz7iF3l8AyZYOcxDpm@N6k3n3Eumb4zqA865mOnJHJ0L1/o9sKuvJkflK9YX2iO1DTt82ACDFeRYcNhWAiydJpj/RCzhGwviKGPKYB5aUGwcHO7jEvfSlfhdp/9@AeRzoz/UyXbT2R5tEqwsUyOnu94V5dPMqM@2/QE)
 ## [Visual Basic .NET (Mono)](http://www.mono-project.com/docs/about-mono/languages/visualbasic/), 71 bytes
 ```
 Module Hello
@@ -2377,14 +2762,30 @@ End Module
 "!dlroW ,olleH"Z
 ```
 [Try it online!](https://tio.run/##K8ssKa78/19JMSWnKD9cQSc/JyfVQynq/38A)
+## [VSL](https://github.com/vsl-lang/VSL), 32 bytes
+```
+fn main(){puts(`Hello, World!`)}
+```
+[Try it online!](https://tio.run/##KyvO@f8/LU8hNzEzT0OzuqC0pFgjwSM1JydfRyE8vygnRTFBs/b/fwA)
 ## [Whirl](https://bigzaphod.github.io/Whirl/), 1350 bytes
 ```
 110011100111000001111100000001000011111000011111100000000010000011001111100001100010000010011111000100000000000001001111100000111110001000000000000000001000111110010000001100001111100011000000000100111110011100111000111000001000111000001111100000111110010000011111000110011111100001111000001111000001110011111100001111000110011100000111000100011111000001111100100000110000000111000001110001111100011111000111000001000001000011000111110001000001000000011100000111001000111110001111000001111000011111100001111110000011110000000000000000011110000011100111000011110011111000111110001111100000100000000000000000000000111110001110000001110000011100011100111110001000100000000011100001111100110000000010011111000111100000111100111100010011100000111110000011111001100111100010001111000000000001000111110010000010011110011001110001000111110001100000100011111000011110011100111111000111100000111100011111000000011110000011100100001111000100011111001100011111000111100000111001110001100111100100000000000000011111000001111100010010000011100001111100100000100011100000111000110011110001001111110001100000111100011111000111100000111001000011110001001111100000111110000000011110000011110000000000000000111000001110000011000001100000111000111000001100111110000111111001001110000011111000001100011000001001111110000011100110011111000000000111000001110000111100001100
 ```
 [Try it online!](https://tio.run/##fVRBDsMwCPsS/tUm7bTLnp9OEynYOLs0ERDHNqSfx/P9WguIwP2J35q7754C6KlMRh7dFRWvcB2RxKlko2c2kyA2TGRXlpD7hnDSCLlDgtSGbkyBeMfU51WbM5/AWLvFZS3ZZbEUjiTA9ZKaGoXJoitoyIIJObAua6pnaegnu4cwQyQ6CubcdSpT/WPwUNCuwzxnYlQzWv2mdzZaqAShE2D6U7pwaADZDOewezOhlkG14x83VjOphH9tTF9WXiC5MeWHaaDu8YsQIEej//TWugA)
-## [Whitespace](https://web.archive.org/web/20150618184706/http://compsoc.dur.ac.uk/whitespace/tutorial.php), 146 bytes
+## [Whispers v1](https://github.com/cairdcoinheringaahing/Whispers/tree/v1), 29 bytes
 ```
-   
+> "Hello, World!"
+>> Output 1
+```
+[Try it online!](https://tio.run/##K8/ILC5ILSr@/99OQckjNScnX0chPL8oJ0VRicvOTsG/tKSgtETB8P9/AA)
+## [Whispers v2](https://github.com/cairdcoinheringaahing/Whispers), 29 bytes
+```
+> "Hello, World!"
+>> Output 1
+```
+[Try it online!](https://tio.run/##K8/ILC5ILSo2@v/fTkHJIzUnJ19HITy/KCdFUYnLzk7Bv7SkoLREwfD/fwA)
+## [Whitespace](https://web.archive.org/web/20150618184706/http://compsoc.dur.ac.uk/whitespace/tutorial.php), 126 bytes
+```
   		  	 	 
   				
    	
@@ -2400,27 +2801,33 @@ End Module
   		   		
 
   
- 
- 
-	 	
    		 	 		
 	   	
   
  
 
 
-  	
-
-
-
-
 ```
-[Try it online!](https://tio.run/##VY1RCsAwCEO/4ylytVEK299ghR7fxVWhQ9RAnnGe1@jPfbTuTtJIQK36JKDFNVIXhJ1G0j8o7vKy0CAtTBUqdwUgH8kJRJyZ@ws)
+[Try it online!](https://tio.run/##K8/ILEktLkhMTv3/X0GBkxOIgZALxOTkBFIKEALKVoDIIBgg1ZxQ1SiKQPqgOmFKQSq5oJKcEI2cUAuAarn@/wcA)
 ## [Width](https://github.com/stestoltz/Width), 30 bytes
 ```
 GZiwWOwQROWIkilBAQWmkOCDmifGww
 ```
 [Try it online!](https://tio.run/##K89MKcn4/989KrM83L88MMg/3DM7M8fJMTA8N9vf2SU3M829vPz/fwA)
+## [Wierd (John's)](https://github.com/catseye/Wierd), 181 bytes
+```
+-*******************           !dlroW ,olleH
+ *
+ R*   *    *     *
+ E*  **    **   *
+ T*  **    **  *
+ U ***   ***  ****
+ R   *  *  *      *
+ N  *    *  ********
+    *  ****
+ 0   **
+ ```
+ [Try it online!](https://tio.run/##K89MLUr5/19XCxMoIIBiSk5RfriCTn5OTqoHl4IWl0IQSBqsBKIOKOQKZEF0gUmgSAiKCFAgVAFiLpgE2QE0CGKEFswgkDI/hNEwx3Ah8bkUDMBm/P8PAA)
 ## [Wise](https://github.com/Wheatwizard/Wise), 135 bytes
 ```
 ~-<<<~-<<<::^~-<~-<<<~-<<~-:::^~-<<<~-^::?:>~-<~-:?::^~-<<~-<~-<<::^~-<<<<<:<::^<~-<<~-<~-<~-|!::^~-<~-<~-<<<~-<!:::^~-<<<^::^~-<<<<<~-
@@ -2506,6 +2913,11 @@ GZiwWOwQROWIkilBAQWmkOCDmifGww
 	
 ```
 [Try it online!](https://tio.run/##XU1BDgAgCDrjK3xdH@jQ821C6UqHQ4ew5ohwsK1g7gcmourlO@ubJSuHoaZE8s3D1SM5QMkTQh@0M9MozIeIDQ)
+## [Yabasic](http://www.yabasic.de/), 16 bytes
+```
+?"Hello, World!"
+```
+[Try it online!](https://tio.run/##q0xMSizOTP7/317JIzUnJ19HITy/KCdFUen/fwA)
 ## [yup](https://github.com/ConorOBrien-Foxx/yup), 1171 bytes
 ```
 0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--@0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--0e~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--@0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0~--~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--:::@@0e0e0~--0e0~--0~--:@0e0e0~--0e0e0~--0~--0e0e0~--0e0e0~--0~--~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--@0e0e0~--0e0~--0e0e0~--~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--@0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0~--0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--@@0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--0e0~--0e0e0~--0e0e0~--0~--~0e0e0~--0e0e0~--0~--0e0e0~--0e0~--0~--0e0e0~--0e0~--0~--|~|0~--e0~--@
