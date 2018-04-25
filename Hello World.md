@@ -5,6 +5,7 @@ MOST DEFINITELY NOT OPTIMAL:
 Surface
 HBCHT
 YABALL
+
 Almost certainly not optimal:
 SNUSP (Modular)
 Bitwise Fuckery
@@ -47,6 +48,7 @@ def codify(word):
 result = re.sub(r"\w+|[^ \r\n\t\v]", codify, code)
 print len(result)
 print(result)
+
 Probably not optimal:
 ;#+
 Beam
@@ -55,6 +57,7 @@ brainbool
 Brainbash
 COW
 Subskin
+
 May be optimal:
 3var
 Brainfuck (&derivatives)
@@ -166,23 +169,29 @@ def codify(word):
 result = re.sub(r"\s+", "", re.sub(r"\w+|[^ \r\n\t\v]", codify, code))
 print len(result)
 print(result)
+
 Probably optimal:
 A Pear Tree
 Cubically
 Incident
 MarioLANG
 Monkeys
+
 Almost certainly optimal:
 4
 Dodos
 Swap
+
 Wrong:
 HBCHT
+
 Broken:
 BrainFlump
 Gaot++
+
 Incomplete:
 Ceres
+
 Warns:
 ELF (x86/x64, Linux)
 -->
@@ -623,7 +632,7 @@ ELF (x86/x64, Linux)
  - [Syms, 16 bytes](#syms-16-bytes)
  - [TacO, 16 bytes](#taco-16-bytes)
  - [Tampio (functional), INVALID](#tampio-functional-invalid)
- - [Tampio (imperative), 49 bytes](#tampio-imperative-49-bytes)
+ - [Tampio (imperative), 46 bytes](#tampio-imperative-46-bytes)
  - [Taxi, 183 bytes](#taxi-183-bytes)
  - [Tcl, 19 bytes](#tcl-19-bytes)
  - [tcsh, 18 bytes](#tcsh-18-bytes)
@@ -1155,9 +1164,9 @@ OUT &33 1
 ```
 [Try it online!](https://tio.run/##S8osKc8sTv3/39c/TMFQQQ2EuPxDQxTUzI0UoCxDA0ME0wIb0xCuwMQExjKG67cwx6LQ0NAEq6EGcP3GCob//wMA)
 ## [Bitwise Fuckery](https://github.com/cairdcoinheringaahing/Bitwise-Fuckery), 96 bytes
-```
+```{%raw%}
 +>+>+@+{{{+{{{.&+{+{{{+{{+.+++++++..+++.<+{{+{+{{.&+{{{{{.<+{{+{{+{+{+.<.+++.------.--------.<+.
-```
+{%endraw%}```
 [Try it online!](https://tio.run/##SypPK03OTi2q/P9f2w4IHbSrq6tBWE9NuxrK1tbThgA9EEPPBiQEEgcpAQGoCFgQKA1WpAsGUArIsNHW@/8fAA)
 ## [Black (blak)](https://github.com/TryItOnline/blak), INVALID
 ## [Boo](http://boo-lang.org/), 20 bytes
@@ -2867,10 +2876,10 @@ begin write('Hello, World!')end.
 ```
 [Try it online!](https://tio.run/##K0gsTk7M0U0rSP7/Pyk1PTNPobwosyRVQ90jNScnX0chPL8oJ0VRXTM1L0Xv/38A)
 ## [PATH](https://sourceforge.net/projects/pathlang/), 113 bytes
-{%raw%}```
+```{%raw%}
 /++}+++++++}+++++}<$+++++++<
 \+}++}++++++{{{{{-^}++.}+++.+++++++..+++.}++.}++++.}+++.{{{.+++.------.--------.}}+.
-```{%endraw%}
+{%endraw%}```
 [Try it online!](https://tio.run/##K0gsyfj/X19bu1YbAiB0rY0KlG/DFQMSg0pXg4BuHJCnBxLRgyrSAzH0YKJQOaBKsLAuGEApIKO2Vlvv/38A)
 ## [pbrain](http://www.parkscomputing.com/applications/pbrain/), 87 bytes
 ```
@@ -3732,11 +3741,11 @@ _=__%(___,___+_*-~-~_)
 ```
 [Try it online!](https://tio.run/##K0lMzv//30HJIzUnJ19HITy/KCdFUen/fwA)
 ## [Tampio (functional)](https://github.com/fergusq/tampio/tree/functional), INVALID
-## [Tampio (imperative)](https://github.com/fergusq/tampio), 49 bytes
+## [Tampio (imperative)](https://github.com/fergusq/tampio), 46 bytes
 ```
-Kun aloitetaan,tulostetaan teksti"Hello, World!".
+Kun aloitetaan,tulostetaan tie"Hello, World!".
 ```
-[Try it online!](https://tio.run/##K0nMLcjMz/z/37s0TyExJz@zJLUkMTFPp6Q0J78YwlYoSc0uLslU8kjNycnXUQjPL8pJUVTS@/8fAA)
+[Try it online!](https://tio.run/##K0nMLcjMz/z/37s0TyExJz@zJLUkMTFPp6Q0J78YwlYoyUxV8kjNycnXUQjPL8pJUVTS@/8fAA)
 ## [Taxi](https://bigzaphod.github.io/Taxi/), 183 bytes
 ```
 "Hello, World!"is waiting at Writer's Depot.Go to Writer's Depot:w 1 r 3 l 2 l.Pickup a passenger going to Post Office.Go to Post Office:e 1 r 2 r 1 l.Go to Taxi Garage:n 1 r 1 l 1 r.
