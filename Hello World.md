@@ -169,6 +169,68 @@ def codify(word):
 result = re.sub(r"\s+", "", re.sub(r"\w+|[^ \r\n\t\v]", codify, code))
 print len(result)
 print(result)
+Whirl:
+import re
+
+op = "_ # 1 0 ; : p m & ? , ."
+math = "_ ; : + * / 0 < > = ! -"
+opi = 0
+mathi = 0
+opd = 1
+mathd = 1
+isop = True
+
+code = """\
+1 _ : ; _ + _ + _ + _ : _ + _ : _ * _ + _ : . _
+    : ; _ + _ + _ + _ + _ : _ + _ : _ * : + _ : . _ :
+          + _ + _ + _ + _ + _ + _ + _ : . _ . _ :
+          + _ + _ + _ : . _
+    : ; _ + _ + _ + _ + _ : _ + : + _ : _ + _ : _ + _ : . _
+    : ; _ + _ : _ + _ : _ + _ : _ + _ : _ + _ : . _
+    : ; _ + _ + _ + _ + _ + _ + _ : _ + _ + _ : _ + _ : _ + : + _ + _ + _ : . _
+    : ; _ + _ + _ : _ + _ + _ : _ + _ + _ + : + _ : _ + _ + _ : . _ :
+          + _ + _ + _ : . - :
+          + _ + _ + _ + _ + _ + _ - _ : . - :
+          + _ + _ + _ + _ + _ + _ + _ + _ - _ : . _
+    : ; _ + _ : _ + _ : _ + _ : _ + _ : _ + : + _ : ."""
+# i'm using 1 letter per line. most are just simple +1 or x2
+
+result = ""
+
+for tok in re.split("\\s+", code):
+	curr = 0
+	dir = 0
+	try:
+		if isop:
+			curr = opi
+			next = op.index(tok) // 2
+			dir = opd
+		else:
+			curr = mathi
+			next = math.index(tok) // 2
+			dir = mathd
+	except:
+		raise BaseException("Command %s not found on %s ring" % (tok, "operation" if isop else "math"))
+	delta = (next - curr) % 12
+	if delta > 6 and dir == 1:
+		dir = -1
+		result += "0"
+	if delta and delta < 6 and dir == -1:
+		dir = 1
+		result += "0"
+	if delta and dir == -1:
+		delta = 12 - delta
+	result += "1" * delta + "00" 
+	if isop:
+		opi = next
+		opd = dir
+	else:
+		mathi = next
+		mathd = dir
+	isop = not isop
+
+print len(result)
+print result
 
 Probably optimal:
 A Pear Tree
@@ -216,7 +278,7 @@ ELF (x86/x64, Linux)
  - [Aceto, 19 bytes](#aceto-19-bytes)
  - [Actually, 1 byte](#actually-1-byte)
  - [Ada (GNAT), 54 bytes](#ada-gnat-54-bytes)
- - [Add++, 20 bytes](#add-20-bytes)
+ - [Add++, 16 bytes](#add-16-bytes)
  - [ADJUST, 281 bytes](#adjust-281-bytes)
  - [Agda, 48 bytes](#agda-48-bytes)
  - [Agony, 33 bytes](#agony-33-bytes)
@@ -340,6 +402,7 @@ ELF (x86/x64, Linux)
  - [Curry (Sloth), 37 bytes](#curry-sloth-37-bytes)
  - [Cy, 18 bytes](#cy-18-bytes)
  - [D, 52 bytes](#d-52-bytes)
+ - [D2, 22 bytes](#d2-22-bytes)
  - [Dash, 18 bytes](#dash-18-bytes)
  - [dc, 16 bytes](#dc-16-bytes)
  - [Deadfish~, 1 byte](#deadfish-1-byte)
@@ -432,8 +495,7 @@ ELF (x86/x64, Linux)
  - [J-uby, 19 bytes](#j-uby-19-bytes)
  - [Japt, 12 bytes](#japt-12-bytes)
  - [Java (OpenJDK 8), 76 bytes](#java-openjdk-8-76-bytes)
- - [Java (OpenJDK 9), 76 bytes](#java-openjdk-9-76-bytes)
- - [Java (OpenJDK 10), 76 bytes](#java-openjdk-10-76-bytes)
+ - [Java (JDK 10), 76 bytes](#java-jdk-10-76-bytes)
  - [JavaScript (Babel Node), 28 bytes](#javascript-babel-node-28-bytes)
  - [JavaScript (Node.js), 28 bytes](#javascript-nodejs-28-bytes)
  - [JavaScript (SpiderMonkey), 20 bytes](#javascript-spidermonkey-20-bytes)
@@ -490,6 +552,7 @@ ELF (x86/x64, Linux)
  - [MY, 60 bytes](#my-60-bytes)
  - [MY-BASIC, 20 bytes](#my-basic-20-bytes)
  - [Neim, 16 bytes](#neim-16-bytes)
+ - [Neutrino, 15 bytes](#neutrino-15-bytes)
  - [Nhohnhehr, 181 bytes](#nhohnhehr-181-bytes)
  - [Nim, 19 bytes](#nim-19-bytes)
  - [NotQuiteThere, 17 bytes](#notquitethere-17-bytes)
@@ -497,6 +560,7 @@ ELF (x86/x64, Linux)
  - [Numberwang, 72 bytes](#numberwang-72-bytes)
  - [Oasis, 14 bytes](#oasis-14-bytes)
  - [Objective-C (clang), 30 bytes](#objective-c-clang-30-bytes)
+ - [Objective-C (gcc), 30 bytes](#objective-c-gcc-30-bytes)
  - [OCaml, 27 bytes](#ocaml-27-bytes)
  - [occam-pi, 83 bytes](#occam-pi-83-bytes)
  - [Octave, 19 bytes](#octave-19-bytes)
@@ -628,6 +692,7 @@ ELF (x86/x64, Linux)
  - [Surface (516 bytes)](#surface-516-bytes)
  - [Swap, 29 bytes](#swap-29-bytes)
  - [Swift 4, 22 bytes](#swift-4-22-bytes)
+ - [Symbolic Brainfuck, 182 bytes](#symbolic-brainfuck-182-bytes)
  - [Symbolic Python, 200 bytes](#symbolic-python-200-bytes)
  - [Syms, 16 bytes](#syms-16-bytes)
  - [TacO, 16 bytes](#taco-16-bytes)
@@ -665,10 +730,11 @@ ELF (x86/x64, Linux)
  - [Vala, 36 bytes](#vala-36-bytes)
  - [VAR, 19 bytes](#var-19-bytes)
  - [Verbosity, 390 bytes](#verbosity-390-bytes)
+ - [Visual Basic .NET (.NET Core), 67 bytes](#visual-basic-net-net-core-67-bytes)
  - [Visual Basic .NET (Mono), 67 bytes](#visual-basic-net-mono-67-bytes)
  - [Vitsy, 16 bytes](#vitsy-16-bytes)
  - [VSL, 32 bytes](#vsl-32-bytes)
- - [Whirl, 1297 bytes](#whirl-1297-bytes)
+ - [Whirl, 955 bytes](#whirl-955-bytes)
  - [Whispers v1, 29 bytes](#whispers-v1-29-bytes)
  - [Whispers v2, 29 bytes](#whispers-v2-29-bytes)
  - [Whitespace, 146 bytes](#whitespace-146-bytes)
@@ -816,11 +882,11 @@ H
 procedure GNAT.IO.H is begin Put("Hello, World!");end;
 ```
 [Try it online!](https://tio.run/##S0xJ1E3PSyz5/7@gKD85NaW0KFXB3c8xRM/TX89DIbNYISk1PTNPIaC0REPJIzUnJ19HITy/KCdFUUnTOjUvxfr/fwA)
-## [Add++](https://github.com/SatansSon/AddPlusPlus), 26 bytes
+## [Add++](https://github.com/SatansSon/AddPlusPlus), 16 bytes
 ```
-D,f,,"Hello, World!"
+L,"Hello, World!
 ```
-[Try it online!](https://tio.run/##S0xJKSj4/99FJ01HR8kjNScnX0chPL8oJ0VR6f//f/kFJZn5ecX/dTMB)
+[Try it online!](https://tio.run/##S0xJKSj4/99HR8kjNScnX0chPL8oJ0Xx//9/@QUlmfl5xf91MwE)
 ## [ADJUST](https://github.com/TryItOnline/adjust), 281 bytes
 ```
  ;I-      &  e$      &  m-        &  g2Ph$      &  a2$      &  n$      &  e2+-      &  g2Ph$      &  OPh$      &  m-      &  e-      &  n-
@@ -1588,6 +1654,11 @@ main=putStr"Hello, World!"
 import std.stdio;void main(){"Hello, World!".write;}
 ```
 [Try it online!](https://tio.run/##S/n/PzO3IL@oRKG4JEUPiDPzrcvyM1MUchMz8zQ0q5U8UnNy8nUUwvOLclIUlfTKizJLUq1r//8HAA)
+## [D2](https://github.com/ConorOBrien-Foxx/Attache/blob/master/D2.md), 22 bytes
+```
+"r8$.s$o;Hello, World!
+```
+[Try it online!](https://tio.run/##SzH6/1@pyEJFr1gl39ojNScnX0chPL8oJ0Xx/38A)
 ## [Dash](https://wiki.debian.org/Shell), 18 bytes
 ```
 echo Hello, World!
@@ -2237,12 +2308,7 @@ puts"Hello, World!"
 interface H{static void main(String[]a){System.out.print("Hello, World!");}}
 ```
 [Try it online!](https://tio.run/##DchBDkAwEADAr5QTCT7gA707OIjDRpdsVVdqSaTp28scx8IDLZ/ordlzJi8YVlhQ6XgJCC3qYTLqAPLVIIH8Ns1Qx@G9BI@Ob@nOP6UqNTrHjRo5OFOUdZ9Szh8)
-## [Java (OpenJDK 9)](http://openjdk.java.net/projects/jdk9/), 76 bytes
-```
-interface H{static void main(String[]a){System.out.print("Hello, World!");}}
-```
-[Try it online!](https://tio.run/##DcixDkAwEADQXymTJtjFD9gNBjFc2iNX1ZM6EhHfXt74HFxQ8Y7B2bVJiYJgnMGg6p5DQMioi8mqDSgUvUQKyziBfvr7ENxqPqXe/5Qi79B7LtXA0dss1@37pvQB)
-## [Java (OpenJDK 10)](http://openjdk.java.net/projects/jdk9/), 76 bytes
+## [Java (JDK 10)](http://jdk.java.net/), 76 bytes
 ```
 interface H{static void main(String[]a){System.out.print("Hello, World!");}}
 ```
@@ -2748,7 +2814,7 @@ Print"Hello, World!"
 (Hello, World!)B
 ```
 [Try it online!](https://tio.run/##y0vNzP3/X8MjNScnX0chPL8oJ0VR0@n/fwA)
-## [Neutrino, 15 bytes](https://github.com/alexander-liao/neutrino)
+## [Neutrino](https://github.com/alexander-liao/neutrino), 15 bytes
 ```
 "Hello, World!'
 ```
@@ -2800,6 +2866,11 @@ echo"Hello, World!"
 main(){puts("Hello, World!");}
 ```
 [Try it online!](https://tio.run/##y0/KSk0uySxL1U3WTc5JzEv//z83MTNPQ7O6oLSkWEPJIzUnJ19HITy/KCdFUUnTuvb//3/JaTmJ6cX/dcPz8nUTc3IA)
+## [Objective-C (gcc)](https://gcc.gnu.org/onlinedocs/gcc-7.1.0/gcc/Objective-C.html), 30 bytes
+```
+main(){puts("Hello, World!");}
+```
+[Try it online!](https://tio.run/##y0/KSk0uySxL1U3WTU9O/v8/NzEzT0OzuqC0pFhDySM1JydfRyE8vygnRVFJ07r2/38A)
 ## [OCaml](http://www.ocaml.org/), 27 bytes
 ```
 print_string"Hello, World!"
@@ -3719,6 +3790,11 @@ a
 print("Hello, World!")
 ```
 [Try it online!](https://tio.run/##Ky7PTCsx@f@/oCgzr0RDySM1JydfRyE8vygnRVFJ8/9/AA)
+## [Symbolic Brainfuck](https://github.com/KelsonBall/Esolangs.Sbf), 182 bytes
+```
+▲²²²▲²²²¡½½½▲▲▲²▲²²▲¡½▲▲▲▲²¡¡▲▲▲¡α▲²²▲²▲²²¡ß▲²²²²²¡ß²▼¡α¡▲▲▲¡½▼▼▼²¡½½▼▼²²¡ß▲¡
+```
+[Try it online!](https://tio.run/##K05K@///0bRNh8AQzji08NBeEAQKQBBcDkQtRJKACC88tBDBXXhuI5JiuKELD89HmA8VAMnuAWlA0Q8yfg8EwZwC58HNWfj/PwA)
 ## [Symbolic Python](https://github.com/FTcode/Symbolic-Python), 200 bytes
 ```
 __=-~(_==_)
@@ -3981,11 +4057,11 @@ End Module
 fn main(){puts(`Hello, World!`)}
 ```
 [Try it online!](https://tio.run/##KyvO@f8/LU8hNzEzT0OzuqC0pFgjwSM1JydfRyE8vygnRTFBs/b/fwA)
-## [Whirl](https://bigzaphod.github.io/Whirl/), 1297 bytes
+## [Whirl](https://bigzaphod.github.io/Whirl/), 955 bytes
 ```
-1100111001110000011111000000010000111110000111111000000000100000110011111000011000100000100111110001000000000000010011111000001111100010000000000000000010001111100100000011000011111000110000000001001111100111001110001110000010001110000011111000001111100100000111110001100111111000011110000011110000011100111111000011110001100111000001110001000111110000011111001000001100000001110000011100011111000111110001110000010000010000110001111100010000010000000111000001110010001111100011110000011110000111111000011111100000111100000000000000000111100000111001110000111100111110001111100011111000001000000000000000000000001111100011100000011100000111000111001111100010001000000000111000011111001100000000100111110001111000001111001111000100111000001111100000111110011001111000100011110000000000010001111100100000100111100110011100010001111100011000001000111110000111100111001111110001111000001111000111110000000111100000111001000011110001000111110011000111110001111000001110011100011001111001000000000000000111110000011111000100100000111000011111001000001000111000001110001100111100010011111100011000001111000111110001111000001110010000111100010011111000001111100000000111100000111100000000000000001110000011100000110000011000001110001110000011001111100001111110010011100000111110000011000110000010011111100
+1100001110010001111100110000000000000100000100000100000110000010000100100110011111100010011111001100000000000000000100000100000100000110001111100010001111100100100110011111100011100111110000000000000000000000000001001001100000011111100011100111110000000000010010011001111110001001111100110000000000000000010000010001111100000111110001000001000001000001000001001001100111111000100111110011000001000001000001000001000001000001000001000001000001001001100111111000100111110011000000000000000000000000010000010000000001000001000001000001000111110000011111000000000001001001100111111000100111110011000000000100000100000000010000010000000000011111000001111100010000010000000001001001100111111000111001111100000000000100100111001111110001111001111100000000000000000000000111100000111001000111001111110001111001111100000000000000000000000000000001111000001110010001100111111000100111110011000001000001000001000001000001000001000001000001000111110000011111000100100
 ```
-[Try it online!](https://tio.run/##fVNBDsMwCPsS/tUm7bTLnp9OEynYOLuUCIhrG/J5PN@vtYAI3J/4xTx9z5RAL2Ux8uruqHyl64oUTi0bPatZBLFhIruzhNx/CCeNkDskSG3owTSId0x9/mpz5hsYsVtc1pJdFkvhSALcLGmoUZgsupKGLJiQA@uypnqWhn6zewizRKKjYM5TpzbVPxYPBe0mzHsmRjWj1W96Z2OEShC6AWY@pQuHAZDNcA67NxNqGVQ7/nFjNZNK@NfG9CVygNTGlh@2gaa3e9e6AA)
+[Try it online!](https://tio.run/##rZLdCsAgCIVfyfNWG@xqN3t81xJKyh@KSZhF59Os5zjvixmgYvgmSFDDutsMs1cLkYpM5ASPFNCUtokNMjrbta4jyrT71XeSLt3xaY4Nv1S31X2fP99ttV9RHhrIVv@8XNEbDgeTn6LTt1svESLSf29t9qkM5hc)
 ## [Whispers v1](https://github.com/cairdcoinheringaahing/Whispers/tree/v1), 29 bytes
 ```
 > "Hello, World!"
