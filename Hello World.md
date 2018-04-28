@@ -1,6 +1,9 @@
 # Hello, World!
 
 <!--
+TODO:
+Update COW
+
 MOST DEFINITELY NOT OPTIMAL:
 Surface
 HBCHT
@@ -52,7 +55,6 @@ print(result)
 Probably not optimal:
 ;#+
 Beam
-Beatnik
 brainbool
 Brainbash
 COW
@@ -71,6 +73,7 @@ Minimal-2D
 Simplefunge
 Stones
 Unreadable
+Beatnik
 Grass:
 cat > grassy.py <<EOF
 stack=['i','w','+1','o']
@@ -238,6 +241,7 @@ Cubically
 Incident
 MarioLANG
 Monkeys
+Functoid
 
 Almost certainly optimal:
 4
@@ -287,7 +291,7 @@ ELF (x86/x64, Linux)
  - [Alice, 22 bytes](#alice-22-bytes)
  - [Alice ML, 46 bytes](#alice-ml-46-bytes)
  - [AlphaBeta, 68 bytes](#alphabeta-68-bytes)
- - [Alphuck, 78 bytes](#alphuck-78-bytes)
+ - [Alphuck, 76 bytes](#alphuck-76-bytes)
  - [Alumin, 108 bytes](#alumin-108-bytes)
  - [anyfix, 15 bytes](#anyfix-15-bytes)
  - [APL (Dyalog Classic), 17 bytes](#apl-dyalog-classic-17-bytes)
@@ -316,7 +320,7 @@ ELF (x86/x64, Linux)
  - [Beam, 120 bytes](#beam-120-bytes)
  - [Bean, 17 bytes](#bean-17-bytes)
  - [BeanShell, 23 bytes](#beanshell-23-bytes)
- - [Beatnik, 148 bytes](#beatnik-148-bytes)
+ - [Beatnik, 117 bytes](#beatnik-117-bytes)
  - [Beeswax, 15 bytes](#beeswax-15-bytes)
  - [Befunge-93, 21 bytes](#befunge-93-21-bytes)
  - [Befunge-93 (FBBI), 21 bytes](#befunge-93-fbbi-21-bytes)
@@ -342,7 +346,7 @@ ELF (x86/x64, Linux)
  - [Brainbash, 78 bytes](#brainbash-78-bytes)
  - [brainbool, 157 bytes](#brainbool-157-bytes)
  - [BrainFlump, 362 bytes](#brainflump-362-bytes)
- - [brainfuck, 78 bytes](#brainfuck-78-bytes)
+ - [brainfuck, 76 bytes](#brainfuck-76-bytes)
  - [Braingolf, 17 bytes](#braingolf-17-bytes)
  - [Brat, 17 bytes](#brat-17-bytes)
  - [Broccoli, 22 bytes](#broccoli-22-bytes)
@@ -469,7 +473,7 @@ ELF (x86/x64, Linux)
  - [Go, 61 bytes](#go-61-bytes)
  - [Gol><>, 16 chars](#gol-16-chars)
  - [GolfScript, 15 btyes](#golfscript-15-btyes)
- - [Grass, 623 bytes](#grass-623-bytes)
+ - [Grass, 448 bytes](#grass-448-bytes)
  - [Grime, 2 bytes](#grime-2-bytes)
  - [Groovy, 20 bytes](#groovy-20-bytes)
  - [GS2, 2 bytes](#gs2-2-bytes)
@@ -483,7 +487,7 @@ ELF (x86/x64, Linux)
  - [Hodor, 28 bytes](#hodor-28-bytes)
  - [Huginn, 31 bytes](#huginn-31-bytes)
  - [Husk, 8 bytes](#husk-8-bytes)
- - [Hyper-Dimensional Brainfuck, 78 bytes](#hyper-dimensional-brainfuck-78-bytes)
+ - [Hyper-Dimensional Brainfuck, 76 bytes](#hyper-dimensional-brainfuck-76-bytes)
  - [I, INVALID](#i-invalid)
  - [Icon, 43 bytes](#icon-43-bytes)
  - [Idris, 36 bytes](#idris-36-bytes)
@@ -567,7 +571,7 @@ ELF (x86/x64, Linux)
  - [Ohm, 14 bytes](#ohm-14-bytes)
  - [Ohm v2, 14 bytes](#ohm-v2-14-bytes)
  - [OML, 16 bytes](#oml-16-bytes)
- - [oOo CODE, 234 bytes](#ooo-code-234-bytes)
+ - [oOo CODE, 228 bytes](#ooo-code-228-bytes)
  - [ORK, 80 bytes](#ork-80-bytes)
  - [OSH, 18 bytes](#osh-18-bytes)
  - [Paradoc, 2 bytes](#paradoc-2-bytes)
@@ -628,7 +632,7 @@ ELF (x86/x64, Linux)
  - [R, 20 bytes](#r-20-bytes)
  - [Racket, 37 bytes](#racket-37-bytes)
  - [Rail, 27 bytes](#rail-27-bytes)
- - [Random Brainfuck, 78 bytes](#random-brainfuck-78-bytes)
+ - [Random Brainfuck, 76 bytes](#random-brainfuck-76-bytes)
  - [Rapira, 22 bytes](#rapira-22-bytes)
  - [Recursiva, 14 bytes](#recursiva-14-bytes)
  - [Reason, 23 bytes](#reason-23-bytes)
@@ -931,11 +935,11 @@ val _=OS.Process.exit 0;
 kjjjggDLeaCLcbbbCLLaaaCLjjjggDLjhhDLsFihhDLCLaaaCLdaaaaCLdaaCLsFiiDL
 ```
 [Try it online!](https://tio.run/##NYnBDYAwDMSGS8TrlrhA1TTwqAT7h1aFly2bV3daeZh5RkStikLBbmYCkMO/HO6Ke2sTss7BHzJPU2S@)
-## [Alphuck](https://github.com/TryItOnline/tio-transpilers), 78 bytes
+## [Alphuck](https://github.com/TryItOnline/tio-transpilers), 76 bytes
 ```
-iiciccepepceaiiiaiaiaicccsascciijceeeeeejccijjccjcejaajaajcccjeeejaajaaijcccej
+epepaaaeccccseaiaiaaaeaeesaajaeejaeejjeeejaaeejaiiijccjcjeeejiiiiiijcijcciij
 ```
-[Try it online!](https://tio.run/##HYpBCsBADALfKhKodg@Bpe9Pk6gIg@Lk8/GtkigyMpIBSViTvLikZMbKDe5qNjDpj2dY0mC46gc)
+[Try it online!](https://tio.run/##HYhBCgAxDALfKiJsbA@Bsu9P0ygyKnZ@P1eVUglAbB0h2r0gHcCNifXKrIgwac4VI/NdzaoL)
 ## [Alumin](https://github.com/ConorOBrien-Foxx/Alumin), 108 bytes
 ```
 hhdtdadhatdoddhhhgahhhhhadohhhhhhhadodohhhadoydhhgddhhdtdaaohhhhcoyhhhhhddaaaoydohhhadohhhdacdohhdtdacohhhco
@@ -1134,11 +1138,11 @@ echo Hello, World!
 print("Hello, World!");
 ```
 [Try it online!](https://tio.run/##S0pNzCvOSM3J@f@/oCgzr0RDyQPIyddRCM8vyklRVNK0/v8fAA)
-## [Beatnik](https://esolangs.org/wiki/Beatnik), 148 bytes
+## [Beatnik](https://esolangs.org/wiki/Beatnik), 117 bytes
 ```
-K QQQQQQQG ZD XO K QQJA KD ZD XO K KG KD ZD ZD ZD XO XO K B KD ZD XO K QQQQF ZD ZD XO K QQQD XO K A Z KD XO ZD XO K B KD XO ZD XO K J Z XO K QQQB XO
+k zzzc xw xw z k xx k x k d k k k zzxa k zzzzzzzzf xw k zd z xw xo k k k x xw k zk k zzzzzzzzzzxx qs z xo xw xj kd xo
 ```
-[Try it online!](https://tio.run/##S0pNLMnLzP7/31shEALcFaJcFCL8FUACXo4K3i5wvrc7lBcFEwMLOyGrAZnghlAAFoCyHBWiQCqBbJicExrfC6gCpskJyPr/HwA)
+[Try it online!](https://tio.run/##TYtdCoAwDIOvkqtNp6AFhyhYcvnazD3YNv3jy7SU@9gswkByhj8qwuCulqopJemljy9WgXnWpOVqA/Pxtx@bVsd5iWwd3mE194gX)
 ## [Beeswax](https://github.com/m-lohmann/BeeswaxEsolang.jl), 15 bytes
 ```
 _`Hello, World!
@@ -1287,9 +1291,9 @@ print"Hello, World!"
 [Try it online!](https://tio.run/##SypKzMxLyynNLfj/X5tKQI8oWSs9EEtPl3KAYoYetR0NdqW1HlbLyHXw//8A)
 ## [brainfuck](https://github.com/TryItOnline/tio-transpilers), 78 bytes
 ```
---<-<<+[+[<+>--->->->-<<<]>]<<--.<++++++.<<-..<<.<+.>>.>>.<<<.+++.>>.>>-.<<<+.
++[+[<<<+>>>>]+<-<-<<<+<++]<<.<++.<++..+++.<<++.<---.>>.>.+++.------.>-.>>--.
 ```
-[Try it online!](https://tio.run/##HYrRCcBADEIHCjqBZJHjPtqDg1LoR6Hzp0lUhIee73E9@1t3BCBINmzIHIC3JU2fEkBZiwnMSqZ7JT@soQmFxogf)
+[Try it online!](https://tio.run/##HYhRCoBAEEIPJOMJZC6y7EcFQQR9BJ1/ckeRp@7vdj3nd9xVGBiSkNaEwvYSMCUaHWKVXhHBTGZf0WKuy6z6AQ)
 ## [Braingolf](https://github.com/gunnerwolf/braingolf), 17 bytes
 ```
 "Hello, World!"&@
@@ -2041,7 +2045,7 @@ write"Hello, World!"
 (print"Hello, World!")
 ```
 [Try it online!](https://tio.run/##K07OSM1N1U1PzE3KLPn/X6OgKDOvRMkjNScnX0chPL8oJ0VRSfP/fwA)
-[Gaot++](https://github.com/tuxcrafting/gaot-plus-plus), 679 bytes
+## [Gaot++](https://github.com/tuxcrafting/gaot-plus-plus), 679 bytes
 ```
 baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa bleeeeeeeeeeeeet bleet bleeeeeeeeeeeeet bleeeeeeeeeeeeet bleeeeeeeeeet
 baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa bleet bleeeeeeeeeeeeet bleeeeeeeeeet
@@ -2096,11 +2100,11 @@ func main(){Print("Hello, World!")}
 "Hello, World!"
 ```
 [Try it online!](https://tio.run/##S8/PSStOLsosKPn/X8kjNScnX0chPL8oJ0VR6f9/AA)
-## [Grass](https://github.com/TryItOnline/grass), 623 bytes
+## [Grass](https://github.com/TryItOnline/grass), 448 bytes
 ```
-wvwwWWwWWWwvWwwwwWWwWWWwWWWWwWWWWWwWWWWWWwWWWWWWWwWwwwwwwwwwwwwWWWWwWWWWWWWwWWWWWWWWWWWWWWwWWWWWWWWWWWwwWWWWWWWWWWwwWWWWWWWWWWWWwWWWWWWWWWWwwWWWWWWWWWWwwwwwwwWWWWWWWWWWWWWWwWWWWWWWWWWWWWWWWwWWWWWWWWWWWWWWWWWWWWWWwWWWWWWWWWWWWWWWWWWWwwWWWWWWWWWWWWWWWWWWwwWWWWWWWWWWWWWWWWWWwwwwwWWWWWWWWWWWWWWWWWWWWWwwWWWWWWWWWWWWWWWWWWWWWWWwWWWWWWWWWWWWWWWWWWWWWWWWWWwwwwwwwwwwwwwwwwwwwwwwwwwwwWwwwwwwwwwwwWWwwwwwwwWWWwwwwwwwWWWWwWWWWWwwwwwwwwWWWWWWwwwwwwwwwwwwwwwwwWWWWWWWwwwwwwwwwwwwwwwwwwwwwWWWWWWWWwwwwwwwwwwwwwwwwwWWWWWWWWWwwwwWWWWWWWWWWwwwwwwwwwwwWWWWWWWWWWWwwwwwwwWWWWWWWWWWWWwwwwwwwwwwwwwwwwwwWWWWWWWWWWWWWwwwwwwwwwwwwwwwwwwwwwwwwww
+wWWWwWWWWwWWWWWwvwwWWwWWWwvWwWwwwwwWWWwWWWwWWWWWwvwWWwwwwwwwwwwwWWWwWWWWWwWWWWwvwWWwwwwwWWWWWWWWWWWWwWWWwvWwwwwwwwwwwwWWwwwwwwWWWWWWWWwWWWWWWWwwWWWWWWwwwwwwwvwWWWWWWWwwwwwwwwwWWWWWWWWWWWWWwWWWwvWwwwwwwwwwwwwwwwwwWWwwwwwwwwwwwwWWWWWWWWWWWWWWWWWwvwWwWwwwwwwwwWwwwwwwWwwwwwwWwwwwwwwWwwwwwwwWwwwwwwwwwwwwwwWWWWWWWWWWWWWWWWWWwvwwWWWWWWWWWWWWWWWWWWWWWWwWWWwwwvWWwWWWWWWWWWWWWWWWWWWWWWwwwwWWwwwwwwwwwWwwwwwwWwwwWwwwwwwwwwWWWWWWWWWWWWwWwwwwwwwwwwwwwwwwwwvw
 ```
-[Try it online!](https://tio.run/##jZHBDsAgCEM/k/NOu8/E9/nMw3Q2ghsxIJWUgud1lOJOBbN2jGowEuvu8T20yGT6IjanEN@lSosGfcwYAzkMfzGIaRM4VTGNEZnJFt95l8Uiu1h5Np1SGSIwlGvbv8hbfYztfgM)
+[Try it online!](https://tio.run/##dVBBDsAgCHtmzzvtPhP6fKZBFCYjUQgttXg/V2uqBDCOXaCQVlN64ogJLgKszQi6yEIRwuXiFBPLC@9Mmuw@ecgWulm9GHGTXBRU6ch/WvPDqqD5lr3dB89Og4F6XZ6L9sdVXw)
 ## [Grime](https://github.com/iatorm/grime), 2 bytes
 ```
 .+
@@ -2249,11 +2253,11 @@ main(){print("Hello, World!");}
 ¨H◄⁰,ω]!
 ```
 [Try it online!](https://tio.run/##yygtzv7//9AKj0fTWx41btA53xmr@P8/AA)
-## [Hyper-Dimensional Brainfuck](https://github.com/Property404/hdbf), 78 bytes
+## [Hyper-Dimensional Brainfuck](https://github.com/Property404/hdbf), 76 bytes
 ```
---<-<<+[+[<+>--->->->-<<<]>]<<--.<++++++.<<-..<<.<+.>>.>>.<<<.+++.>>.>>-.<<<+.
++[+[<<<+>>>>]+<-<-<<<+<++]<<.<++.<++..+++.<<++.<---.>>.>.+++.------.>-.>>--.
 ```
-[Try it online!](https://tio.run/##HYrRCQAxDEIHEp1AskjpTzmO7r9AmkRFeOj9zp9JmjYWlhEkY2x7x7ZJGSMVqKpYEZ36qIchNkKZDw)
+[Try it online!](https://tio.run/##HYjRCcAwEEIHEp1AXCTkJ5TS/Re4Xk6Rp37PeauwsGwjrQ2z3cvAttWYCLfMIqlEmYsj5V7Nqh8)
 ## [I](https://github.com/mlochbaum/ILanguage), INVALID
 ## [Icon](https://github.com/gtownsend/icon), 43 bytes
 ```
@@ -2909,11 +2913,11 @@ disp"Hello, World!"
 "Hello, World!"s
 ```
 [Try it online!](https://tio.run/##y8/N@f9fySM1JydfRyE8vygnRVGp@P9/AA)
-## [oOo CODE](https://github.com/TryItOnline/brainfuck), 234 bytes
+## [oOo CODE](https://github.com/TryItOnline/brainfuck), 228 bytes
 ```
-OooOoooooOooooooooOoOoOoOoOoOooooOoOooOOooOooOooooOOooooOOooooOOooooooooooooOOooOoOOooooooOooOooOOooooOoOOoOOoOOoOOoOOoOOOoooooooOooOOoOOoooooooOOooooOoOOOoooOooOOOoooOooOOOooooooooooOOoOoOOoOOoOOOoooOooOOOoooOooOOooOOooooooooooOoOOOo
+OoOoOoOoOoOooooooooooOoOooOooOooOooOoOOOoOoooOoooooOoooooooooooOoOoooOoOOoOoOOooooooOOooooOoOOoOOOooooOoOOoOOOoOOoOoOOoOOoOOOoooooooOoOOoOOOooooOooOooOooOOoooOooOOOoooOOOoOoOOoOOoOOOoOooOooOooOooOooOooOOoooOOooOOoooOooOOooOooOOo
 ```
-[Try it online!](https://tio.run/##ZY5REgAgBAWP6BDV997/S01IahjzsM8AGn2oCqwk6hYZ3iKG2eCrx7mRmLkljrwpJJami5dYFpFYPVXJ@pkxqhM)
+[Try it online!](https://tio.run/##ZY5JDgAgCAOf2Eeo5/7/hAmroBKWdoiSXNxHBKybR4cnALPh7iCVsGQimOLogyvrIyP8QdMxFvv/im@LUUQu)
 ## [ORK](https://github.com/TryItOnline/ork), 80 bytes
 ```
 When this program starts
@@ -3241,11 +3245,11 @@ $'main'
  -[Hello, World!]o#
 ```
 [Try it online!](https://tio.run/##K0rMzPn/X0U9NzEzT51LQTfaIzUnJ19HITy/KCdFMTZf@f9/AA)
-## [Random Brainfuck](https://github.com/TryItOnline/tio-transpilers), 78 bytes
+## [Random Brainfuck](https://github.com/TryItOnline/tio-transpilers), 76 bytes
 ```
---<-<<+[+[<+>--->->->-<<<]>]<<--.<++++++.<<-..<<.<+.>>.>>.<<<.+++.>>.>>-.<<<+.
++[+[<<<+>>>>]+<-<-<<<+<++]<<.<++.<++..+++.<<++.<---.>>.>.+++.------.>-.>>--.
 ```
-[Try it online!](https://tio.run/##HYpRCoAwDEMPVNIThF5k7GMqgogTBp6/tk1C4JGsMY/3wbbGNc9vv90BgpQmjWIArEyyWycBpZQ0QKOC1SwTH82hCImi7j8)
+[Try it online!](https://tio.run/##HYhRCoAwDEMPFNoThF5k7GNuCCJOGHj@2jUhvCSrzfE@cqx2zfPrtzsKCklYqIISjkWgkhrIKHbJJSJqppaXpNT2FXT/AQ)
 ## [Rapira](https://github.com/freeduke33/rerap2), 22 bytes
 ```
 OUTPUT:"Hello, World!"
