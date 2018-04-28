@@ -75,72 +75,77 @@ Stones
 Unreadable
 Beatnik
 Grass:
-cat > grassy.py <<EOF
+cat > grassy.py <<'EOF'
 stack=['i','w','+1','o']
 program=''
+isfn=False
 def fn(name, args, body):
-	global stack, program
+	global stack, program, isfn
 	local_stack = stack[:] + args
+	if program!='': program += 'v'
 	program += 'w' * len(args)
-	for argname, fnname, varname in body:
+	for s in body:
+		argname, fnname, varname = s.split(' ')
 		program += (
 			'W' * (1 + local_stack[::-1].index(fnname)) +
 			'w' * (1 + local_stack[::-1].index(varname))
 		)
 		local_stack += [argname]
-	program += 'v'
 	stack += [name]
+	isfn = True
 def var(resname, fnname, varname):
-	global stack, program
+	global stack, program, isfn
+	if isfn: program += 'v'
 	program += 'W' * (1 + stack[::-1].index(fnname))
 	program += 'w' * (1 + stack[::-1].index(varname))
 	stack += [resname]
+	isfn = False
 def vars(s):
 	lines = s.split('\n')
 	for line in lines:
 		var(*line.split(' '))
 # hello world
-fn('id', ['x'], [])
-fn('twice', ['f','x'], [('y', 'f', 'x'), ('z', 'f', 'y')]) # wut??
+fn('+3', ['x'], ['y +1 x', 'z +1 y', 'a +1 z'])
+fn('twice', ['f','x'], ['y f x', 'z f y']) # wut??
 vars('''\
-+2 twice +1
-+4 twice +2
+4times twice twice
++4 4times +1
 +8 twice +4
-+16 twice +8
-+32 twice +16
-+64 twice +32
-+128 twice +64
-c247 +128 w
-c23 +32 c247
-c31 +8 c23
-space +1 c31
-! +2 c31
-( +8 space
++32 4times +8
++64 twice +32''')
+fn('_c23', ['f'], ['c183 +64 w', 'c247 +64 c183', 'c23 +32 c247', 'a f c23'])
+fn('_space', ['f'], ['c31 _c23 +8', 'space +1 c31', 'a f space'])
+vars('''\
+! _space +1
+( _space +8
 , +4 (
 H +32 (
-W +64 c23
-_ +8 W
-c +4 _
-d +1 c
-e +2 c
-l +8 d
-co +16 _
-p +4 l
-r +2 p
-out id o
-H out H
-e out e
-l out l
-l out l
-co out co
-, out ,
-space out space
-W out W
-co out co
-r out r
-l out l
-d out d
-! out !''')
+W _c23 +64''')
+fn('_d', ['f'], ['` _space +64', 'd +4 `', 'a f d'])
+vars('''\
+e _d +1
+l _d +8
+co +3 l''')
+fn('group1', ['halfout'], [
+'out halfout halfout',
+'out out H',
+'out out e',
+'out out l',
+'out out l',
+'out out co',
+'out out ,',
+'out _space out'])
+fn('halfout', ['self', 'char'], ['a o char', 'a self self'])
+vars('''\
+out group1 halfout
+r +3 co
+out out W
+out out co
+out out r
+out out l
+out _d out
+out out !''')
+fn('main', ['x'], [])
 __import__("sys").stdout.write(program)
 EOF
 python3 grassy.py > result
