@@ -58,7 +58,6 @@ Beam
 brainbool
 Brainbash
 COW
-Subskin
 
 May be optimal:
 3var
@@ -74,6 +73,7 @@ Simplefunge
 Stones
 Unreadable
 Beatnik
+Subskin
 Grass:
 cat > grassy.py <<'EOF'
 stack=['i','w','+1','o']
@@ -697,7 +697,7 @@ ELF (x86/x64, Linux)
  - [Stones, 647 bytes](#stones-647-bytes)
  - [str, 17 bytes](#str-17-bytes)
  - [Straw, 2 bytes](#straw-2-bytes)
- - [Subskin, 63 bytes](#subskin-63-bytes)
+ - [Subskin, 47 bytes](#subskin-47-bytes)
  - [Surface (516 bytes)](#surface-516-bytes)
  - [Swap, 29 bytes](#swap-29-bytes)
  - [Swift 4, 22 bytes](#swift-4-22-bytes)
@@ -3741,34 +3741,33 @@ blue left
 ->
 ```
 [Try it online!](https://tio.run/##Ky4pSiz//1/X7v9/AA)
-## [Subskin](https://github.com/TryItOnline/subskin), 63 bytes
+## [Subskin](https://github.com/TryItOnline/subskin), 47 bytes
 ```
-2
+
 48
-17
+6f
+2
 a
 1
-2
 4
-2
+1
+4
+
+
 a
-6
-0
-100
-21
-64
-6c
-72
-6f
-57
-20
-2c
-6f
-6c
-6c
-65
+3
+3
+
+43
+4f
+18
+
+-3
+3
+b
+4e
 ```
-[Try it online!](https://tio.run/##FYhBCoAwDMDueU1bttbvzIEggpfh@2sHCYSs71zP/WYa7UCDgVJdDhxBRTDFGz4Jwy96YDXn7pqbnvkD)
+[Try it online!](https://tio.run/##Ky5NKs7OzPv/n8vEgsssjcuIK5HLkMsEjLmAbGMg5DIx5jJJ4zK04OLSBfGTuExS//8HAA)
 ## [Surface](https://github.com/TryItOnline/surface) (516 bytes)
 ```
 ++++++++(-v        .     o]v    
