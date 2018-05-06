@@ -698,7 +698,7 @@ ELF (x86/x64, Linux)
  - [str, 17 bytes](#str-17-bytes)
  - [Straw, 2 bytes](#straw-2-bytes)
  - [Subskin, 47 bytes](#subskin-47-bytes)
- - [Surface (516 bytes)](#surface-516-bytes)
+ - [Surface, 516 bytes](#surface-516-bytes)
  - [Swap, 29 bytes](#swap-29-bytes)
  - [Swift 4, 22 bytes](#swift-4-22-bytes)
  - [Symbolic Brainfuck, 182 bytes](#symbolic-brainfuck-182-bytes)
@@ -3768,7 +3768,7 @@ b
 4e
 ```
 [Try it online!](https://tio.run/##Ky5NKs7OzPv/n8vEgsssjcuIK5HLkMsEjLmAbGMg5DIx5jJJ4zK04OLSBfGTuExS//8HAA)
-## [Surface](https://github.com/TryItOnline/surface) (516 bytes)
+## [Surface](https://github.com/TryItOnline/surface), 516 bytes
 ```
 ++++++++(-v        .     o]v    
    -      e++++v   !     ^ v    
