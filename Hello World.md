@@ -761,7 +761,7 @@ ELF (x86/x64, Linux)
  - [yash, 18 bytes](#yash-18-bytes)
  - [yup, 1171 bytes](#yup-1171-bytes)
  - [Zephyr, 20 bytes](#zephyr-20-bytes)
- - [Zig, 88 bytes](#zig-88-bytes)
+ - [Zig, 81 bytes](#zig-81-bytes)
  - [zkl, 22 bytes](#zkl-22-bytes)
  - [Zsh, 17 bytes](#zsh-17-bytes)
 
@@ -4270,9 +4270,9 @@ print"Hello, World!"
 [Try it online!](https://tio.run/##q0otyKgs@v@/oCgzr0TJIzUnJ19HITy/KCdFUen/fwA)
 ## [Zig](https://ziglang.org/), 88 bytes
 ```
-pub fn main()!void{var o=try@import("std").io.getStdOut();try o.write("Hello, World!");}
+pub fn main()!void{try(try@import("std").io.getStdOut()).write("Hello, World!");}
 ```
-[Try it online!](https://tio.run/##DcqxDkAwEADQX7l2ahPpD4jEaDMYzKQll7ROziGIby9vfjfOOa/7CNMCacDFWHUQ@ucYGKgSvmpMK7EYvYnX1iG5OUgnvt3F2PIPQO5klGB0E2KkAnri6JW25ZvzBw)
+[Try it online!](https://tio.run/##DcOxCoAgEADQX1GnOwh/oKWxraGhudDkQLuwq6jo260H76ZQyrpPal5UGmkB1AeTeyRf8G8orZwFzCbOoCW2wUsvrtsFEO2ZSTyY1sfIlRo4R6cN1m8pHw)
 ## [zkl](http://www.zenkinetic.com/zkl.html), 22 bytes
 ```
 print("Hello, World!")
