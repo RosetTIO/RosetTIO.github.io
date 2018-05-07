@@ -317,7 +317,7 @@ ELF (x86/x64, Linux)
  - [Assembly (MIPS, SPIM), 73 bytes](#assembly-mips-spim-73-bytes)
  - [Assembly (nasm, x64, Linux), 117 bytes](#assembly-nasm-x64-linux-117-bytes)
  - [Attache, 21 bytes](#attache-21-bytes)
- - [Aubergine, 54 bytes](#aubergine-54-bytes)
+ - [Aubergine, 29 bytes](#aubergine-29-bytes)
  - [AWK, 25 bytes](#awk-25-bytes)
  - [axo, 29 bytes](#axo-29-bytes)
  - [Bash, 18 bytes](#bash-18-bytes)
@@ -1099,11 +1099,11 @@ s db"Hello, World!"
 Print!"Hello, World!"
 ```
 [Try it online!](https://tio.run/##SywpSUzOSP3/P6AoM69EUckjNScnX0chPL8oJ0VR6f9/AA)
-## [Aubergine](https://esolangs.org/wiki/Aubergine), 54 bytes
+## [Aubergine](https://esolangs.org/wiki/Aubergine), 29 bytes
 ```
--a1=aA-a1=oA-bb-b1-b1-AB-bb-bi+bi:bA=iB!dlroW ,olleH!4
+-a1=oA-a1:bA=iB!dlroW ,olleH
 ```
-[Try it online!](https://tio.run/##SyxNSi1Kz8xL/f9fN9HQNtERROY76iYl6SYZgpCjE5idqZ2UaZXkaJvppJiSU5QfrqCTn5OT6qFo8v8/AA)
+[Try it online!](https://tio.run/##SyxNSi1Kz8xL/f9fN9HQNt8RSFolOdpmOjEopuQU5Ycr6OTn5KR6/P8PAA)
 ## [AWK](https://www.gnu.org/software/gawk/manual/gawk.html), 25 bytes
 ```
 END{print"Hello, World!"}
