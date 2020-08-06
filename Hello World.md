@@ -886,7 +886,7 @@ le!d
 H
 ```
 [Try it online!](https://tio.run/##S0wuKU3Myan8/9/j/38A)
-## [Ada (GNAT)](https://www.gnu.org/software/gnat/)
+## [Ada (GNAT)](https://www.gnu.org/software/gnat/), 54 bytes
 ```
 procedure GNAT.IO.H is begin Put("Hello, World!");end;
 ```
