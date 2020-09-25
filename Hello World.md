@@ -1240,8 +1240,7 @@ OUT &33 1
 [Try it online!](https://tio.run/##S8osKc8sTv3/39c/TMFQQQ2EuPxDQxTUzI0UoCxDA0ME0wIb0xCuwMQExjKG67cwx6LQ0NAEq6EGcP3GCob//wMA)
 ## [Bitwise Fuckery](https://github.com/cairdcoinheringaahing/Bitwise-Fuckery), 96 bytes
 ```{%raw%}
-+>+>+@+{{{+{{{.&+{+{{{+{{+.+++++++..+++.<+{{+{+{{.&+{{{{{.<+{{+{{+{+{+.<.+++.------.--------.<+.
-{%endraw%}
++>+>+@+{{{+{{{.&+{+{{{+{{+.+++++++..+++.<+{{+{+{{.&+{{{{{.<+{{+{{+{+{+.<.+++.------.--------.<+.{%endraw%}
 ```
 [Try it online!](https://tio.run/##SypPK03OTi2q/P9f2w4IHbSrq6tBWE9NuxrK1tbThgA9EEPPBiQEEgcpAQGoCFgQKA1WpAsGUArIsNHW@/8fAA)
 ## [Black (blak)](https://github.com/TryItOnline/blak), INVALID
@@ -2959,8 +2958,7 @@ begin write('Hello, World!')end.
 ## [PATH](https://sourceforge.net/projects/pathlang/), 113 bytes
 ```{%raw%}
 /++}+++++++}+++++}<$+++++++<
-\+}++}++++++{{{{{-^}++.}+++.+++++++..+++.}++.}++++.}+++.{{{.+++.------.--------.}}+.
-{%endraw%}
+\+}++}++++++{{{{{-^}++.}+++.+++++++..+++.}++.}++++.}+++.{{{.+++.------.--------.}}+.{%endraw%}
 ```
 [Try it online!](https://tio.run/##K0gsyfj/X19bu1YbAiB0rY0KlG/DFQMSg0pXg4BuHJCnBxLRgyrSAzH0YKJQOaBKsLAuGEApIKO2Vlvv/38A)
 ## [pbrain](http://www.parkscomputing.com/applications/pbrain/), 87 bytes
@@ -3582,7 +3580,7 @@ D
 ```
 print("Hello, World!")
 ```
-[Try it online!}(https://tio.run/##K87ISyz4/7@gKDOvREPJIzUnJ19HITy/KCdFUUnz/38A)
+[Try it online!](https://tio.run/##K87ISyz4/7@gKDOvREPJIzUnJ19HITy/KCdFUUnz/38A)
 ## [Sidef](https://github.com/trizen/sidef), 18 bytes
 ```
 say"Hello, World!"
