@@ -1241,7 +1241,8 @@ OUT &33 1
 ## [Bitwise Fuckery](https://github.com/cairdcoinheringaahing/Bitwise-Fuckery), 96 bytes
 ```{%raw%}
 +>+>+@+{{{+{{{.&+{+{{{+{{+.+++++++..+++.<+{{+{+{{.&+{{{{{.<+{{+{{+{+{+.<.+++.------.--------.<+.
-{%endraw%}```
+{%endraw%}
+```
 [Try it online!](https://tio.run/##SypPK03OTi2q/P9f2w4IHbSrq6tBWE9NuxrK1tbThgA9EEPPBiQEEgcpAQGoCFgQKA1WpAsGUArIsNHW@/8fAA)
 ## [Black (blak)](https://github.com/TryItOnline/blak), INVALID
 ## [Boo](http://boo-lang.org/), 20 bytes
@@ -2959,7 +2960,8 @@ begin write('Hello, World!')end.
 ```{%raw%}
 /++}+++++++}+++++}<$+++++++<
 \+}++}++++++{{{{{-^}++.}+++.+++++++..+++.}++.}++++.}+++.{{{.+++.------.--------.}}+.
-{%endraw%}```
+{%endraw%}
+```
 [Try it online!](https://tio.run/##K0gsyfj/X19bu1YbAiB0rY0KlG/DFQMSg0pXg4BuHJCnBxLRgyrSAzH0YKJQOaBKsLAuGEApIKO2Vlvv/38A)
 ## [pbrain](http://www.parkscomputing.com/applications/pbrain/), 87 bytes
 ```
