@@ -10,6 +10,7 @@ HBCHT
 YABALL
 
 Almost certainly not optimal:
+2DFuck
 SNUSP (Modular)
 Bitwise Fuckery
 Boolfuck
@@ -267,13 +268,24 @@ Warns:
 ELF (x86/x64, Linux)
 -->
 
+## Languages without implementation
+ - 1L_a
+ - 1L_AOI
+ - 2L
+ - Woefully
+
 ## Table of Contents
 
-
+ - [!@#$%^&*()_+, 17 bytes](#-17-bytes)
+ - [(()), 276 bytes](#-276-bytes)
+ - [*><>, 21 bytes](#-21-bytes)
  - [,,,, 14 bytes](#-14-bytes)
  - [///, 13 bytes](#-13-bytes)
  - [05AB1E, 7 bytes](#05ab1e-7-bytes)
+ - [05AB1E (legacy), 7 bytes](#05ab1e-legacy-7-bytes)
+ - [2DFuck, 150 bytes](#2dfuck-150-bytes)
  - [2sable, 7 bytes](#2sable-7-bytes)
+ - [33, 16 bytes](#33-16-bytes)
  - [3var, 65 bytes](#3var-65-bytes)
  - [4, 117 bytes](#4-117-bytes)
  - [7, 17 bytes](#7-17-bytes)
@@ -750,7 +762,6 @@ ELF (x86/x64, Linux)
  - [Width, 30 bytes](#width-30-bytes)
  - [Wierd (John's), 181 bytes](#wierd-johns-181-bytes)
  - [Wise, 135 bytes](#wise-135-bytes)
- - [Woefully (WARNING: INCORRECT)](#woefully-warning-incorrect)
  - [Wolfram Language (Mathematica), 21 bytes](#wolfram-language-mathematica-21-bytes)
  - [wsf, 174 bytes](#wsf-174-bytes)
  - [Wumpus, 19 bytes](#wumpus-19-bytes)
@@ -765,6 +776,31 @@ ELF (x86/x64, Linux)
  - [zkl, 22 bytes](#zkl-22-bytes)
  - [Zsh, 17 bytes](#zsh-17-bytes)
 
+## [!@#$%^&*()_+](https://github.com/ConorOBrien-Foxx/ecndpcaalrlp), 17 bytes
+```
+ ^dlroW ,olleH(@)
+```
+[Try it online!](https://tio.run/##S03OSylITkzMKcop@P9fIS4lpyg/XEEnPycn1UPDQfP/fwA)
+## [(())](https://esolangs.org/wiki/(())), 276 bytes
+```
+Let A =(()())
+Let H =(()(())())
+Let e =((()))
+Let l =()
+Let o =(())
+Let , =(()()())
+Let   =((())())
+Let W =(()(()))
+Let r =(((())))
+Let d =(()()()())
+Let ! =((())()())
+((((()()))((()(())())((()))()()(())(()()())((())())(()(()))(())(((())))()(()()()())((())()()))))(()((()())))
+```
+[Try it online!](https://tio.run/##RY47EoUwCEX7t4q8DmZ0CRZ2FvZuwHT@RtO4@hi4gXQcuB/ifqW3P@KTcp5jCmMYiJiYf0ITqKBtomwKgLZCmE5VYu5qhnGoHuPFU8G33gXBq/vN8fcE2ZCqRU/tOwSoSQla8iv6cEMXcWtp6VzFFXL@AA)
+## [*><>](https://github.com/redstarcoder/go-starfish), 21 bytes
+```
+```
+[Try it online!](https://tio.run/##Ky5JLErLLM74/19JMSWnKD9cQSc/JyfVQ8k/P8e@1Pr/fwA)
 ## [,,,](https://github.com/totallyhuman/commata), 14 bytes
 ```
 "Hello, World!
@@ -779,12 +815,27 @@ Hello, World!
 ```
 ”Ÿ™,‚ï!
 ```
+[Try it online!](https://tio.run/##yy9OTMpM/f//UcPcozsetSzSedQw6/B6xf//AQ)
+## [05AB1E (legacy)](https://github.com/Adriandmen/05AB1E/tree/fb4a2ce2bce6660e1a680a74dd61b72c945e6c3b), 7 bytes
+```
+”Ÿ™,‚ï!
+```
 [Try it online!](https://tio.run/##MzBNTDJM/f//UcPcozsetSzSedQw6/B6xf//AQ)
+## [2DFuck](https://gitlab.com/TheWastl/2DFuck), 150 bytes
+```
+.!.!..!.!....!..!..!.!.!.x[!.!..!.!..!..rv].!..!.!....!..!.!.!..!....!.!......!.!.!.!.!...!.!..!.!....!.!...!..!.!..!..!.!..!...!..!..!.!....!.!....!.
+```
+[Try it online!](https://tio.run/##M0pJK03O/v9fTxEIIYQehAXmKOpVRCNkgKioLBZdIUwKLgoThHBRDVZE6EKmkblI1P//AA)
 ## [2sable](https://github.com/Adriandmen/2sable), 7 bytes
 ```
 ”Ÿ™,‚ï!
 ```
 [Try it online!](https://tio.run/##MypOTMpJ/f//UcPcozsetSzSedQw6/B6xf//AQ)
+## [33](https://github.com/TheOnlyMrCat/33), 16 bytes
+```
+"Hello, World!"p
+```
+[Try it online!](https://tio.run/##Mzb@/1/JIzUnJ19HITy/KCdFUang/38A)
 ## [3var](https://esolangs.org/wiki/3var), 65 bytes
 ```
 iiisa-<*>P/>is+iP>PPm-iiiPi<O/<m/>+<O+d<+<O+><kkkOP->siskkkOP</>P
@@ -4140,51 +4191,6 @@ GFiUWOUQROWIJiiBAQWMJOCDMiIGUU
 ~-<<<~-<<<::^~-<~-<<<~-<<~-:::^~-<<<~-^::?:>~-<~-:?::^~-<<~-<~-<<::^~-<<<<<:<::^<~-<<~-<~-<~-|!::^~-<~-<~-<<<~-<!:::^~-<<<^::^~-<<<<<~-
 ```
 [Try it online!](https://tio.run/##K88sTv3/v07XxsYGTFhZxQFpOL9O1woiAmLGWVnZW9mBpYEMiDBUMUwRkAVi2yCk6nRrFOGGwsxVhJsah9BZp/v//3/dRAA)
-## [Woefully](https://github.com/Destructible-Watermelon/Woefully) (WARNING: INCORRECT)
-```
-||||||||||| ||
-|||||||||| |||
-||||||||| ||||
-|||||||| |||||
-||||||| ||||||
-|||||| |||||||
-||||| ||||||||
-||||| ||||||||
-||||| ||||||||
-||||| ||||||||
-||||| ||||||||
-||||| ||||||||
-|||| |||||||||
-|||| |||||||||
-|||| |||||||||
-|||| |||||||||
-|||| |||||||||
-|||| |||||||||
-||| ||||||||||
-||| ||||||||||
-||| ||||||||||
-||| ||||||||||
-||| ||||||||||
-|| |||||||||||
-|| |||||||||||
-|| |||||||||||
-|| |||||||||||
-|| |||||||||||
-||| ||||||||||
-|||| |||||||||
-||||| ||||||||
-|||||| |||||||
-||||||| ||||||
-|||||||| |||||
-||||||| ||||||
-|||||||| |||||
-||||||||| ||||
-|||||||||| |||
-||||||||||| ||
-|||||||||||| |
-||||||||||| ||
-```
-[Try it online!](https://tio.run/##K89PTSvNyan8/78GARRqarhQeEhcEA/BBfPgXAgPxoXyoFwYj@pcOI/aXASPUi4Sj1IuukXoXkAPK7RYQI8j/DGILose@@hpAz3lgPhosv//AwA)
 ## [Wolfram Language (Mathematica)](https://www.wolfram.com/wolframscript/), 21 bytes
 ```
 Print@"Hello, World!"
